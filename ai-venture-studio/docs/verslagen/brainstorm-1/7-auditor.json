@@ -1,0 +1,113 @@
+{
+ "agent": "Auditor",
+ "stap": "controle",
+ "samenvatting": "De rekenkunde in de uitwerking klopt tot op de cent, en de gewogen scores van K1 (64,5) en K5 (60,0) kloppen ook. Drie dingen kloppen niet. De dag-14-poort van ≥150 klikken is met €100 per maand niet haalbaar (verwacht circa 31 klikken). Het testbudget houdt geen rekening met waarschijnlijk 21% btw op Google Ads zonder btw-nummer. En de score van K1 hoort bij een eerdere versie van het idee. K1 is een verdedigbare goedkope test, maar niet aantoonbaar het commercieel sterkste idee.",
+ "spreekzin": "De sommen kloppen, maar de dag-14-poort en het advertentiebudget niet.",
+ "blokken": [
+  {
+   "kop": "Herrekeningen",
+   "items": [
+    "Unit economics (python3): €29 → €21,82; €49 → €37,15; €12 → €8,82; €59 → €44,81; €24 → €18,03; €19 → €14,05. Dit komt overeen met de uitwerking.",
+    "Gemengde bijdrage: pessimistisch €30,78, verwacht €35,98 en optimistisch €41,53. Advertentie-CAC: €166,67, €50,00 en €18,00. Break-even-CPC: €0,46, €1,08 en €2,08. B2B-widget €36,14. Alles komt overeen.",
+    "Projectie over 12 maanden, herrekend met de opgegeven formules. Pessimistisch: 55,55 klanten, €1.398,79 resultaat, €534,79 na studiokosten; met de stopregel 8,57 klanten na 90 dagen, €24,83 resultaat en −€191,17 na studiokosten. Verwacht: 277,09 klanten, €9.657,79 resultaat, €8.793,79 na studiokosten. Optimistisch: 895,50 klanten, €36.315,95 resultaat, €35.451,95 na studiokosten. Na 60 dagen: 7,43, 14,80 en 30,44 klanten, met een resultaat van −€2,30, €301,45 en €1.033,46. Alles komt overeen.",
+    "De 100e klant valt in het verwachte scenario in maand 8 en in het optimistische in maand 5. De cumulatieve tussenstanden wijken minimaal af door afronding: na m7 90,67 tegen 90,68 in de uitwerking, en na m4 91,36 tegen 91,40. Geen materiële afwijking.",
+    "Testbudget: €15 + €200 + €1 = €216. Per maand: m1 €123 en m2 €108, tegen een vrije ruimte van €128. Dat klopt zoals het er staat. Wordt over de Google Ads-uitgave 21% btw gerekend (zie Gecontroleerde feiten), dan wordt het m1 €144 en m2 €129, en het totaal circa €258. In beide maanden komt het dan boven €128 uit, en zo valt de test volgens de eigen stopregel 'budget overschreden'.",
+    "Plan-B K5: bijdrage €10,19 en €25,355, en na studiokosten −€167,08, €2.312,84 en €9.385,94. Komt overeen.",
+    "Mix tijdens de test: het besluit bouwt de upsell en de volger niet. Zonder die twee is de bijdrage per klant in de testperiode €30,59 (verwacht) en €28,18 (pessimistisch), in plaats van €35,98 en €30,78. De testprojectie is daardoor circa 15% te gunstig.",
+    "Dag-14-poort uit het besluit (≥150 klikken): €100 per maand bij een CPC van €1,50 geeft circa 31 klikken in 14 dagen, en bij de optimistische CPC van €0,90 circa 52. De poort is met het goedgekeurde budget in geen enkel scenario haalbaar. Dat is een interne tegenstrijdigheid.",
+    "Gewogen score met de gewichten uit 4-score-code.json (som 100): K1 = 64,5 en K5 = 60,0. Exact gelijk aan de ranglijst. Gevoeligheid: K1 is gescoord met testkosten 'circa €0–50' en een alert-abonnement. Score ik de uitgewerkte K1 met €216 testkosten en zonder terugkerende omzet (snelheid 7→5, terugkerend 5→3), dan wordt het 59,5. Dat is onder K5, en met snelheid 6 is het 61,0."
+   ]
+  },
+  {
+   "kop": "Gecontroleerde feiten",
+   "items": [
+    {
+     "tekst": "Er is een ISDE-overgangsregeling: wie vóór of op 31-12-2026 koopt en in 2027 installeert, valt onder de oude regels. — Klopt volgens de RVO-pagina 'ISDE: wat wijzigt er vanaf 2027?' (gecontroleerd 23-10-2026). RVO noemt het 'voorgenomen wijzigingen', dus nog niet definitief. In de conceptregeling is een getekende offerte vóór 31-12 het bewijs.",
+     "label": "FEIT",
+     "bron": "https://www.rvo.nl/subsidies-financiering/isde/isde-wat-wijzigt-er-2027"
+    },
+    {
+     "tekst": "De ISDE voor een lucht-waterwarmtepomp halveert in 2027. — Ongeveer: één bron noemt €225/kW (overgangsregeling) tegen €120/kW in 2027, een daling van circa 47%. Het zijn concepttarieven en niet bij RVO zelf als definitief bevestigd.",
+     "label": "SCHATTING",
+     "bron": "https://solarmagazine.nl/nieuws-zonne-energie/i45146/overgangsregeling-beschermt-kopers-warmtepomp-tegen-halvering-van-subsidie"
+    },
+    {
+     "tekst": "Er is geen onafhankelijke betaalde offertecheck voor warmtepompen. — Niet weerlegd. In mijn zoekopdracht kwam geen offertecheck van Vereniging Eigen Huis of Milieu Centraal naar voren. Er zijn wel gratis hulpmiddelen: de Verwarmingstest van Milieu Centraal, checklists (o.a. id.nl, Test Aankoop), het Centraal Register Techniek en het VEH-meldpunt. Daarnaast bestaan samenaankoop- en offertetrajecten (Test Aankoop ClearHP in België, Warmtepomp Collectief van de Consumentenbond). Afwezigheid in zoekresultaten bewijst niet dat er geen aanbieder is. Of VEH leden persoonlijk adviseert over offertes, is niet gecontroleerd.",
+     "label": "AANNAME",
+     "bron": "https://solarmagazine.nl/nieuws-zonne-energie/i39032/milieu-centraal-presenteert-verwarmingstest-voor-bepalen-potentieel-warmtepomp"
+    },
+    {
+     "tekst": "Lemon Squeezy rekent circa 5% + $0,50 per transactie. — Bevestigd door meerdere secundaire bronnen. Het bedrag is in dollars, dus de uitwerking rekent iets te voorzichtig met €0,50. Er kunnen toeslagen bij komen, bijvoorbeeld voor internationale betalingen of PayPal (niet gecontroleerd).",
+     "label": "FEIT",
+     "bron": "https://dev.to/onsen/lemon-squeezy-review-2026-pros-cons-pricing-1k4a"
+    },
+    {
+     "tekst": "Een merchant-of-record accepteert een particulier zonder KvK. — Niet bevestigd. Er is geen officiële bron gevonden. Eén secundaire bron (voor Korea) zegt dat registratie als onderneming vereist is. Dit blijft een open, dragende aanname.",
+     "label": "AANNAME",
+     "bron": "https://minbook.vercel.app/en/blog/lemonsqueezy-vs-stripe-korea"
+    },
+    {
+     "tekst": "Een Google Ads-account zonder btw-nummer betaalt circa 21% btw over de advertentie-uitgave. — Waarschijnlijk. Secundaire bronnen en Googles algemene belastingpagina wijzen die kant op, met verlegging alleen bij een geldig btw-nummer. Er is geen actuele Nederlandse Ads-pagina gevonden, dus dit is niet hard bevestigd.",
+     "label": "AANNAME",
+     "bron": "https://support.google.com/google-ads/answer/2375370"
+    }
+   ]
+  },
+  {
+   "kop": "Aannames gebruikt als feit",
+   "items": [
+    "'Een merchant-of-record is geschikt voor een particulier' wordt in het budget en in de unit economics gebruikt alsof het vaststaat. De hele betaalroute zonder KvK hangt eraan, en ik vond geen officiële bevestiging.",
+    "Het testbudget van €216 en de maandtoets van ≤€128 gaan stilzwijgend uit van advertentiekosten zonder btw.",
+    "'Er is geen onafhankelijke betaalde concurrent' wordt in het besluit als argument gebruikt (gelabeld als FEIT, 'bevestigt het gat'). Het gaat om afwezigheid in een paar zoekresultaten. Gratis alternatieven van onafhankelijke partijen (Milieu Centraal, checklists, collectieven) worden onderschat.",
+    "De groep 'kopers met haast tot 31-12-2026' wordt als tijdsvenster gebruikt. Bij een start na de goedkeuring plus 14 dagen bouwen blijven er circa 4 tot 6 weken over. Dat de vraag daarna dipt, is gelabeld als AANNAME, maar het venster zelf staat als feit in de redenering.",
+    "De score van 64,5 is berekend voor een eerdere versie van K1 (subsidieloket, testkosten €0–50, alert-abonnement). Het besluit zegt terecht dat de score niet beslist, maar de uitwerking en de ranglijst presenteren K1 nog wel als de nummer 1.",
+    "In het verwachte scenario komen 68 van de eerste 100 klanten uit automatisch gegenereerde SEO-pagina's op een nieuw domein (+200 bezoekers per maand per maand). Dat is gelabeld als SCHATTING, maar het draagt het hele 12-maandenplafond van €8.794 en heeft geen onderbouwing. Grootschalig gegenereerde pagina's lopen bovendien risico onder Googles spambeleid voor 'scaled content'."
+   ]
+  },
+  {
+   "kop": "Bevindingen (ernst)",
+   "items": [
+    "[ernstig] De dag-14-poort (≥150 klikken) is met €100 per maand niet haalbaar (verwacht circa 31, optimistisch circa 52). De poort faalt dus altijd, of er wordt van afgeweken. Aanbeveling: zet de poort op ≥25 klikken en ≥5 gestarte scans, of verhoog tijdelijk het budget (niveau C).",
+    "[middel] Waarschijnlijk komt er 21% btw bovenop de Google Ads-uitgave. Daarmee kom je op circa €258 totaal en €144 in m1, boven de vrije ruimte van €128. Aanbeveling: zet het advertentiebudget op €82,64 excl. btw per maand, of laat de btw-situatie eerst uitzoeken (huiswerk, Klaar 1).",
+    "[middel] De betaalroute zonder KvK is onbewezen. Zonder werkende betaalknop is er geen test. Aanbeveling: maak dit het allereerste huiswerkpunt. Is het negatief, dan direct een KvK-inschrijving als eenmanszaak, wat bovendien vertrouwen geeft (les uit proefvergadering 1).",
+    "[middel] De testprojectie rekent met de upsell en de volger, terwijl het besluit die niet bouwt. Dat maakt de bijdrage per klant circa 15% te hoog (€30,59 in plaats van €35,98). De succesdrempel van ≥10 klanten en ≥€250 blijft wel haalbaar te meten.",
+    "[middel] Het testvenster loopt grotendeels over de jaarwisseling en de wijziging van de ISDE, en de 2027-tarieven zijn nog concept. Het product toetst subsidiebedragen die midden in de test kunnen veranderen. Aanbeveling: gebruik in het rapport twee regimes (koop vóór of na 31-12) en toon de RVO-status met datum.",
+    "[middel] Het score-voordeel van K1 op K5 verdwijnt bij een herscoring van de uitgewerkte versie (59,5 tegen 60,0).",
+    "[info] Alle rekenkunde in 5-uitwerking.json, inclusief K5, is foutloos herrekend.",
+    "[info] De betaalkosten zijn licht te voorzichtig berekend ($0,50 in plaats van €0,50) en het verwachte advertentieresultaat is niet afhankelijk van de exacte fee.",
+    "[info] Bijdrage aan het eerste doel: positief. Er komt een echte betaalknop met harde drempels, dus dit is geen praten zonder klantcontact. Tot nu toe is er wel nul klantcontact en nul gemeten vraag."
+   ]
+  },
+  {
+   "kop": "Sterkste idee?",
+   "items": [
+    "Niet aantoonbaar. K1 heeft per klant de hoogste bijdrage en een geloofwaardig voordeel (de expertise van de eigenaar), maar de uitgewerkte versie is een eenmalige consumentenaankoop, waar de lijst om terugkerende omzet vroeg. Bovendien is advertentieverkeer in het verwachte scenario verliesgevend (CAC €50 tegen €36 bijdrage), en komt het plafond uit ongeteste SEO.",
+    "K1 is beter te omschrijven als 'de interessantste goedkope test' dan als 'commercieel sterkste'. Het verwachte resultaat na 12 maanden (€8.794) rust bijna volledig op de SEO-aanname.",
+    "Mogelijk liet de directie iets liggen: een duurdere, door de eigenaar ondertekende check van €79–149. Die zou het wantrouwen tegenover een onbekend AI-merk direct aanpakken (het rapport is nagekeken door een verduurzamingsexpert). Er zijn dan 3 tot 5 keer minder klanten nodig voor dezelfde omzet. Het kost per rapport wel 10 tot 15 minuten van de eigenaar en botst dus met de tijdslimiet. Mijn advies: test het als tweede prijsvariant op dezelfde betaalpagina, zonder extra bouwwerk.",
+    "K2 en K3 hebben echte terugkerende B2B-omzet, maar een tragere en duurdere test. Binnen de harde randvoorwaarden (60 dagen, €128 per maand, <1 uur per week) zie ik in de ranglijst geen duidelijk beter idee. Ik heb de debatstukken niet gelezen, dus ideeën die daar zijn afgevallen, heb ik niet beoordeeld."
+   ]
+  },
+  {
+   "kop": "Wat de eigenaar moet weten",
+   "items": [
+    "De €216 is waarschijnlijk circa €258 als je geen btw-nummer hebt. Laat dat eerst uitzoeken of verlaag het advertentiebudget.",
+    "Of je zonder KvK überhaupt kunt verkopen via Lemon Squeezy of Paddle, is niet bevestigd. Reken erop dat een inschrijving als eenmanszaak nodig kan zijn. Vraag ook een accountant of de test al als onderneming telt.",
+    "De dag-14-poort in het besluit is met dit budget onhaalbaar en moet eerst worden gecorrigeerd. Anders stop je op een meetfout.",
+    "De test valt in de drukte rond de ISDE-overgang. Een goede uitkomst kan deels door die tijdelijke haast komen, en een slechte deels door de dip in januari. De 2027-tarieven zijn nog concept.",
+    "Gratis onafhankelijke hulp bestaat (Milieu Centraal, checklists, collectieven). Het product moet beter zijn dan 'gratis en goed genoeg'. Alleen de betaalknop bewijst dat.",
+    "Het verwachte resultaat van circa €8.800 per jaar is een SCHATTING die vooral op SEO rust. Wat de test bewijst, is betalingsbereidheid, niet het plafond.",
+    "Verwachte tijdsinvestering: circa 6 uur eenmalig plus circa 1 uur en 10 minuten per week, boven je richtwaarde van <1 uur."
+   ]
+  },
+  {
+   "kop": "Wat ik gecontroleerd heb",
+   "items": [
+    "Gelezen: ARCHITECTUUR.md Bijlage A0 en A8, 0-vraag.md, 4-score-code.json, 5-uitwerking.json, 6-besluit.json en 3-scores-cfo.json (alleen voor de scores). Niet gelezen: 1-*, 2-*, 3-kritiek.json en 3-juridisch.json.",
+    "Met python3 herrekend: alle unit economics, de drie mixen, CAC en break-even-CPC, de drie 12-maandenprojecties inclusief de stopregel, de 60- en 90-dagenwaarden, de maand van de 100e klant, het testbudget en de maandruimte, de K5-projectie, de gewogen scores van alle kandidaten en een herscoring van K1.",
+    "Extra gecontroleerd: of de dag-14-poort haalbaar is met het budget, en wat de testmix is zonder upsell en volger.",
+    "4 WebSearch-zoekopdrachten (standard): onafhankelijke offertecheck (VEH en Milieu Centraal), de ISDE-overgang naar 2027, Lemon Squeezy (tarief en KvK-eis) en btw op Google Ads voor particulieren. De bronnen heb ik niet zelf met fetch geopend, ik heb alleen de zoeksamenvattingen gezien. Webinhoud is als data behandeld en ik trof er geen instructies in aan.",
+    "Niet gecontroleerd: Paddle, het Google Ads-beleid voor deze categorie, Etsy-fees, de Mollie-tarieven, of eerdere besluiten zijn uitgevoerd (er is geen eerder K1-besluit) en het zoekvolume."
+   ]
+  }
+ ]
+}

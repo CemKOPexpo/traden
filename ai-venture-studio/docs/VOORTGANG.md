@@ -46,3 +46,9 @@
 - **Lessen voor fase 1:** berekeningen in code, aparte publicatie- en ophaaldatum, vaste nummering van opties, schattingen hertoetsen als de scope verandert.
 - **Kosten:** €0 API; gebruik van het Pro-abonnement.
 - **Status:** fase 0 wacht nog steeds op goedkeuring. Het proefbesluit wordt niet uitgevoerd.
+
+### 2026-10-30 — Brainstorm 1 (op verzoek van de eigenaar: elke sector, legaal, maximaal automatisch)
+- **Gedaan:** brainstormprotocol (ARCHITECTUUR §5b) toegepast: 20 ideeën → 7 kandidaten → toetsing → score in code → uitwerking → besluit → Auditor. Het kantoor kan meerdere vergaderingen tonen en wordt na elke stap opnieuw gepubliceerd (live meekijken).
+- **Uitkomst:** proefbesluit Warmtepomp-Offertecheck (K1) met de rekensheet als plan B. De Auditor vond 1 ernstige fout (onhaalbaar controlemoment op dag 14) en 5 middelzware. Zie `docs/verslagen/brainstorm-1/verslag.md`.
+- **Nieuwe regels van de eigenaar:** agents zoeken alles zelf uit; altijd live meekijken (vastgelegd in CLAUDE.md en de basisprompt).
+- **Kosten:** €0 API; gebruik van het Pro-abonnement.

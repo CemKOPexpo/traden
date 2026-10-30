@@ -1,0 +1,265 @@
+{
+ "agent": "Oprichter + Groei + CFO",
+ "stap": "uitwerken",
+ "samenvatting": "K1 wordt de 'Warmtepomp-Offertecheck': een onafhankelijke, feitelijke check van een ontvangen warmtepompofferte (€29, of €49 voor tot 3 offertes). Het product werkt via een formulier zonder upload, toetst aan openbare bronnen en heeft een gratis lichte scan als trechter. De 60-dagentest kost €216 en laat met een echte betaalknop zien of mensen betalen (succes bij ≥10 betalende klanten, stop bij <5). In het verwachte scenario maakt K1 na 12 maanden circa €8.794 na studiokosten, tegen circa €2.313 voor plan-B K5, maar het pessimistische K1-scenario stopt met circa €191 verlies.",
+ "spreekzin": "Een betaalknop op een offerte van tienduizend euro: €216 om het te weten.",
+ "blokken": [
+  {
+   "kop": "Propositie en doelgroep",
+   "items": [
+    "[Oprichter] Propositie: 'Je hebt een warmtepompofferte. Weet binnen 10 minuten of de prijs per kW, de onderdelen en de subsidie kloppen, met een lijst vragen voor je installateur.' Het is onafhankelijk (geen provisie van installateurs), feitelijk en met een bron per gegeven.",
+    "[Oprichter] Waarom dit commercieel het sterkst is: de klant staat voor een uitgave van €4.000 tot €30.000 (FEIT, prijsbandbreedte volgens Homedeal). €29 is dan minder dan 1% van de aankoop. De gratis alternatieven (Homedeal, Bobex, Selectra) verdienen aan installateurs of fabrikanten. Wij verdienen alleen aan de consument, en dat is ons verkoopargument.",
+    "[Oprichter] Eerste niche: Nederlandse woningeigenaren die al minstens één offerte voor een (hybride of all-electric) lucht-waterwarmtepomp hebben ontvangen en binnen 3 maanden willen beslissen. We richten ons op 'offerte ontvangen' en niet op 'oriënteren', omdat de koopintentie en de pijn ('is dit te duur?') dan het grootst zijn.",
+    "[Groei] Tijdsvenster: een overgangsregeling beschermt kopers die vóór 31-12-2026 kopen tegen de halvering van de ISDE-subsidie in 2027 (FEIT, Solar Magazine). Daardoor is er nu, tot eind december, een groep met haast en een offerte op tafel. Daarna verwachten we een dip (AANNAME).",
+    "[Oprichter] Uitbreiding na bewezen vraag: zonnepanelen- en isolatieoffertes (zelfde motor, andere richtprijzen), daarna België/Vlaanderen (eigen premiedata). De gemeentelijke subsidies uit het oorspronkelijke K1 worden de SEO-laag, niet het product.",
+    "[Oprichter] Oneerlijk voordeel: de expertise van de eigenaar in verduurzaming. Die gebruiken we eenmalig om de controlelijst en de richtprijzen te ijken, niet om wekelijks mee te werken."
+   ]
+  },
+  {
+   "kop": "Aanbod en prijzen",
+   "items": [
+    "[Oprichter] Gratis instap: de 'Lichte scan'. Vijf vragen geven een check of het model op de ISDE-apparatenlijst staat, een indicatie van het ISDE-bedrag en 3 veelvergeten posten (meterkast, leidingwerk, afgiftesysteem). Uitkomst op het scherm; de e-mail is optioneel en alleen met opt-in.",
+    "[Oprichter] Instap-product (uit K5): 'Offerte-vergelijkingsspreadsheet warmtepomp' voor €12, als download via de eigen site en eventueel als listing op Etsy. Bedoeld voor doe-het-zelvers en als tweede kanaal met bestaande koopintentie.",
+    "[Oprichter] Kernproduct: 'Offertecheck' voor €29 (1 offerte) of 'Offertevergelijking' voor €49 (tot 3 offertes naast elkaar). Je krijgt een PDF met: prijs per kW tegenover de openbare bandbreedte (met bron en datum), de ontbrekende of onduidelijke posten, de status van ISDE en gemeentelijke subsidie, de netto prijs na subsidie, en 8 tot 12 vragen voor de installateur. Er is een niet-goed-geld-terug-garantie binnen 14 dagen als het rapport aantoonbaar een fout in de gegevens bevat.",
+    "[Oprichter] Upsell na de check: 'Verduurzamingsstappenplan' voor €59. Een informatief plan voor de volgorde van isolatie, ventilatie, warmtepomp en zonnepanelen voor dit woningtype, met de subsidies per stap. Het is uitdrukkelijk geen advies op maat.",
+    "[Oprichter] Terugkerend, bewust klein: de 'Subsidie- en onderhoudsvolger' voor €24 per jaar, als vooruitbetaling. Je krijgt een herinnering voor de ISDE-aanvraagtermijn na installatie, wijzigingen in de regelingen, een jaarlijkse onderhoudsherinnering en een signaal als de subsidie verandert. Dit is een hypothese met een harde toets (≥10% van de kopers, zie test), geen pijler van het plan.",
+    "[Oprichter] Combinatie met K2 (terugkerende B2B-omzet): een embedbare 'Offertecheck-widget' voor energiecoöperaties, energiecoaches en VvE-beheerders voor €39 per maand excl. btw. We verkopen die alleen inbound, via een pagina 'voor organisaties' en wie de widget op een site ziet. Pas vanaf maand 7 en alleen in het optimistische scenario meegerekend.",
+    "[CFO] Bewust geen lagere prijs dan €29: bij €19 zakt de bijdrage van €21,82 naar €14,05 (zie Unit economics), en de advertentietest wordt dan bij voorbaat verliesgevend."
+   ]
+  },
+  {
+   "kop": "Eerste 100 klanten (zonder koude acquisitie)",
+   "items": [
+    "[Groei] Principe: we benaderen niemand die er niet zelf om vroeg. Alle kanalen zijn inbound (de klant zoekt of vraagt), het warme netwerk van de eigenaar, of doorverwijzing door klanten. Elke advertentie, post en publicatie is een niveau C-verzoek.",
+    "[Groei] Kanaal 1, zoekadvertenties (meetinstrument, geen groeimotor): Google Ads op zoektermen met hoge koopintentie, zoals 'warmtepomp offerte te duur', 'offerte warmtepomp vergelijken', 'is mijn warmtepomp offerte goed' en 'prijs warmtepomp per kW'. €100 per maand in m1–m2. Verwacht 100/1,50 = 66,7 klikken × 3% = 2,0 klanten per maand (SCHATTING). Ga alleen door na m2 als de CAC lager is dan de gemengde bijdrage.",
+    "[Groei] Kanaal 2, het warme netwerk van de eigenaar: één persoonlijke LinkedIn-post en één bericht aan bekenden in de verduurzamingswereld, door AI geschreven en door de eigenaar zelf geplaatst. Dat is geen koude acquisitie, want het zijn eigen contacten en een eigen tijdlijn. Verwacht 4 + 2 klanten (SCHATTING).",
+    "[Groei] Kanaal 3, communities: per week 1–2 inhoudelijke antwoorden op bestaande vragen over warmtepompoffertes, in fora en groepen die zelfpromotie toestaan. Steeds open over wie we zijn ('ik werk aan deze tool'), met de gratis lichte scan als link en nooit een betaalpagina als eerste link. Huisregels per forum vooraf laten controleren; waar promotie verboden is, plaatsen we geen link. Verwacht 2 klanten per maand (SCHATTING).",
+    "[Groei] Kanaal 4, SEO en AI-antwoordmachines (de echte motor vanaf m3): automatisch gegenereerde, feitelijk gecontroleerde pagina's per merk/model x vermogen ('wat kost een [model] [kW] warmtepomp, wat staat er in een goede offerte') en per gemeente x subsidie. Elk met bron en datum, en gestructureerde data zodat antwoordmachines ze kunnen citeren. Verwacht +200 bezoekers per maand vanaf m3, conversie 2% (SCHATTING).",
+    "[Groei] Kanaal 5, doorverwijzing: na aankoop een deelbare link ('jouw vriend krijgt €5 korting, jij ook'). Geen beloning voor reviews; reviews alleen echt, met opt-in en met aankoopverificatie. Verwacht 10% van de klanten van de vorige maand (SCHATTING).",
+    "[Groei] Kanaal 6 (uit K5), marktplaats: de €12-spreadsheet als Etsy-listing voor bestaand zoekverkeer naar sjablonen. Gerekend als 0,3 spreadsheet per kern-klant in het verwachte scenario; het is vooral een extra bewijs van vraag.",
+    "[Groei/CFO] Weg naar de eerste 100 kern-klanten in het verwachte scenario (uit de projectie, opgeteld t/m m7 = 90,68, de rest naar verhouding uit m8): ads 4 + netwerk 6 + community 15 + SEO/AI-antwoord 68 + doorverwijzing 7 = 100. Bereikt in maand 8. Optimistisch in maand 5 (91,40 na m4), pessimistisch niet binnen 12 maanden (55,55). Conclusie: de test bewijst betalingsbereidheid, en SEO moet daarna de schaal leveren."
+   ]
+  },
+  {
+   "kop": "Automatisering en tools",
+   "items": [
+    "[Oprichter] Website: een statische site, door AI gegenereerd en gehost op Cloudflare Pages (gratis tier, AANNAME), met een eigen .nl-domein (circa €15 per jaar, SCHATTING). Pagina's: home, lichte scan, betaalpagina, voorbeeldrapport, 'hoe we werken en wat we niet doen', voorwaarden, privacy en 'voor organisaties'.",
+    "[Oprichter] Betaling: in de test een merchant-of-record-dienst (bijvoorbeeld Lemon Squeezy of Paddle). Die rekent btw af en factureert namens ons, zodat er geen eigen btw-administratie nodig is (AANNAME: geschikt voor een particulier of eenmanszaak; tarief ~5% + €0,50, nog te controleren). Na succes en een KvK-inschrijving kan Mollie met iDEAL voor €0,32 per transactie (FEIT, Mollie) de kosten verlagen.",
+    "[Oprichter] AI-pijplijn: (1) een formulier met gestructureerde invoer (merk, model, vermogen, prijsposten, postcode op 4 cijfers); (2) regelgebaseerde checks in code: ISDE-apparatenlijst, prijs per kW tegen de bandbreedte, een checklist met ontbrekende posten; (3) een LLM (goedkoop model) dat alleen de uitleg en de vragen formuleert, op basis van die uitkomsten; (4) een PDF-generator; (5) levering per e-mail via een transactionele maildienst (gratis tier, AANNAME). De cijfers komen dus nooit uit het taalmodel.",
+    "[Oprichter] Databeheer: een wekelijkse automatische controle van de bronpagina's (RVO-ISDE, de gemeentelijke regelingen in de SEO-laag, openbare prijsbronnen). Bij een wijziging zet de agent een voorstel klaar voor de eigenaar en zet hij de betrokken pagina's tijdelijk op 'wordt bijgewerkt'.",
+    "[Groei] Meting: cookieloze analytics (Cloudflare Web Analytics, gratis, AANNAME), zodat er geen cookiebanner en geen toestemming nodig is. Gebeurtenissen: scan gestart, scan afgerond, checkout gestart, betaald, terugbetaald, upsell, volger.",
+    "[Groei] Support: een AI-assistent beantwoordt e-mail met een FAQ en het rapport erbij; alles over geld terug, klachten of juridische vragen gaat naar een wachtrij voor de eigenaar. Het AI-gebruik staat op de site en in elk rapport vermeld (AI Act art. 50).",
+    "[CFO] Variabele toolkosten: API circa €0,20–0,50 per rapport (SCHATTING), plus €8 per maand vast voor de pijplijn en de broncontrole (SCHATTING), binnen het API-plafond van €50. Alle andere tools zitten in de gratis tier (AANNAME, te controleren vóór de start)."
+   ]
+  },
+  {
+   "kop": "Menselijk werk per week",
+   "items": [
+    "[CFO] Eenmalig voor de eigenaar (week 0), circa 6 uur: accounts aanmaken (domein, Cloudflare, betaaldienst, Google Ads, eventueel Etsy) 2 uur; prijsbandbreedtes en checklist ijken met zijn of haar expertise 2,5 uur; teksten, disclaimer, voorwaarden en privacy goedkeuren 1 uur; testopzet en budget goedkeuren 0,5 uur (SCHATTING).",
+    "[Groei] Per week tijdens de test, circa 1 uur en 10 minuten: goedkeuring van de batch posts, pagina's en advertenties 30 min; plaatsen van 1–2 community-antwoorden 15 min; escalaties uit support en terugbetalingen 15 min; weekrapport lezen 10 min (SCHATTING).",
+    "[CFO] Dat is boven de richtwaarde van minder dan 1 uur. Tegenmaatregel vanaf week 3: community-posts terug naar 1 per week en pagina's per 20 in één batch goedkeuren. Doel na de test: 35–45 minuten per week (SCHATTING).",
+    "[Oprichter] Wat AI volledig doet: de site bouwen, pagina's genereren, rapporten maken, support beantwoorden, bronnen bewaken, advertenties opstellen, posts schrijven en de weekrapportage met cijfers uit de betaaldienst.",
+    "[CFO] Een professional is nodig (niet wekelijks): een accountant of belastingadviseur voor KvK, btw en KOR zodra er omzet is, en een jurist voor de voorwaarden vóór het opschalen (zie Voor de eigenaar)."
+   ]
+  },
+  {
+   "kop": "Test 60 dagen: budget, meting, drempels",
+   "items": [
+    "[Groei] Hypothese: minstens 10 woningeigenaren met een warmtepompofferte betalen binnen 60 dagen €29 of €49 voor een onafhankelijke check, via minstens 2 verschillende kanalen.",
+    "[CFO] Budget: domein €15 + Google Ads €200 (€100 in m1, €100 in m2) + eventuele Etsy-listings 5 × circa €0,20 = €1 → totaal €216 (SCHATTING). Per maand: m1 = 15 + 100 + 8 (API) = €123 en m2 = 100 + 8 = €108. Allebei onder de vrije ruimte van €128 = €200 − 22 (abonnement) − 50 (API-plafond). De API-€8 valt binnen dat plafond. Elke uitgave is een niveau C-verzoek.",
+    "[Groei] Meetpunten per week: bezoekers per kanaal; lichte scans gestart en afgerond; checkout gestart; betalingen (€29/€49/€12/€59/€24); terugbetalingen; CAC per kanaal = uitgave/betalingen; upsell- en volgerpercentage; één exitvraag bij afbreken van de checkout ('te duur / niet nodig / wantrouwen / later'); de oordeelvraag in het rapport ('klopte en hielp dit?'); de tijd van de eigenaar (logboek).",
+    "[Groei] Tussentoets op dag 28 (drempel van de Criticus): ≥3 betalingen OF ≥30 afgeronde lichte scans met opt-in. Anders: ads stoppen, oorzaak uit de exitvraag halen en de Voorzitter laten kiezen tussen één aanpassing (prijs, belofte) of overstap naar plan-B.",
+    "[CFO] Harde SUCCES-drempel op dag 60: ≥10 betalende kern-klanten (€29/€49), uit ≥2 kanalen, ≥€250 bruto omzet, terugbetalingen ≤10% en 0 inhoudelijke klachten over een onjuist gegeven die niet binnen 48 uur hersteld zijn.",
+    "[CFO] Harde STOP-drempel op dag 60: <5 betalende kern-klanten, OF budget overschreden, OF een juridische klacht of claim van een installateur die niet met een correctie is op te lossen. Grijze zone 5–9: maximaal 30 dagen verlengen zonder advertentiebudget; is het totaal op dag 90 onder 10, dan stoppen.",
+    "[CFO] Volgertoets (antwoord op de Criticus): als minder dan 10% van de kopers de volger neemt, verdwijnt die uit het aanbod en rekenen we het plan als volledig eenmalig.",
+    "[CFO] Verwachte testuitkomst volgens de projectie: pessimistisch 7,43 / verwacht 14,80 / optimistisch 30,44 kern-klanten na 60 dagen (SCHATTING)."
+   ]
+  },
+  {
+   "kop": "Unit economics",
+   "items": [
+    "[CFO] Alle prijzen zijn consumentenprijzen incl. 21% btw; we rekenen met de opbrengst excl. btw. Tussenwaarden zijn onafgerond doorgerekend; afwijkingen tot €0,05 komen door afronding in de weergave.",
+    "[CFO] Offerte-check (1 offerte) €29: excl. 21% btw 29/1,21 = €23,97; betaalkosten (AANNAME: 5% + €0,50 bij merchant-of-record) = 0,05×29 + 0,50 = €1,95; API/levering €0,20 (SCHATTING); dekkingsbijdrage = 23,97 − 1,95 − 0,20 = €21,82.",
+    "[CFO] Offerte-vergelijking (tot 3 offertes) €49: excl. 21% btw 49/1,21 = €40,50; betaalkosten (AANNAME: 5% + €0,50 bij merchant-of-record) = 0,05×49 + 0,50 = €2,95; API/levering €0,40 (SCHATTING); dekkingsbijdrage = 40,50 − 2,95 − 0,40 = €37,15.",
+    "[CFO] Vergelijkingsspreadsheet €12: excl. 21% btw 12/1,21 = €9,92; betaalkosten (AANNAME: 5% + €0,50 bij merchant-of-record) = 0,05×12 + 0,50 = €1,10; API/levering €0,00 (SCHATTING); dekkingsbijdrage = 9,92 − 1,10 − 0,00 = €8,82.",
+    "[CFO] Verduurzamingsstappenplan €59: excl. 21% btw 59/1,21 = €48,76; betaalkosten (AANNAME: 5% + €0,50 bij merchant-of-record) = 0,05×59 + 0,50 = €3,45; API/levering €0,50 (SCHATTING); dekkingsbijdrage = 48,76 − 3,45 − 0,50 = €44,81.",
+    "[CFO] Subsidie- en onderhoudsvolger €24/jaar: excl. 21% btw 24/1,21 = €19,83; betaalkosten (AANNAME: 5% + €0,50 bij merchant-of-record) = 0,05×24 + 0,50 = €1,70; API/levering €0,10 (SCHATTING); dekkingsbijdrage = 19,83 − 1,70 − 0,10 = €18,03.",
+    "[CFO] Gemengde bijdrage per kern-klant, pessimistisch: 70% check × 21,82 + 30% vergelijking × 37,15 + upsell-stappenplan 5% × 44,81 + volger 2% × 18,03 + spreadsheet 0,2 per klant × 8,82 = €30,78 (SCHATTING).",
+    "[CFO] Gemengde bijdrage per kern-klant, verwacht: 60% check × 21,82 + 40% vergelijking × 37,15 + upsell-stappenplan 10% × 44,81 + volger 5% × 18,03 + spreadsheet 0,3 per klant × 8,82 = €35,98 (SCHATTING).",
+    "[CFO] Gemengde bijdrage per kern-klant, optimistisch: 50% check × 21,82 + 50% vergelijking × 37,15 + upsell-stappenplan 15% × 44,81 + volger 10% × 18,03 + spreadsheet 0,4 per klant × 8,82 = €41,53 (SCHATTING).",
+    "[CFO] Advertentie-CAC pessimistisch: CPC €2,50 / conversie klik→betaald 1,5% = €166,67; break-even-CPC = bijdrage × conversie = 30,78 × 0,015 = €0,46. Ads zijn verliesgevend en dienen alleen als meetinstrument (SCHATTING).",
+    "[CFO] Advertentie-CAC verwacht: CPC €1,50 / conversie klik→betaald 3,0% = €50,00; break-even-CPC = bijdrage × conversie = 35,98 × 0,03 = €1,08. Ads zijn verliesgevend en dienen alleen als meetinstrument (SCHATTING).",
+    "[CFO] Advertentie-CAC optimistisch: CPC €0,90 / conversie klik→betaald 5,0% = €18,00; break-even-CPC = bijdrage × conversie = 41,53 × 0,05 = €2,08. Ads zijn winstgevend (SCHATTING).",
+    "[CFO] CAC organisch (netwerk, community, SEO, doorverwijzing): €0 in geld. De kosten zitten in de tijd van de eigenaar (zie Menselijk werk) en in de vaste €8/mnd voor de pijplijn (SCHATTING).",
+    "[CFO] Terugverdientijd: direct bij de eerste verkoop, want het is vooruitbetaling zonder abonnementsrisico. Vaste ideekosten van €8/mnd zijn bij €35,98 gemengde bijdrage (verwacht) al gedekt met 8/35,98 = 0,22 klant per maand (SCHATTING).",
+    "[CFO] LTV is vrijwel gelijk aan de gemengde bijdrage, omdat de meeste klanten eenmalig kopen. De volger voegt per volger-klant bij 50% verlenging in jaar 2 toe: 18,03 × 0,5 = €9,02 (SCHATTING). We bouwen het plan dus bewust NIET op terugkerende consumentenomzet (antwoord op de Criticus).",
+    "[CFO] Gevoeligheid: bij een prijs van €19 in plaats van €29 daalt de check-bijdrage naar 19/1,21 − (0,05×19+0,50) − 0,20 = 15,70 − 1,45 − 0,20 = €14,05. Daarom testen we op €29/€49 en niet lager (SCHATTING).",
+    "[CFO] Ter vergelijking met de CFO-ronde: voor €1.000 winst per maand voor studiokosten zijn in het verwachte scenario 1000/35,98 = 27,8 kern-klanten per maand nodig; dat gebeurt volgens de projectie vanaf m8 (28,40). Inclusief studiokosten: 1072/35,98 = 29,8, vanaf m9 (SCHATTING)."
+   ]
+  },
+  {
+   "kop": "Projectie maanden 1–12 (3 scenario's, met berekening)",
+   "items": [
+    "[CFO] Formules (alle invoer SCHATTING): kern-klanten(m) = ads(m) + netwerk(m) + community(m) + SEO(m) + doorverwijzing(m). ads(m) = advertentiebudget/CPC × conversie; budget €100 in m1–m2, daarna €100 alleen als advertentie-CAC < gemengde bijdrage, anders €0. SEO(m) = max(0, m − startmaand) × bezoekers-stap × conversie. doorverwijzing(m) = doorverwijsfactor × kern-klanten(m−1). Omzet-bijdrage = kern-klanten × gemengde bijdrage (+ B2B-widget in optimistisch). Resultaat idee = bijdrage − vaste ideekosten (€8 API-pijplijn/mnd; +€15 domein in m1) − advertentiebudget. 'Na studio' trekt daarnaast €72/mnd af (abonnement €22 + volledige API-plafond €50; conservatief, want de €8 valt al binnen dat plafond). Breuken van klanten zijn verwachtingswaarden, afgerond op 2 decimalen.",
+    "[CFO] PESSIMISTISCH — aannames: CPC €2,50, conversie 1,5%, netwerk 3+1, community 1/mnd, SEO vanaf m4 met +80 bezoekers/mnd en 1% conversie, doorverwijzing 5%, mix 70/30. Gemengde bijdrage €30,78. m1: K=0,60+3+1+0,00+0,00=4,60; bijdrage 4,60×30,78=€141,59; −vast €23 −ads €100 = €18,59; na studio €-53,41 | m2: K=0,60+1+1+0,00+0,23=2,83; bijdrage 2,83×30,78=€87,11; −vast €8 −ads €100 = €-20,89; na studio €-92,89 | m3: K=0,00+0+1+0,00+0,14=1,14; bijdrage 1,14×30,78=€35,14; −vast €8 −ads €0 = €27,14; na studio €-44,86 | m4: K=0,00+0+1+0,80+0,06=1,86; bijdrage 1,86×30,78=€57,16; −vast €8 −ads €0 = €49,16; na studio €-22,84 | m5: K=0,00+0+1+1,60+0,09=2,69; bijdrage 2,69×30,78=€82,89; −vast €8 −ads €0 = €74,89; na studio €2,89 | m6: K=0,00+0+1+2,40+0,13=3,53; bijdrage 3,53×30,78=€108,80; −vast €8 −ads €0 = €100,80; na studio €28,80 | m7: K=0,00+0+1+3,20+0,18=4,38; bijdrage 4,38×30,78=€134,72; −vast €8 −ads €0 = €126,72; na studio €54,72 | m8: K=0,00+0+1+4,00+0,22=5,22; bijdrage 5,22×30,78=€160,64; −vast €8 −ads €0 = €152,64; na studio €80,64 | m9: K=0,00+0+1+4,80+0,26=6,06; bijdrage 6,06×30,78=€186,56; −vast €8 −ads €0 = €178,56; na studio €106,56 | m10: K=0,00+0+1+5,60+0,30=6,90; bijdrage 6,90×30,78=€212,48; −vast €8 −ads €0 = €204,48; na studio €132,48 | m11: K=0,00+0+1+6,40+0,35=7,75; bijdrage 7,75×30,78=€238,40; −vast €8 −ads €0 = €230,40; na studio €158,40 | m12: K=0,00+0+1+7,20+0,39=8,59; bijdrage 8,59×30,78=€264,32; −vast €8 −ads €0 = €256,32; na studio €184,32 | Totaal 12 mnd: 55,55 kern-klanten; resultaat idee €1398,79; na studiokosten €1398,79 − 12×72 = €534,79.",
+    "[CFO] VERWACHT — aannames: CPC €1,50, conversie 3%, netwerk 4+2, community 2/mnd, SEO vanaf m3 met +200 bezoekers/mnd en 2% conversie, doorverwijzing 10%, mix 60/40. Gemengde bijdrage €35,98. m1: K=2,00+4+2+0,00+0,00=8,00; bijdrage 8,00×35,98=€287,81; −vast €23 −ads €100 = €164,81; na studio €92,81 | m2: K=2,00+2+2+0,00+0,80=6,80; bijdrage 6,80×35,98=€244,64; −vast €8 −ads €100 = €136,64; na studio €64,64 | m3: K=0,00+0+2+4,00+0,68=6,68; bijdrage 6,68×35,98=€240,32; −vast €8 −ads €0 = €232,32; na studio €160,32 | m4: K=0,00+0+2+8,00+0,67=10,67; bijdrage 10,67×35,98=€383,80; −vast €8 −ads €0 = €375,80; na studio €303,80 | m5: K=0,00+0+2+12,00+1,07=15,07; bijdrage 15,07×35,98=€542,05; −vast €8 −ads €0 = €534,05; na studio €462,05 | m6: K=0,00+0+2+16,00+1,51=19,51; bijdrage 19,51×35,98=€701,78; −vast €8 −ads €0 = €693,78; na studio €621,78 | m7: K=0,00+0+2+20,00+1,95=23,95; bijdrage 23,95×35,98=€861,66; −vast €8 −ads €0 = €853,66; na studio €781,66 | m8: K=0,00+0+2+24,00+2,40=28,40; bijdrage 28,40×35,98=€1021,55; −vast €8 −ads €0 = €1013,55; na studio €941,55 | m9: K=0,00+0+2+28,00+2,84=32,84; bijdrage 32,84×35,98=€1181,45; −vast €8 −ads €0 = €1173,45; na studio €1101,45 | m10: K=0,00+0+2+32,00+3,28=37,28; bijdrage 37,28×35,98=€1341,35; −vast €8 −ads €0 = €1333,35; na studio €1261,35 | m11: K=0,00+0+2+36,00+3,73=41,73; bijdrage 41,73×35,98=€1501,24; −vast €8 −ads €0 = €1493,24; na studio €1421,24 | m12: K=0,00+0+2+40,00+4,17=46,17; bijdrage 46,17×35,98=€1661,14; −vast €8 −ads €0 = €1653,14; na studio €1581,14 | Totaal 12 mnd: 277,09 kern-klanten; resultaat idee €9657,79; na studiokosten €9657,79 − 12×72 = €8793,79.",
+    "[CFO] OPTIMISTISCH — aannames: CPC €0,90, conversie 5%, netwerk 6+3, community 4/mnd, SEO vanaf m3 met +400 bezoekers/mnd en 3% conversie, doorverwijzing 15%, mix 50/50, plus B2B-widget €39/mnd excl. btw (bijdrage 39 − (0,05×47,19+0,50) = €36,14) met 1,1,2,2,3,3 abonnees in m7–m12. Gemengde bijdrage €41,53. m1: K=5,56+6+4+0,00+0,00=15,56; bijdrage 15,56×41,53=€646,07; −vast €23 −ads €100 = €523,07; na studio €451,07 | m2: K=5,56+3+4+0,00+2,33=14,89; bijdrage 14,89×41,53=€618,39; −vast €8 −ads €100 = €510,39; na studio €438,39 | m3: K=5,56+0+4+12,00+2,23=23,79; bijdrage 23,79×41,53=€988,03; −vast €8 −ads €100 = €880,03; na studio €808,03 | m4: K=5,56+0+4+24,00+3,57=37,12; bijdrage 37,12×41,53=€1541,88; −vast €8 −ads €100 = €1433,88; na studio €1361,88 | m5: K=5,56+0+4+36,00+5,57=51,12; bijdrage 51,12×41,53=€2123,36; −vast €8 −ads €100 = €2015,36; na studio €1943,36 | m6: K=5,56+0+4+48,00+7,67=65,22; bijdrage 65,22×41,53=€2708,98; −vast €8 −ads €100 = €2600,98; na studio €2528,98 | m7: K=5,56+0+4+60,00+9,78=79,34; bijdrage 79,34×41,53+1×36,14=€3331,36; −vast €8 −ads €100 = €3223,36; na studio €3151,36 | m8: K=5,56+0+4+72,00+11,90=93,46; bijdrage 93,46×41,53+1×36,14=€3917,70; −vast €8 −ads €100 = €3809,70; na studio €3737,70 | m9: K=5,56+0+4+84,00+14,02=107,57; bijdrage 107,57×41,53+2×36,14=€4540,19; −vast €8 −ads €100 = €4432,19; na studio €4360,19 | m10: K=5,56+0+4+96,00+16,14=121,69; bijdrage 121,69×41,53+2×36,14=€5126,55; −vast €8 −ads €100 = €5018,55; na studio €4946,55 | m11: K=5,56+0+4+108,00+18,25=135,81; bijdrage 135,81×41,53+3×36,14=€5749,04; −vast €8 −ads €100 = €5641,04; na studio €5569,04 | m12: K=5,56+0+4+120,00+20,37=149,93; bijdrage 149,93×41,53+3×36,14=€6335,39; −vast €8 −ads €100 = €6227,39; na studio €6155,39 | Totaal 12 mnd: 895,50 kern-klanten; resultaat idee €36315,95; na studiokosten €36315,95 − 12×72 = €35451,95.",
+    "[CFO] Stopregel toegepast op pessimistisch: na 60 dagen 7,43 kern-klanten (grijze zone 5–9) → 30 dagen verlenging zonder ads; na 90 dagen 8,57 < 10 → stop. Werkelijk pessimistisch resultaat dan: idee €24,83, na studiokosten €24,83 − 3×72 = €-191,17. Het doorgerekende pad hierboven is alleen ter vergelijking.",
+    "[CFO] Na 60 dagen (testuitkomst): pessimistisch 7,43, verwacht 14,80, optimistisch 30,44 kern-klanten; resultaat idee €-2,30 / €301,45 / €1033,46.",
+    "[CFO] Niet gemodelleerd en dus extra onzekerheid: seizoen (piek vóór 31-12-2026 door de ISDE-overgangsregeling, mogelijk dip in jan–feb 2027), terugbetalingen (reken 5–10% van de omzet als buffer), en btw-/inkomstenbelasting op de winst.",
+    "[CFO] Samenvatting 12 maanden, resultaat idee / na studiokosten: pessimistisch €1.398,79 / €534,79 (doorgerekend) of €24,83 / €-191,17 (met stopregel na m3); verwacht €9.657,79 / €8.793,79; optimistisch €36.315,95 / €35.451,95. Alles voorspeld, niets gerealiseerd."
+   ]
+  },
+  {
+   "kop": "Antwoord op de Criticus en de Jurist",
+   "items": [
+    "[Oprichter] Criticus 1, 'de gratis rekentool is geen onderscheid (RVO, vergelijkers)': klopt. Daarom verkopen we geen subsidieberekening meer maar een check van de eigen offerte van de klant, en dat bieden de gratis partijen niet onafhankelijk aan (zij verdienen aan installateurs). De ISDE-check zit alleen in de gratis lichte scan en verwijst door naar RVO voor de aanvraag.",
+    "[Groei] Criticus 2, 'SEO werkt pas na maanden, dus blijft alleen betaald verkeer over': dat is aanvaard en zichtbaar doorgerekend. De test meet betalingsbereidheid via ads, netwerk en community (verwacht 14,80 klanten). SEO zit pas vanaf m3 in de projectie, en de ads gaan in het verwachte scenario na m2 uit omdat de CAC van €50,00 hoger is dan de bijdrage van €35,98.",
+    "[Oprichter] Criticus 3, 'een oordeel ligt dicht tegen advies en aansprakelijkheid': er is geen oordeel als 'te duur' of 'ongeschikt'. Het rapport zegt alleen '€X per kW, de openbare bandbreedte is €A–€B (bron, datum)', 'deze posten ontbreken' en 'vraag dit na'. De cijfers komen uit regels in code en niet uit het taalmodel, en elke bron is gedateerd en wordt wekelijks bewaakt.",
+    "[CFO] Criticus 4, 'het alert-abonnement is onwaarschijnlijk': aanvaard. Terugkerende consumentenomzet telt in het verwachte scenario maar voor 5% × €18,03 = €0,90 per klant mee, en de volger gaat eruit onder 10% afname. Terugkerende omzet komt eventueel van de B2B-widget (uit K2), en alleen in het optimistische scenario.",
+    "[Groei] Criticus 5, 'consumenten kunnen gratis een tweede offerte vragen': de €49-vergelijking speelt daarop in, want wie 2–3 offertes heeft, heeft juist moeite om ze te vergelijken. De echte betaalknop met prijs vanaf dag 1 is precies de weerlegtoets die de Criticus vroeg.",
+    "[Oprichter] Jurist, 'informatie, geen advies; disclaimer, bron en datum': staat op elke pagina en in elk rapport ('informatie op basis van jouw invoer en openbare bronnen, geen persoonlijk advies, geen garantie'), met de bron en datum per gegeven.",
+    "[Oprichter] Jurist, AVG: in de MVP is er geen upload van de offerte maar een formulier met alleen technische en prijsgegevens, een postcode van 4 cijfers en een e-mailadres. Daardoor verwerken we geen namen, adressen of installateursgegevens. Daarnaast: een privacyverklaring, verwerkersovereenkomsten met de AI-, hosting- en maildiensten, bewaartermijn 30 dagen, verwijdering op verzoek en geen training op klantdata. Uploaden komt pas later, met automatische anonimisering en een nieuw oordeel van de Jurist.",
+    "[Oprichter] Jurist, herroeping: in de checkout een aparte, niet-vooraf aangevinkte checkbox ('ik wil het rapport direct en weet dat ik daarmee mijn herroepingsrecht verlies'), plus een bevestiging per e-mail. De vrijwillige geld-terug-garantie bij een feitelijke fout komt daar bovenop.",
+    "[Oprichter] Jurist, uitlatingen over installateurs: we noemen geen namen en geven geen oordeel over bedrijven, alleen over de posten in de offerte, en we verwijzen voor erkenning naar openbare registers.",
+    "[Groei] Jurist, AI-transparantie, opt-in en groene claims: een AI-label op de site en in het rapport; een volger en herinneringen alleen met een aparte opt-in en afmelden in elke mail; geen besparingsclaims zonder bron; licenties per databron vastgelegd (alleen hergebruik van open overheidsinformatie met bronvermelding)."
+   ]
+  },
+  {
+   "kop": "Risico's en tegenmaatregelen",
+   "items": [
+    "[CFO] Er is geen betalingsbereidheid (gratis alternatieven, wantrouwen jegens een onbekend merk). Tegenmaatregel: harde drempels op dag 28 en 60, een voorbeeldrapport, een geld-terug-garantie, een pagina 'wie zit erachter' met de echte expertise van de eigenaar, en maximaal €216 risico.",
+    "[Groei] Seizoen en beleid: na 31-12-2026 kan de vraag tijdelijk dalen door de halvering van de ISDE in 2027, en de vraag naar warmtepompsubsidie daalde al in 2026 (FEIT, Solar Magazine: '30 procent minder subsidie aangevraagd voor warmtepompen'). Tegenmaatregel: snel starten om de decemberpiek te halen, en vanaf m3 offertes voor zonnepanelen en isolatie toevoegen (dezelfde motor). De isolatievraag stijgt (FEIT, Solar Magazine).",
+    "[CFO] De ads blijven verliesgevend (de CAC van €50 boven de bijdrage van €35,98). Tegenmaatregel: ads alleen als meetinstrument, stoppen na m2 tenzij de CAC lager is dan de bijdrage; groei via SEO en doorverwijzing.",
+    "[Oprichter] Een onjuist gegeven in een rapport (verouderde subsidie of bandbreedte). Tegenmaatregel: regels in code, wekelijkse broncontrole, datum per gegeven, herstel binnen 48 uur met geld terug, en een aansprakelijkheidsbeperking in de voorwaarden (binnen het dwingend recht).",
+    "[Oprichter] Reactie van een installateur of beschuldiging van bevooroordeling. Tegenmaatregel: geen namen en geen oordelen, alleen posten en openbare bandbreedtes, en een openbare methodiekpagina.",
+    "[Groei] Communities zien posts als spam, of een account wordt geblokkeerd. Tegenmaatregel: alleen fora die het toestaan, antwoorden die eerst inhoudelijk helpen, openheid over onze betrokkenheid en hoogstens 2 per week. Er is geen afhankelijkheid, want het kanaal levert in het verwachte scenario maar 2 klanten per maand.",
+    "[CFO] De betaaldienst of het advertentienetwerk weigert ons (geen KvK, adviesachtige dienst). Tegenmaatregel: vooraf de voorwaarden controleren; plan-B-betaling via een tweede merchant-of-record of meteen een KvK-inschrijving als eenmanszaak (beslissing van de eigenaar).",
+    "[CFO] De tijd van de eigenaar loopt boven 1 uur per week. Tegenmaatregel: alles in batches goedkeuren, de community-frequentie omlaag, en het tijdlogboek als meetpunt; bij meer dan 1,5 uur per week 2 weken achter elkaar bespreekt de Voorzitter de afbouw.",
+    "[Groei] SEO groeit langzamer dan verwacht (pessimistisch +80 bezoekers per maand). Tegenmaatregel: de stopregel na m3. We investeren geen extra budget in SEO voordat de betalingsbereidheid bewezen is."
+   ]
+  },
+  {
+   "kop": "Plan-B: K5 in het kort",
+   "items": [
+    "[Oprichter] Propositie: 'NL-sjablonen voor wonen en verduurzaming', met Nederlandstalige spreadsheets en checklists (offertevergelijker, energieverbruikslogboek, verbouwplanner, VvE-verduurzamingsplanning, opzegbrief-sjablonen na een check door de Jurist). Verkocht op Etsy plus een eigen downloadpagina, met een jaarbundel inclusief updates. De eerste spreadsheet is dezelfde als in K1, dus de twee plannen delen het eerste product.",
+    "[Oprichter] Prijzen: €12 per sjabloon (excl. btw; AANNAME: Etsy rekent EU-btw af bovenop de prijs), jaarbundel €29. Juridisch GROEN, met de voorwaarden van de Jurist: eigen werk, licentietekst, AI-melding volgens het Etsy-beleid, en de herroepingscheckbox op de eigen site.",
+    "[CFO] Unit economics (Etsy-kosten volgens de CFO-ronde: €0,20 listing + 6,5% + ~4% + €0,30, SCHATTING): €12 → 0,20 + 0,78 + 0,48 + 0,30 = €1,76 kosten; bijdrage 12 − 1,76 − 0,05 (API) = €10,19. €29 → 0,20 + 1,885 + 1,16 + 0,30 = €3,545; bijdrage 29 − 3,545 − 0,10 = €25,355 ≈ €25,36.",
+    "[Groei] Test van 60 dagen: 30 listings in 2 batches (de eigenaar keurt 15 per kwartier goed), €40 Etsy-ads (€20 per maand) en €6 listingkosten → €46 totaal. Succes: ≥10 verkopen binnen 60 dagen en ≥1 bundel. Stop: <3 verkopen na 60 dagen.",
+    "[CFO] Projectie (SCHATTING): het aantal verkopen groeit lineair naar s12 in maand 12, dus verkopen(m) = s12 × m/12 en het totaal over 12 maanden = s12 × 78/12 = 6,5 × s12. Pessimistisch s12 = 10, bundelaandeel 10%: gemengd 0,9 × 10,19 + 0,1 × 25,355 = €11,71; 65 verkopen × 11,7065 = €760,92; − €24 listing-verlengingen − €40 ads = €696,92; na studiokosten (−864) = −€167,08.",
+    "[CFO] Verwacht s12 = 40, bundel 15%: gemengd 0,85 × 10,19 + 0,15 × 25,355 = €12,46; 260 × 12,46475 = €3.240,84; − 64 = €3.176,84; na studiokosten €2.312,84. Optimistisch s12 = 120, bundel 20%: gemengd €13,22; 780 × 13,223 = €10.313,94; − 64 = €10.249,94; na studiokosten €9.385,94. Verkopen na 60 dagen: s12 × 3/12 = 2,5 / 10 / 30.",
+    "[CFO] Vergelijking voor de Voorzitter (verwacht scenario, 12 maanden na studiokosten): K1 €8.793,79 tegenover K5 €2.312,84. Testbudget K1 €216 tegenover K5 €46. Pessimistisch: K1 −€191,17 (met stopregel) tegenover K5 −€167,08. K5 is goedkoper, sneller en juridisch schoner, maar heeft een lager plafond, geen verdediging en een platformrisico (Etsy).",
+    "[Oprichter] Advies: K1 als hoofdtest. Zet de K5-spreadsheet tegelijk live als goedkope tweede meting (die zit al in het K1-budget). Als K1 de dag-28-toets niet haalt en de spreadsheet wel verkoopt, wordt K5 de hoofdtest zonder nieuw bouwwerk."
+   ]
+  },
+  {
+   "kop": "Voor de eigenaar (niveau C)",
+   "items": [
+    "Beslissen: K1 als hoofdtest met de K5-spreadsheet als bijmeting, of meteen plan-B K5 (dat beslist de Voorzitter eerst, daarna de eigenaar).",
+    "Goedkeuren: testbudget €216 over 60 dagen (domein €15, Google Ads €200, Etsy circa €1), plus de bestaande API-ruimte van €8 per maand. Geen andere uitgaven zonder nieuw verzoek.",
+    "Beslissen: betalen via een merchant-of-record zonder eigen btw-administratie, of nu al een KvK-inschrijving als eenmanszaak (eenmalige kosten, AANNAME circa €80; vergroot ook het vertrouwen, een les uit proefvergadering 1). Vraag een accountant of de test al als onderneming geldt (btw, KOR, inkomstenbelasting).",
+    "Uitvoeren (alleen jij kunt dat, identiteit vereist), circa 2 uur: accounts aanmaken voor domein, hosting, betaaldienst, Google Ads en eventueel Etsy, met tweestapsverificatie. De agents krijgen geen wachtwoorden, alleen beperkte API-sleutels waar dat kan.",
+    "Inbreng (2,5 uur): de prijsbandbreedtes per kW en de checklist voor de offerte die de agents uit openbare bronnen voorstellen, toetsen aan je eigen praktijkervaring.",
+    "Goedkeuren vóór publicatie: de landingspagina, het voorbeeldrapport, de disclaimer, de voorwaarden, de privacyverklaring, de advertenties, de LinkedIn-post en elk community-antwoord (in batches).",
+    "Zelf plaatsen: de LinkedIn-post en de community-antwoorden, vanaf je eigen account, met een openlijke vermelding van je betrokkenheid.",
+    "Beslissen na succes (niet nu): een jurist de voorwaarden en het rapportformat laten nalezen (kosten onbekend; SCHATTING €150–400, buiten het testbudget) en een eventuele beroepsaansprakelijkheidsverzekering.",
+    "Wekelijks (≤1 uur): het weekrapport lezen, escalaties en terugbetalingen afhandelen, en op dag 28 en dag 60 meebeslissen over doorgaan, aanpassen of stoppen."
+   ]
+  },
+  {
+   "kop": "Beweringen",
+   "items": [
+    {
+     "tekst": "Homedeal noemt voor een warmtepomp een prijsbandbreedte van €4.000 tot €30.000 en raadt aan om meerdere offertes te vergelijken; Homedeal en Bobex werken met offerteaanvragen waarbij installateurs contact opnemen (via WebSearch-samenvatting, 2026-10-30).",
+     "label": "FEIT",
+     "bron": "https://www.homedeal.nl/warmtepomp/kosten-warmtepomp/"
+    },
+    {
+     "tekst": "Selectra ontvangt een vergoeding als een verkoop via partner Vaillant loopt, en adviseert om een offerte naast die van minstens één andere installateur te leggen (via WebSearch-samenvatting, 2026-10-30).",
+     "label": "FEIT",
+     "bron": "https://selectra.nl/energie/verwarming/warmtepomp/kosten"
+    },
+    {
+     "tekst": "De Consumentenbond heeft een 'Warmtepomp Collectief' met een eigen offertetraject via homeQgo, wat een indirecte concurrent is (via WebSearch-samenvatting, 2026-10-30).",
+     "label": "FEIT",
+     "bron": "https://consumentenbond.nl/binaries/content/assets/cbhippowebsite/tests//warmtepomp/actievoorwaarden-warmtepomp-collectief.pdf"
+    },
+    {
+     "tekst": "Een overgangsregeling beschermt kopers van een warmtepomp tegen de halvering van de subsidie (koop vóór 31-12-2026) (titel van het artikel; details via WebSearch-samenvatting, 2026-10-30).",
+     "label": "FEIT",
+     "bron": "https://solarmagazine.nl/nieuws-zonne-energie/i45146/overgangsregeling-beschermt-kopers-warmtepomp-tegen-halvering-van-subsidie"
+    },
+    {
+     "tekst": "Solar Magazine meldt '30 procent minder subsidie aangevraagd voor warmtepompen' (titel); de onderliggende cijfers zijn niet gecontroleerd.",
+     "label": "FEIT",
+     "bron": "https://solarmagazine.nl/nieuws-zonne-energie/i44370/de-harde-cijfers-30-procent-minder-subsidie-aangevraagd-voor-warmtepompen"
+    },
+    {
+     "tekst": "Consumenten deden in het eerste halfjaar van 2026 circa 106.826 ISDE-aanvragen en het RVO-budget voor 2026 is €509 miljoen. Deze cijfers komen uit een WebSearch-samenvatting zonder eenduidige bron en moeten bij RVO worden gecontroleerd.",
+     "label": "AANNAME",
+     "bron": "https://solarmagazine.nl/nieuws-zonne-energie/i44514/de-harde-cijfers-aangevraagde-isde-subsidie-bereikt-in-juli-hoogste-punt-van-2026"
+    },
+    {
+     "tekst": "Mollie rekent voor iDEAL | Wero €0,32 per geslaagde transactie, zonder maandkosten (via WebSearch-samenvatting, 2026-10-30).",
+     "label": "FEIT",
+     "bron": "https://www.mollie.com/payments/ideal"
+    },
+    {
+     "tekst": "RVO biedt een gratis ISDE-rekentool voor warmtepompen (overgenomen uit de ronde van de Criticus).",
+     "label": "FEIT",
+     "bron": "https://www.rvo.nl/subsidies-financiering/isde/woningeigenaren/warmtepomp"
+    },
+    {
+     "tekst": "Er is geen onafhankelijke betaalde dienst gevonden die een ontvangen warmtepompofferte inhoudelijk toetst; dat kan een gat zijn, of een teken dat er geen vraag is.",
+     "label": "AANNAME",
+     "bron": null
+    },
+    {
+     "tekst": "Een merchant-of-record (Lemon Squeezy/Paddle) accepteert deze dienst zonder KvK en rekent ~5% + €0,50 per transactie.",
+     "label": "AANNAME",
+     "bron": null
+    },
+    {
+     "tekst": "CPC €0,90–2,50 en conversie klik→betaald 1,5–5% voor zoektermen rond warmtepompoffertes.",
+     "label": "SCHATTING",
+     "bron": null
+    },
+    {
+     "tekst": "SEO-verkeer groeit vanaf m3/m4 met 80–400 bezoekers per maand per maand, met 1–3% conversie.",
+     "label": "SCHATTING",
+     "bron": null
+    },
+    {
+     "tekst": "Productmix, upsell- (5–15%) en volgerpercentages (2–10%) en spreadsheetverkopen (0,2–0,4 per kern-klant).",
+     "label": "SCHATTING",
+     "bron": null
+    },
+    {
+     "tekst": "API-kosten van €0,20–0,50 per rapport en €8 per maand vast voor de pijplijn.",
+     "label": "SCHATTING",
+     "bron": null
+    },
+    {
+     "tekst": "Cloudflare Pages, Cloudflare Web Analytics en een transactionele maildienst zijn voor dit volume gratis te gebruiken.",
+     "label": "AANNAME",
+     "bron": null
+    },
+    {
+     "tekst": "De KvK-inschrijving als eenmanszaak kost circa €80 eenmalig.",
+     "label": "AANNAME",
+     "bron": null
+    },
+    {
+     "tekst": "De Etsy-kosten (€0,20 listing + 6,5% + ~4% + €0,30) zijn overgenomen uit de CFO-ronde en niet opnieuw gecontroleerd.",
+     "label": "SCHATTING",
+     "bron": null
+    },
+    {
+     "tekst": "Er zijn 3 WebSearch-zoekopdrachten (standard) gebruikt; webinhoud is als data behandeld en er zijn geen instructies in aangetroffen.",
+     "label": "FEIT",
+     "bron": null
+    }
+   ]
+  }
+ ]
+}

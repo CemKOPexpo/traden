@@ -1,0 +1,233 @@
+{
+ "agent": "Criticus",
+ "stap": "toetsen",
+ "samenvatting": "Geen enkele kandidaat heeft aangetoonde vraag; alle prijzen zijn ongetoetste SCHATTINGEN en bijna elk kanaal (SEO, app-store, Etsy) levert binnen 60 dagen en met circa €128 testruimte waarschijnlijk te weinig verkeer op. Ik blokkeer K6 als zelfstandige hoofdtest; K1, K2 en K5 zijn de enige die met een goedkope test te weerleggen of te bevestigen zijn, mits het kanaalprobleem eerlijk wordt meegenomen.",
+ "spreekzin": "Gratis concurrenten overal; wie betaalt er binnen 60 dagen echt?",
+ "per_kandidaat": [
+  {
+   "id": "K1",
+   "naam": "Verduurzamingsloket (offerte-check + subsidie)",
+   "zwakke_punten": [
+    {
+     "punt": "De gratis subsidie-rekentool is geen onderscheid: RVO heeft zelf een gratis ISDE-rekentool, en vergelijkers en energieleveranciers publiceren uitgebreide subsidiepagina's. De trechter concurreert met de overheid zelf en met partijen met grote SEO-budgetten.",
+     "kans": "hoog",
+     "weerlegbaar_door": "Aantonen dat de gemeentelijke subsidies (niet ISDE) nergens gebundeld per gemeente staan, en dat zoekwoorden 'subsidie [maatregel] [gemeente]' zichtbaar zoekvolume hebben met zwakke concurrentie (zoekwoordtool, steekproef van 20 gemeenten)."
+    },
+    {
+     "punt": "Tegenspraak in het plan: de betaalde offerte-check krijgt zijn klanten via programmatische SEO, terwijl ronde 2 zelf aanneemt dat SEO pas na maanden verkeer geeft. Binnen 60 dagen blijft dan alleen betaald verkeer over, en met circa €128 per maand na abonnement en API is dat een heel smalle test.",
+     "kans": "hoog",
+     "weerlegbaar_door": "Een advertentietest van maximaal €100 op 'offerte warmtepomp te duur' / 'offerte zonnepanelen checken' die minstens 3 betalingen of 30 serieuze aanvragen oplevert binnen 4 weken."
+    },
+    {
+     "punt": "Een offerte-check met oordeel ('te duur', 'technisch ongeschikt') ligt dicht tegen advies en brengt aansprakelijkheid met zich mee als de klant daarop beslist. Fouten in subsidiedata (gemeenteregels wijzigen vaak, potjes raken op) leiden tot boze klanten en terugbetalingen, en die klachten komen uiteindelijk bij de eigenaar terecht.",
+     "kans": "middel",
+     "weerlegbaar_door": "Jurist-afbakening die de check beperkt tot een vergelijking met openbare richtprijzen en de ISDE-meldcodelijst, plus een geautomatiseerde bronbewaking met datum per gegeven."
+    },
+    {
+     "punt": "Het alert-abonnement van €3-5 per maand is onwaarschijnlijk: een huiseigenaar neemt één keer een besluit over een warmtepomp, waarna de behoefte verdwijnt. 'Terugkerend' is hier vooral een AANNAME.",
+     "kans": "hoog",
+     "weerlegbaar_door": "Conversiedata uit de test: meer dan 10% van de kopers van een offerte-check neemt het alert-abonnement en houdt het langer dan 2 maanden."
+    },
+    {
+     "punt": "Betalingsbereidheid voor een check is onbewezen zolang installateurs en vergelijkers gratis meerdere offertes leveren; een consument kan ook gratis een tweede offerte vragen.",
+     "kans": "middel",
+     "weerlegbaar_door": "Een landingspagina met een echte prijs (€19) en een betaalknop (of een vooraanmelding met prijs) die een meetbaar percentage betalende bezoekers laat zien."
+    }
+   ],
+   "concurrenten_gevonden": [
+    {"tekst": "RVO biedt een gratis ISDE-rekentool die een schatting geeft van het subsidiebedrag voor warmtepompen.", "label": "FEIT", "bron": "https://www.rvo.nl/subsidies-financiering/isde/woningeigenaren/warmtepomp"},
+    {"tekst": "Homedeal biedt gratis vergelijking van warmtepompoffertes, met subsidie-informatie.", "label": "FEIT", "bron": "https://www.homedeal.nl/warmtepomp/subsidie-warmtepomp/"},
+    {"tekst": "Slimster en Selectra publiceren uitgebreide pagina's over subsidie voor warmtepompen (2026).", "label": "FEIT", "bron": "https://slimster.nl/warmtepomp/subsidie-warmtepompen/"},
+    {"tekst": "De Consumentenbond adviseert om zelf gratis bij RVO aan te vragen en waarschuwt voor bemiddelaars die kosten rekenen.", "label": "FEIT", "bron": "https://www.consumentenbond.nl/energiebesparende-maatregelen/investeringssubsidie-duurzame-energie-isde"},
+    {"tekst": "Ik vond in één zoekopdracht geen onafhankelijke betaalde dienst die een ontvangen offerte inhoudelijk toetst. Dat kan een gat zijn, maar ook een teken dat er geen vraag is.", "label": "AANNAME", "bron": null},
+    {"tekst": "Verbeterjehuis.nl (Milieu Centraal) en gemeentelijke energieloketten geven gratis subsidie-overzichten per postcode.", "label": "AANNAME", "bron": null}
+   ],
+   "blokkade": false,
+   "blokkade_reden": null
+  },
+  {
+   "id": "K2",
+   "naam": "Webshop-Plichtenpakket (Shopify/Woo-app)",
+   "zwakke_punten": [
+    {
+     "punt": "Een overvolle markt: Shopify heeft een gratis generator, en iubenda, CookieYes, Termageddon en tientallen andere partijen bieden juridische pagina's voor Shopify. Een nieuwe app zonder reviews staat in de App Store onderaan.",
+     "kans": "hoog",
+     "weerlegbaar_door": "Bewijs dat er geen goede Nederlandstalige app is voor NL/BE-specifieke plichten (herroepingsformulier, GPSR, Thuiswinkel-achtige voorwaarden), plus zoekvolume in de app-store op Nederlandse termen."
+    },
+    {
+     "punt": "Platformrisico en tijd: app-review, het beleid van Shopify (Partner-account, betaling via Shopify, inkomstenaandeel) en wijzigingen in de API zijn buiten onze controle. De eerste review en eventuele afwijzingen kunnen weken van de 60 dagen kosten, en elke afwijzing vraagt actie van de eigenaar.",
+     "kans": "middel",
+     "weerlegbaar_door": "Starten met een WordPress-plugin of losse webtool met eigen betaling als test vóór de app-store, of een aantoonbare reviewdoorlooptijd van minder dan 2 weken."
+    },
+    {
+     "punt": "Aansprakelijkheid: wie juridische teksten levert die 'bijgewerkt' worden bij wetswijzigingen, belooft impliciet dat ze kloppen. Een fout (bijvoorbeeld herroepingsrecht) leidt tot claims en reputatieschade, en vraagt doorlopend juridische controle die niet volledig te automatiseren is.",
+     "kans": "middel",
+     "weerlegbaar_door": "Jurist-oordeel GROEN met een harde disclaimer en een vaste, betaalbare juridische review per wetswijziging die binnen het budget past."
+    },
+    {
+     "punt": "De kleine NL/BE-markt plus een lage prijs: na gratis basis en een aandeel voor de app-store blijft per klant weinig over, en webshopeigenaren lossen dit vaak eenmalig op (sjabloon van brancheorganisatie of Thuiswinkel) in plaats van met een abonnement.",
+     "kans": "middel",
+     "weerlegbaar_door": "Minstens 5 installaties met upgrade naar betaald in de eerste 60 dagen, of een wachtlijst met prijs."
+    }
+   ],
+   "concurrenten_gevonden": [
+    {"tekst": "iubenda biedt een privacyverklaring-generator voor Shopify, gericht op AVG-conformiteit.", "label": "FEIT", "bron": "https://www.iubenda.com/en/help/131017-shopify-privacy-policy-generator-why-you-should-use-one"},
+    {"tekst": "CookieYes biedt een privacy-policy-oplossing voor Shopify.", "label": "FEIT", "bron": "https://www.cookieyes.com/documentation/privacy-policy-shopify.md/"},
+    {"tekst": "Termageddon biedt een Shopify privacy policy generator met updates bij wetswijzigingen.", "label": "FEIT", "bron": "https://termageddon.com/shopify-privacy-policy-generator/"},
+    {"tekst": "Een vergelijking telt minstens 12 privacy-generators voor Shopify, waaronder de gratis generator van Shopify zelf.", "label": "FEIT", "bron": "https://gempages.net/blogs/shopify/shopify-privacy-policy-generators"},
+    {"tekst": "Voor Nederlandse algemene voorwaarden bestaan sjablonen van brancheorganisaties (zoals Thuiswinkel) en juridische websites; niet getoetst in deze ronde.", "label": "AANNAME", "bron": null}
+   ],
+   "blokkade": false,
+   "blokkade_reden": null
+  },
+  {
+   "id": "K3",
+   "naam": "Webwinkel-mailassistent",
+   "zwakke_punten": [
+    {
+     "punt": "Directe concurrentie van grote spelers en van de platformen zelf: helpdesksoftware voor e-commerce en Shopify hebben al AI-antwoordconcepten. Een onbekende partij zonder KvK maakt weinig kans.",
+     "kans": "hoog",
+     "weerlegbaar_door": "Een duidelijk gat (bijvoorbeeld Nederlandstalige toon plus Lightspeed/Woo-koppeling voor heel kleine winkels) dat de bestaande tools aantoonbaar niet vullen."
+    },
+    {
+     "punt": "AVG en vertrouwen: de dienst leest alle klantmails van de winkel, dus persoonsgegevens van derden. Dat vraagt een verwerkersovereenkomst, beveiliging en datalocatie, wat moeilijk past bij 'geen KvK en minder dan 1 uur per week'.",
+     "kans": "hoog",
+     "weerlegbaar_door": "Jurist-oordeel dat een self-service verwerkersovereenkomst en de gekozen infrastructuur volstaan, en eerste winkeliers die toch koppelen."
+    },
+    {
+     "punt": "De API-kosten schalen met het aantal mails, en met een API-budget van €50 per maand passen maar een paar actieve winkels. Een gratis proefperiode kan het budget al opmaken voordat er betaald wordt.",
+     "kans": "middel",
+     "weerlegbaar_door": "Een kostenberekening per mail met een goedkoop model die laat zien dat 10 proefwinkels onder €20 per maand blijven."
+    },
+    {
+     "punt": "Integraties breken en winkeliers verwachten support bij koppelingen (Gmail/Outlook-OAuth, orderstatus). Die storingen en het goedkeuren van OAuth-apps bij Google komen toch bij de eigenaar terecht.",
+     "kans": "middel",
+     "weerlegbaar_door": "Een eerste versie zonder mailkoppeling (doorstuuradres of plakvenster) die toch betaald wordt."
+    }
+   ],
+   "concurrenten_gevonden": [
+    {"tekst": "Helpdesksoftware voor e-commerce (zoals Gorgias, Zendesk, Freshdesk) en Shopify zelf bieden al AI-gegenereerde antwoordconcepten; niet gezocht in deze ronde.", "label": "AANNAME", "bron": null}
+   ],
+   "blokkade": false,
+   "blokkade_reden": null
+  },
+  {
+   "id": "K4",
+   "naam": "Zzp-Papierwerkpakket",
+   "zwakke_punten": [
+    {
+     "punt": "Zeer volwassen markt: zzp-boekhoudpakketten met bonnetjesscan en btw-overzicht bestaan al jaren, deels gratis of goedkoop, en hebben het vertrouwen dat wij missen. Dat vertrouwen is bij financiële data doorslaggevend.",
+     "kans": "hoog",
+     "weerlegbaar_door": "Een specifieke niche (bijvoorbeeld een beroep) waar zzp'ers aantoonbaar niet met bestaande pakketten werken en wel willen betalen."
+    },
+    {
+     "punt": "Het kanaal is programmatische SEO, wat volgens ronde 2 zelf pas na maanden werkt; daarmee is betalingsbereidheid binnen 60 dagen onwaarschijnlijk.",
+     "kans": "hoog",
+     "weerlegbaar_door": "Een snellere bron van verkeer (bijvoorbeeld een bestaande community of marktplaats) die binnen 4 weken betalende gebruikers oplevert."
+    },
+    {
+     "punt": "Een fout in de btw-sortering heeft directe financiële gevolgen voor de klant (naheffing). Dat is juridisch gevoelig en vraagt support die moeilijk te automatiseren is; de AVG-eisen voor financiële gegevens zijn hoog.",
+     "kans": "middel",
+     "weerlegbaar_door": "Jurist-oordeel GROEN en een product dat alleen exporteert en sorteert, zonder dat de klant op ons cijfer aangifte doet."
+    }
+   ],
+   "concurrenten_gevonden": [
+    {"tekst": "Op Freelance.nl staat een gratis gids om de zzp-administratie zelf in Excel bij te houden; volgens de gids zijn er veel templates voor inkomsten en uitgaven.", "label": "FEIT", "bron": "https://www.freelance.nl/community/zzp-administratie-excel"},
+    {"tekst": "Nederlandse zzp-boekhoudpakketten (zoals Moneybird, e-Boekhouden, Tellow, Rompslomp) bieden bonnetjesscan en btw-overzichten, deels gratis; niet gezocht in deze ronde.", "label": "AANNAME", "bron": null}
+   ],
+   "blokkade": false,
+   "blokkade_reden": null
+  },
+  {
+   "id": "K5",
+   "naam": "NL-Sjablonenwinkel met jaarbundel",
+   "zwakke_punten": [
+    {
+     "punt": "Platformrisico Etsy: één kanaal met eigen zoekalgoritme, kosten per listing en transactie, en het recht om winkels te schorsen. Nieuwe winkels zonder reviews krijgen weinig zichtbaarheid; een schorsing beëindigt de test in één keer.",
+     "kans": "middel",
+     "weerlegbaar_door": "Binnen 30 dagen eerste verkopen op Etsy, of een tweede kanaal (eigen betaalpagina, Gumroad-achtig) dat parallel draait."
+    },
+    {
+     "punt": "Concurrentie met gratis: Nederlandstalige zzp-, planner- en briefsjablonen zijn op veel plaatsen gratis te vinden (Freelance.nl, overheid, Consumentenbond). Betalingsbereidheid voor een sjabloon is laag, en het Nederlandse taalgebied op Etsy is klein.",
+     "kans": "hoog",
+     "weerlegbaar_door": "Etsy-zoekdata of een concurrentiescan die laat zien dat bestaande Nederlandstalige sjablonen wel verkopen (aantal verkopen en reviews per winkel)."
+    },
+    {
+     "punt": "AI-gegenereerde sjablonen moeten op Etsy en volgens onze regels transparant gemeld worden, en Etsy is overspoeld met AI-sjablonen. Dat drukt prijzen en onderscheid; de jaarbundel van €29 als terugkerende omzet is een AANNAME zonder bewijs.",
+     "kans": "middel",
+     "weerlegbaar_door": "Minstens 10 verkopen in de eerste 60 dagen en een meetbaar aantal kopers dat de bundel neemt."
+    },
+    {
+     "punt": "Wat toch op de eigenaar valt: Etsy vraagt identiteitsverificatie, een bankrekening en belastinggegevens van een echte persoon; elke listing moet volgens de bevoegdheden goedgekeurd worden. Met tientallen listings is dat al snel meer dan 1 uur per week.",
+     "kans": "middel",
+     "weerlegbaar_door": "Een goedkeuringsproces in batches (bijvoorbeeld 20 listings in 15 minuten per week)."
+    }
+   ],
+   "concurrenten_gevonden": [
+    {"tekst": "Financial Aha verkoopt een Nederlandstalige spreadsheet voor Etsy-verkopers (Google Sheets).", "label": "FEIT", "bron": "https://www.financialaha.com/nl/essentials-spreadsheet-templates/business-finance/etsy-seller-spreadsheet/"},
+    {"tekst": "Op Etsy domineren Engelstalige boekhoud-spreadsheets; in één zoekopdracht vond ik geen specifiek Nederlandstalig zzp-sjabloon. Dat wijst op een gat óf op weinig vraag.", "label": "AANNAME", "bron": "https://www.someka.net/products/etsy-seller-excel-template"},
+    {"tekst": "Er bestaan gidsen die het verkopen van (AI-)Excel-sjablonen op Etsy aanprijzen, wat wijst op een drukke, verzadigde categorie.", "label": "FEIT", "bron": "https://www.thebricks.com/resources/guide-how-to-sell-excel-templates-on-etsy-using-ai"}
+   ],
+   "blokkade": false,
+   "blokkade_reden": null
+  },
+  {
+   "id": "K6",
+   "naam": "Gedurfd: Benelux-regeldata voor AI-agents (MCP/API)",
+   "zwakke_punten": [
+    {
+     "punt": "Er is geen aanwijzing voor betalende vraag. De kopers (ontwikkelaars) moeten we vinden, terwijl developer-registers geen koopintentie geven. Binnen 60 dagen een betalende klant is zeer onwaarschijnlijk; het plan geeft dit zelf toe.",
+     "kans": "hoog",
+     "weerlegbaar_door": "Minstens 3 ontwikkelaars of bedrijven die vooraf (via een inbound wachtlijst met prijs) toezeggen te betalen."
+    },
+    {
+     "punt": "De brondata is open overheidsdata die gratis is en via officiële API's beschikbaar is; AI-agents kunnen die zelf ophalen of zoeken. De toegevoegde waarde (schoonmaken, verversen) is moeilijk te verkopen aan juist een technisch publiek.",
+     "kans": "hoog",
+     "weerlegbaar_door": "Aantonen dat specifieke data (bijvoorbeeld gemeentelijke subsidies) niet machineleesbaar beschikbaar is en dat een concrete partij daar nu handmatig werk aan heeft."
+    },
+    {
+     "punt": "Een betaalde API vraagt uptime, juistheid en support; een fout in regeldata die een agent aan eindgebruikers doorgeeft is een aansprakelijkheidsrisico. De betaalinfrastructuur per aanroep is bovendien niet gratis te bouwen.",
+     "kans": "middel",
+     "weerlegbaar_door": "Een gratis read-only versie die gebruik meet, voordat er iets betaald wordt."
+    },
+    {
+     "punt": "'Marginale kosten nihil' is een AANNAME: de data komt pas 'gratis mee' als K1 of K2 eerst gebouwd en onderhouden worden. K6 hangt dus volledig af van een andere kandidaat.",
+     "kans": "hoog",
+     "weerlegbaar_door": "K1 of K2 die al draait met een gevalideerde, actuele datalaag."
+    }
+   ],
+   "concurrenten_gevonden": [
+    {"tekst": "Overheden publiceren wet- en regelgeving en subsidie-informatie als open data (bijvoorbeeld wetten.overheid.nl en officiële publicaties); niet gezocht in deze ronde.", "label": "AANNAME", "bron": null}
+   ],
+   "blokkade": true,
+   "blokkade_reden": "Als zelfstandige hoofdtest strijdig met het eerste doel: er is geen bereikbare, betalende doelgroep binnen 60 dagen, de waarde hangt af van een nog niet gebouwde K1/K2-datalaag en de brondata is gratis. Toegestaan alleen als gratis bijproduct of meting naast een andere kandidaat, zonder eigen budget."
+  },
+  {
+   "id": "K7",
+   "naam": "Opzeg- en Klachtbrieven-loket",
+   "zwakke_punten": [
+    {
+     "punt": "Gratis alternatieven zijn er in overvloed en hebben veel meer gezag: overheid- en consumentenorganisaties geven gratis voorbeeldbrieven, en een AI-chatbot schrijft zo'n brief ook gratis. Weinig consumenten betalen €5-9 voor wat ze gratis kunnen krijgen.",
+     "kans": "hoog",
+     "weerlegbaar_door": "Een test waarin minstens 2% van de bezoekers van een situatiepagina betaalt ondanks de gratis alternatieven."
+    },
+    {
+     "punt": "De wetgeving verplicht bedrijven steeds vaker om online opzeggen makkelijk te maken, wat de pijn kleiner maakt. Dit is een AANNAME die de Jurist moet toetsen, maar het ondermijnt de vraag op termijn.",
+     "kans": "middel",
+     "weerlegbaar_door": "Bevestiging dat er voldoende situaties overblijven (klachten, boetes, bezwaar) waar een brief nodig blijft."
+    },
+    {
+     "punt": "Het kanaal is long-tail SEO, wat binnen 60 dagen onvoldoende verkeer geeft; bij €5 per brief zijn honderden betalingen nodig om iets te betekenen. Een brief voor 'boete' of 'bezwaar' grenst bovendien aan juridisch advies.",
+     "kans": "hoog",
+     "weerlegbaar_door": "Een advertentietest onder €50 die per euro advertentiegeld meer dan een euro omzet oplevert."
+    }
+   ],
+   "concurrenten_gevonden": [
+    {"tekst": "ConsuWijzer (ACM), Het Juridisch Loket en de Consumentenbond bieden gratis voorbeeldbrieven voor opzeggen en klachten; niet gezocht in deze ronde.", "label": "AANNAME", "bron": null}
+   ],
+   "blokkade": false,
+   "blokkade_reden": null
+  }
+ ],
+ "grootste_zorg": "Mijn grootste zorg blijft: dat we ideeën kiezen op basis van hoe goed ze te automatiseren zijn in plaats van op aangetoonde vraag, terwijl alle kanalen (SEO, app-store, Etsy) binnen 60 dagen nauwelijks verkeer geven en gratis alternatieven overal bestaan. De eerste test moet dus een harde betaalknop met een echte prijs zijn, niet nog een product."
+}

@@ -124,6 +124,21 @@ Het protocol uit VISIE §5 is een vaste pijplijn, zonder vrije agentlus:
 
 **Structuur:** alle uitvoer gaat via *structured outputs* (JSON-schema), zodat de code de regels kan afdwingen.
 
+### 5b. Brainstormprotocol (toegevoegd 2026-10-30, op verzoek van de eigenaar)
+Voor *nieuwe ideeën bedenken* is een debat te vroeg kritisch. Daarom komt er een tweede vergadervorm, met vijf rondes:
+
+1. **Divergeren (blind):** Oprichter, Groei, Klantstem en CFO bedenken elk 5 ideeën, vanuit hun eigen invalshoek, zonder elkaars ideeën te zien. Kritiek is in deze ronde verboden; gewaagd mag.
+2. **Sparren ("ja, en…"):** één agent leest alle ideeën, combineert en verbetert ze, en kiest 6–8 kandidaten. Bij elke kandidaat staat waar die vandaan komt.
+3. **Toetsen (parallel):**
+   - de Criticus noemt per kandidaat de zwakke punten;
+   - de Jurist geeft per kandidaat GROEN, ORANJE of ROOD;
+   - de CFO scoort per kandidaat de criteria uit §9 (0–10, met onderbouwing).
+4. **Scoren in code:** de gewogen score volgt uit `scoring.yaml`. Een ROOD van de Jurist laat een kandidaat afvallen.
+5. **Uitwerken, besluiten, controleren:**
+   - de winnaar krijgt een volledig businessplan;
+   - de Voorzitter besluit, met een minderheidsstandpunt;
+   - de Auditor controleert.
+
 ---
 
 ## 6. Samenwerking: orchestratie, berichten, gedeelde staat

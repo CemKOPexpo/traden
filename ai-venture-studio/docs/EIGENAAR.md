@@ -23,8 +23,8 @@ Ingevuld op 2026-10-30 op basis van de antwoorden van de eigenaar. Waar de eigen
 - Accounts, abonnementen en betaalmethodes: **die sluit de eigenaar altijd zelf af.** Claude Code en de agents maken die nooit zelf aan.
 
 ## Voorkeuren voor bedrijven
-- Interessante sectoren: **waar de eigenaar verstand van heeft: verduurzaming. Iets creatiefs is ook welkom.** Bovenal: zo geautomatiseerd mogelijk, zoveel mogelijk winst.
-- Sectoren die ik NIET wil: niet opgegeven (VOORSTEL: geen gokken, geen financieel advies of beleggingen, geen medische claims, geen volwassenencontent)
+- Sectoren: **maakt niet uit wat we verkopen of doen** (bijgewerkt 2026-10-30), zolang het legaal is, binnen de ethische grenzen blijft en zoveel mogelijk automatisch gaat. Het doel is het commercieel sterkste idee. Verduurzaming en creatieve ideeën zijn een pluspunt, geen eis.
+- Sectoren die ik NIET wil: niets illegaals, en niets waarvoor een vergunning of erkenning nodig is die we niet hebben (bijv. financieel advies, kansspelen, medische claims).
 - Doelmarkt: **Benelux**, met de mogelijkheid om internationaal op te schalen
 - Taal van de bedrijven: VOORSTEL: Nederlands, met Engels als tweede taal bij internationale opschaling
 - B2B, B2C of beide: **maakt niet uit**, zolang het winstgevend en automatiseerbaar is

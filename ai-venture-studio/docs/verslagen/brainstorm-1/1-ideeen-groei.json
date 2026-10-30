@@ -1,0 +1,101 @@
+{
+  "agent": "Groei",
+  "stap": "divergeren",
+  "samenvatting": "Vijf ideeën die starten bij kanalen met bestaand koopklaar verkeer (app-stores, Etsy, zoekmachines, vergelijkers, AI-antwoordmachines) en zichzelf verkopen zonder koude acquisitie. Het wilde idee verkoopt data en diensten aan AI-agents in plaats van aan mensen.",
+  "ideeen": [
+    {
+      "naam": "Compliance-app webshops",
+      "in_een_zin": "Shopify/WooCommerce-app die automatisch de verplichte webshoppagina's en EU-teksten genereert en actueel houdt (herroeping, GPSR-productinfo, privacy, AI-label).",
+      "klant": "Kleine Nederlandse en Belgische webshopeigenaren zonder jurist.",
+      "wat_ze_betalen_en_hoe_vaak": "SCHATTING: EUR 9-19 per maand, via de betaalfunctie van de app-store; gratis versie met basis.",
+      "hoe_klanten_ons_vinden": "Zoeken in de Shopify App Store en WordPress-plugindirectory ('privacy policy', 'algemene voorwaarden', 'GPSR'), plus SEO-pagina's per wetswijziging.",
+      "wat_automatisch_gaat": "Bouw van de app, teksten per wetswijziging, supportchat, documentatie, store-listing en updates.",
+      "wat_nog_mens_vraagt": "Eigenaar keurt aanmelding en eenmalige juridische review van templates goed; account en KvK voor uitbetaling.",
+      "waarom_nu": "Veel EU-regels (GPSR, DSA, AI-transparantie) raken kleine shops; zij zoeken zelf een oplossing in de app-store. Let op: sjablonen, geen juridisch advies.",
+      "gewaagdheid": "veilig"
+    },
+    {
+      "naam": "Branche-tools pSEO",
+      "in_een_zin": "Honderden gratis, bruikbare generators en rekentools per beroep of branche (offerte, factuur, urenstaat, prijsberekening) als long-tail-zoekmachinemagneet, met betaalde export en abonnement.",
+      "klant": "ZZP'ers en micro-MKB in de Benelux (bouw, kappers, coaches, fotografen).",
+      "wat_ze_betalen_en_hoe_vaak": "SCHATTING: gratis tool; EUR 5-9 per maand voor opslag, eigen logo en PDF's zonder watermerk.",
+      "hoe_klanten_ons_vinden": "Programmatische SEO op zoekopdrachten als 'offerte template schilder' en 'factuur voorbeeld fotograaf'; later ook AI-antwoordmachines.",
+      "wat_automatisch_gaat": "Paginageneratie, tools, content, interne links, betaalflow en support.",
+      "wat_nog_mens_vraagt": "Goedkeuring van publicatie en van de betaalpagina; steekproef op kwaliteit tegen dunne content.",
+      "waarom_nu": "Lange-staartzoekopdrachten zijn goedkoop te bedienen; AI maakt echt nuttige tools per niche schaalbaar. Google straft dunne massacontent, dus elke pagina moet een werkende tool hebben.",
+      "gewaagdheid": "veilig"
+    },
+    {
+      "naam": "NL-templates Etsy",
+      "in_een_zin": "Nederlandstalige digitale downloads (Excel/Notion/Canva-sjablonen voor ZZP-administratie, planners, checklists) via Etsy en eigen winkel.",
+      "klant": "ZZP'ers, studenten en gezinnen die zoeken op Nederlandse templates.",
+      "wat_ze_betalen_en_hoe_vaak": "SCHATTING: EUR 5-25 eenmalig; terugkerend via bundel of jaarlijkse update-abonnement EUR 29.",
+      "hoe_klanten_ons_vinden": "Etsy-zoekopdrachten en Pinterest, plus eigen SEO-pagina's; bestaande koopintentie op Etsy.",
+      "wat_automatisch_gaat": "Sjablonen maken, mockups, listingteksten, taggen, varianten, klantvragen.",
+      "wat_nog_mens_vraagt": "Eigenaar maakt of koppelt het Etsy-account, keurt listings goed en vermeldt AI-gebruik waar vereist.",
+      "waarom_nu": "Weinig Nederlandstalig aanbod ten opzichte van Engels; geen voorraad of verzending. De vaste Etsy-kosten drukken goedkope templates, dus bundels werken beter.",
+      "gewaagdheid": "veilig"
+    },
+    {
+      "naam": "Vergelijker met affiliate",
+      "in_een_zin": "Transparante vergelijk- en prijshistoriek-sites in een paar nichecategorieën, verdiend via partnerprogramma's (zoals bol.com), met een gratis Chrome-extensie als extra ingang.",
+      "klant": "Consumenten die een aankoop onderzoeken in een niche (bijvoorbeeld huisdierproducten, tuingereedschap of baby).",
+      "wat_ze_betalen_en_hoe_vaak": "SCHATTING: klant betaalt niets; wij krijgen per verkoop een commissie van enkele procenten, doorlopend. Omzet is afhankelijk van verkeer.",
+      "hoe_klanten_ons_vinden": "Zoekopdrachten als 'beste ... 2026' en 'prijs ... vergelijken', Chrome Web Store, AI-antwoordmachines die bronnen citeren.",
+      "wat_automatisch_gaat": "Productdata ophalen, vergelijkingen schrijven, prijsupdates, pagina's, affiliate-links en de extensie.",
+      "wat_nog_mens_vraagt": "Aanmelding bij partnerprogramma's, publicatiegoedkeuring, duidelijke affiliate- en AI-vermelding; geen nep-reviews.",
+      "waarom_nu": "Hoge koopintentie en bestaand verkeer; wel kwetsbaar voor algoritmewijzigingen en voor antwoordmachines die klikken weghalen.",
+      "gewaagdheid": "gedurfd"
+    },
+    {
+      "naam": "Data voor AI-agents",
+      "in_een_zin": "Machineleesbare, dagelijks ververste Benelux-datasets en een MCP-server/API (bijvoorbeeld regelingen, openingstijden, prijsindexen uit open data) die AI-agents en antwoordmachines per aanroep of per maand betalen.",
+      "klant": "Ontwikkelaars en bedrijven met AI-assistenten of agents die betrouwbare Nederlandse data nodig hebben, en uiteindelijk de agents zelf.",
+      "wat_ze_betalen_en_hoe_vaak": "SCHATTING: gratis laag; EUR 19-99 per maand of enkele cent per aanroep; sterk onzeker of de markt er al is.",
+      "hoe_klanten_ons_vinden": "MCP-/API-registers en marktplaatsen, GitHub, documentatiepagina's die antwoordmachines citeren, RapidAPI-achtige platforms.",
+      "wat_automatisch_gaat": "Data ophalen en opschonen uit open bronnen, API bouwen en hosten, documentatie, sleutelbeheer, facturatie, support.",
+      "wat_nog_mens_vraagt": "Goedkeuring van bronlicenties en publicatie; account, KvK en betaalprovider; keuze welke dataset eerst.",
+      "waarom_nu": "Agents gaan zelf tools en data inkopen; wie als eerste betrouwbare Nederlandse data aanbiedt, wordt standaardbron. Vroege markt, dus gewaagd.",
+      "gewaagdheid": "wild"
+    }
+  ],
+  "beweringen": [
+    {
+      "tekst": "StoreCensus telt 47.899 Shopify-winkels in Nederland (stand augustus 2026, derde partij, geen cijfer van Shopify zelf).",
+      "label": "FEIT",
+      "bron": "https://api.storecensus.com/stores/country/netherlands?page=163",
+      "datum": "2026-10-30"
+    },
+    {
+      "tekst": "Etsy rekent voor digitale downloads dezelfde vaste kosten als voor fysieke producten (ca. USD 0,20 listing, 6,5% transactiekosten, 3% + 0,25 betalingskosten volgens blogs van derden); controleren op de officiële Etsy-pagina voor gebruik.",
+      "label": "FEIT",
+      "bron": "https://checkoutpage.com/blog/etsy-fees",
+      "datum": "2026-10-30"
+    },
+    {
+      "tekst": "De Shopify App Store heeft ruim 17.000 apps (bronnen verschillen, niet bij Shopify zelf geverifieerd); de gemiddelde winkel gebruikt ongeveer 6 apps.",
+      "label": "AANNAME",
+      "bron": null,
+      "datum": null
+    },
+    {
+      "tekst": "Kleine webshops hebben moeite met nieuwe EU-regels (GPSR, DSA) en betalen voor een eenvoudige oplossing van EUR 9-19 per maand.",
+      "label": "AANNAME",
+      "bron": null,
+      "datum": null
+    },
+    {
+      "tekst": "Een betaalde upgrade van een gratis tool bij 1-3% van de bezoekers is haalbaar voor branche-tools; omzet per tool in de eerste 60 dagen blijft klein.",
+      "label": "SCHATTING",
+      "bron": null,
+      "datum": null
+    },
+    {
+      "tekst": "Vraag naar betaalde, machineleesbare Benelux-data voor AI-agents bestaat nog nauwelijks; verdienmodel en prijs zijn onbewezen.",
+      "label": "AANNAME",
+      "bron": null,
+      "datum": null
+    }
+  ],
+  "spreekzin": "Wij openen winkels waar kopers al lopen, en laten AI daar de toonbank bemannen."
+}

@@ -1,0 +1,238 @@
+{
+  "agent": "Criticus",
+  "stap": "aanval",
+  "samenvatting": "Geen enkele richting heeft één gesproken of betalende klant. De twee favorieten leunen op regelgeving die is afgezwakt (CSRD/VSME na Omnibus I) of pas eind 2027 weer urgent wordt (informatieplicht). Ik blokkeer het batterijpaspoort en de B2C-subsidiecheck als eerste richting; VSME en energiebesparing mogen alleen door met strengere testvoorwaarden.",
+  "per_idee": [
+    {
+      "idee": "VSME-/CO2-duurzaamheidsrapport voor mkb-toeleveranciers (Oprichter, CFO, Klantstem, Jurist)",
+      "zwakke_punten": [
+        {
+          "punt": "De vraagdriver is grotendeels weg. Na Omnibus I (Richtlijn 2026/470) valt de CSRD alleen nog op ondernemingen met meer dan 1.000 werknemers en meer dan EUR 450 mln omzet. Er zijn dus veel minder opvragende klanten, en de eerste rapportage schuift naar boekjaar 2027.",
+          "kans": "hoog",
+          "weerlegbaar_door": "Bewijs dat Nederlandse/Belgische mkb'ers nu wél vragenlijsten krijgen: 10 gesprekken met mkb-leveranciers, of voorbeelden van bank-/aanbestedingseisen waarin VSME wordt gevraagd."
+        },
+        {
+          "punt": "De value-chain-cap werkt tegen het idee. Leveranciers onder 1.000 werknemers mogen weigeren meer te leveren dan VSME, dus het grootste deel van de 'pijn' (eindeloze vragenlijsten) verdwijnt bij wet. De Oprichter stelt dit voor als een kans ('één duidelijk format'), maar het verkleint ook de urgentie.",
+          "kans": "middel",
+          "weerlegbaar_door": "Bewijs dat banken of aanbesteders (die buiten de cap vallen) een VSME-rapport eisen en daarvoor laten betalen."
+        },
+        {
+          "punt": "Er bestaan al gratis en goedkope alternatieven: het gratis Excel-hulpmiddel van VLAIO, VSME Ready (EUR 199-375/jaar) en accountants die het bijleveren. De prijzen in de analyses lopen uiteen van EUR 149 tot 490 plus EUR 29/mnd. Dat laat zien dat niemand de prijs weet.",
+          "kans": "hoog",
+          "weerlegbaar_door": "Een prijstest met twee prijspunten op een landingspagina, of een concurrentieoverzicht dat een onbediend gat aantoont."
+        },
+        {
+          "punt": "Aansprakelijkheid en vertrouwen: de klant moet energiefacturen en bedrijfsdata aan een AI-tool geven, en een fout cijfer in een rapport voor een bank of klant raakt de studio. Volgens de Jurist zijn een disclaimer, menselijke steekproeven en algemene voorwaarden nodig. Dat staat haaks op 'bijna nul handwerk'.",
+          "kans": "middel",
+          "weerlegbaar_door": "Een reviewproces dat aantoonbaar minder dan 15 minuten per rapport kost, plus getoetste algemene voorwaarden."
+        }
+      ],
+      "blokkade": false,
+      "blokkade_reden": null
+    },
+    {
+      "idee": "Energiebesparingsplicht/informatieplicht-check en rapport voor bedrijfslocaties (Oprichter, CFO, Klantstem)",
+      "zwakke_punten": [
+        {
+          "punt": "Verkeerde timing voor een test van 60 dagen. Volgens RVO is de volgende uiterste datum van de informatieplicht 1 december 2027. Nu dreigt er geen deadline, dus de koopdrang is waarschijnlijk laag. Achterblijvers uit 2023 bestaan wel, maar lopen vooral risico bij handhaving.",
+          "kans": "hoog",
+          "weerlegbaar_door": "Een segment met acute druk, bijv. bedrijven die nu een handhavingsbrief van een omgevingsdienst krijgen. Of: test als voorverkoop richting 2027 en meet dan wat de betaalbereidheid is."
+        },
+        {
+          "punt": "Het gratis overheidsalternatief is sterk: de erkende maatregelenlijsten, het eLoket van RVO en ondernemersinformatie. Daarnaast doen installateurs en adviseurs dit vaak als bijproduct. Het bezwaar van de Klantstem ('dit staat gratis bij RVO') is hier op zijn sterkst.",
+          "kans": "hoog",
+          "weerlegbaar_door": "Gesprekken met 5 plichtige bedrijven die bevestigen dat ze nu betalen of uren kwijt zijn, of met 2 installateurs die per rapport willen betalen (het succescriterium van de Oprichter zelf)."
+        },
+        {
+          "punt": "Je kunt niet namens de klant indienen. Rapporteren gaat via het eLoket met eHerkenning en een machtiging, en de verantwoordelijkheid ligt bij de drijver van de inrichting. Het product blijft daarom een concept dat de klant zelf moet uploaden, en die belooft 'kant-en-klare rapportage' te veel.",
+          "kans": "middel",
+          "weerlegbaar_door": "Een werkende XML-upload die de klant in minder dan 10 minuten zelf indient, of een geldige machtigingsroute."
+        },
+        {
+          "punt": "De doelgroep is smaller dan gesuggereerd. De plicht geldt pas vanaf 50.000 kWh of 25.000 m3 gas per locatie, dus niet voor het gemiddelde kleine kantoor of de winkel. Het zoekvolume is onbekend (de CFO labelt het terecht als SCHATTING).",
+          "kans": "middel",
+          "weerlegbaar_door": "Zoekvolumedata (bijv. Google Keyword Planner) en een telling van plichtige locaties per sector."
+        }
+      ],
+      "blokkade": false,
+      "blokkade_reden": null
+    },
+    {
+      "idee": "Regelingen- en subsidiemonitor voor mkb, installateurs en adviseurs (Oprichter)",
+      "zwakke_punten": [
+        {
+          "punt": "De markt is al bediend. Subsidieadviesbureaus en hun nieuwsbrieven, brancheorganisaties en RVO zelf informeren gratis of als lokmiddel. Een abonnement van EUR 29-79/mnd op informatie die elders gratis te krijgen is, is moeilijk te verkopen. Er is geen concurrentieonderzoek gedaan (de Oprichter geeft dat zelf toe).",
+          "kans": "hoog",
+          "weerlegbaar_door": "3 installateurs die na een gratis proefeditie betalen, zoals de Oprichter voorstelt als succescriterium."
+        },
+        {
+          "punt": "Het inhoudelijke risico zit hier constant. Regelingen wijzigen voortdurend, en één gemiste of verkeerd samengevatte deadline kost de klant geld en de studio haar reputatie. 'Bijna nul handwerk' is ongelabeld en onwaarschijnlijk.",
+          "kans": "middel",
+          "weerlegbaar_door": "Een proefperiode van 4 weken waarin elke regel automatisch naar de officiële bron linkt en een steekproef geen fouten vindt."
+        },
+        {
+          "punt": "Het bereik hangt af van het netwerk van de eigenaar ('installateurs die de eigenaar kent') en van handmatig LinkedIn-werk. De eigenaar heeft weinig tijd, en dit is één kanaal dat niet schaalt.",
+          "kans": "middel",
+          "weerlegbaar_door": "Een lijst van minimaal 10 concrete installateurs die de eigenaar binnen 2 uur kan benaderen."
+        }
+      ],
+      "blokkade": false,
+      "blokkade_reden": null
+    },
+    {
+      "idee": "Subsidie- en maatregelcheck / persoonlijk verduurzamingsplan voor woningeigenaren (B2C, CFO)",
+      "zwakke_punten": [
+        {
+          "punt": "De eigen cijfers van de CFO tonen verlies in het pessimistische en het verwachte scenario, en in het optimistische scenario hooguit break-even. Bij EUR 29-49 is betaalde acquisitie niet terug te verdienen.",
+          "kans": "hoog",
+          "weerlegbaar_door": "Een organisch of affiliatekanaal met aantoonbaar lage CAC (minder dan EUR 10)."
+        },
+        {
+          "punt": "Juridisch komt dit gevaarlijk dicht bij wat de Jurist ROOD noemt: een volledig geautomatiseerd verduurzamingsadvies aan consumenten met besparings- en volgordeadvies, zonder KvK, verzekering of menselijke adviseur. Consumenten genieten extra bescherming.",
+          "kans": "hoog",
+          "weerlegbaar_door": "Een afbakening die aantoonbaar alleen informeert (geen besparings- of rendementscijfers), getoetst door een echte jurist."
+        },
+        {
+          "punt": "De Klantstem stelt dat de betaalbereidheid laag is: VEH, ANWB, RVO, het Energieloket en installateurs helpen gratis.",
+          "kans": "hoog",
+          "weerlegbaar_door": "Een rookproef met minimaal 3% betaalconversie bij minstens 200 bezoekers."
+        }
+      ],
+      "blokkade": true,
+      "blokkade_reden": "De richting combineert drie dingen: een eigen verliesmodel (CFO), een juridisch ROOD-profiel (Jurist) en lage betaalbereidheid (Klantstem). Daarmee is het idee als eerste richting een fundamentele denkfout tegenover het doel van aantoonbare betalingsbereidheid tegen aanvaardbaar risico. De blokkade vervalt als er een informerende, juridisch getoetste variant komt met een kanaal zonder betaalde acquisitie."
+    },
+    {
+      "idee": "Batterijpaspoort-dossier voor importeurs van e-bikes, LMT en industriële accu's (Oprichter, onconventioneel)",
+      "zwakke_punten": [
+        {
+          "punt": "Het past niet bij de randvoorwaarden. EUR 1.500 per productfamilie vraagt een B2B-verkoopproces, interviews met 15 importeurs, technische documentextractie en een QR-hosting die jaren in de lucht moet blijven. De eigenaar heeft weinig tijd en geen technische kennis, en het budget is EUR 200/mnd.",
+          "kans": "hoog",
+          "weerlegbaar_door": "2 betaalde intakes van EUR 250 binnen 30 dagen zonder dat de eigenaar meer dan 1 uur per week kwijt is."
+        },
+        {
+          "punt": "Het ligt buiten het oneerlijke voordeel van de eigenaar (gebouwverduurzaming) en de aansprakelijkheid is hoog. Een fout in een verplicht productpaspoort kan markttoegang blokkeren. De Oprichter erkent dit zelf.",
+          "kans": "hoog",
+          "weerlegbaar_door": "Een partner met productcompliance-expertise en een beroepsaansprakelijkheidsverzekering."
+        },
+        {
+          "punt": "De markt bestaat uit grote spelers. Battery-passport-softwareleveranciers en certificeerders zitten hier al, en grote fabrikanten regelen het intern. Kleine importeurs schuiven de plicht vaak door naar hun leverancier.",
+          "kans": "middel",
+          "weerlegbaar_door": "Interviews die bewijzen dat kleine EU-importeurs zelf de 'marktdeelnemer' zijn en geen leveranciersoplossing hebben."
+        },
+        {
+          "punt": "De startdatum staat niet volledig vast. 18 februari 2027 is in mijn zoektocht niet uitgesteld, maar er lopen omnibus-voorstellen voor delen van de batterijverordening.",
+          "kans": "laag",
+          "weerlegbaar_door": "Bevestiging op EUR-Lex of in een Raadsbesluit dat 18-02-2027 ongewijzigd geldt."
+        }
+      ],
+      "blokkade": true,
+      "blokkade_reden": "Als EERSTE richting is dit een fundamentele mismatch: technisch zwaar, hoge aansprakelijkheid, buiten de expertise van de eigenaar en een verkooptraject dat binnen 60 dagen en EUR 200/mnd niet haalbaar is. Het kan als latere optie op de lijst blijven."
+    },
+    {
+      "idee": "Stappenplan label C kantoren / collectieve verduurzaming voor VvE's (Klantstem, pijnpunt)",
+      "zwakke_punten": [
+        {
+          "punt": "Het is geen uitgewerkt voorstel. Prijs, aanbod en test ontbreken, en de bestaande prijzen ('enkele honderden tot duizenden euro') zijn AANNAME.",
+          "kans": "hoog",
+          "weerlegbaar_door": "Een uitgewerkt voorstel met prijs en een test van 60 dagen."
+        },
+        {
+          "punt": "De besluitvorming in een VvE (ledenvergadering, vrijwillige besturen) duurt maanden. Een betaling binnen 60 dagen is daardoor onwaarschijnlijk.",
+          "kans": "hoog",
+          "weerlegbaar_door": "Een VvE-bestuur dat zelfstandig kleine uitgaven mag doen en binnen 4 weken betaalt."
+        },
+        {
+          "punt": "Er dreigt juridisch overlap met het voorbehouden energielabelwerk (ROOD bij de Jurist) en met MJOP-adviseurs. Een stappenplan zonder EP-adviseur wekt al snel schijnzekerheid.",
+          "kans": "middel",
+          "weerlegbaar_door": "Een positionering als voorbereiding en doorverwijzing naar erkende adviseurs, getoetst door de Jurist."
+        }
+      ],
+      "blokkade": false,
+      "blokkade_reden": null
+    }
+  ],
+  "betwiste_beweringen": [
+    {
+      "tekst": "Oprichter: 'CSRD-plichtige bedrijven mogen van leveranciers alleen informatie uit de VSME-standaard opvragen' (gelabeld FEIT, terwijl hij zelf zegt de primaire tekst niet te hebben gelezen).",
+      "probleem": "Gelabeld als FEIT op basis van zoeksamenvattingen. De bewering is ook te absoluut: het is een weigerrecht voor leveranciers onder 1.000 werknemers en geldt alleen voor verzoeken voor duurzaamheidsrapportage, niet voor banken of aanbestedingen.",
+      "gecontroleerd": {
+        "tekst": "Omnibus I (Richtlijn (EU) 2026/470) is op 18 maart 2026 in werking getreden. De CSRD-drempel is nu meer dan 1.000 werknemers en meer dan EUR 450 mln omzet. Leveranciers onder 1.000 werknemers mogen informatie buiten de VSME weigeren, en de cap geldt niet voor verzoeken met een ander doel. Bronnen zijn secundair (advocatenkantoren, softwareblogs).",
+        "label": "FEIT",
+        "bron": "https://www.williamfry.com/wp-content/uploads/2026/03/Omnibus-1-Directive-comes-into-force-in-March-2026-key-amendments-to-CSRD-and-CS3D.pdf",
+        "datum": "2026-03-18"
+      }
+    },
+    {
+      "tekst": "Oprichter: 'Het is onduidelijk of in 2026 een nieuwe rapportagecyclus loopt' en voorstel 2 doet alsof rapportage nu urgent is.",
+      "probleem": "Onzekerheid die eerst opgelost moest worden. Ze is nu opgelost en verzwakt de urgentie van voorstel 2.",
+      "gecontroleerd": {
+        "tekst": "Volgens RVO is de volgende uiterste datum van de informatieplicht energiebesparing 1 december 2027 (rapportage eens per 4 jaar). Achterblijvers uit 2023 moeten zo snel mogelijk alsnog rapporteren.",
+        "label": "FEIT",
+        "bron": "https://www.rvo.nl/onderwerpen/informatieplicht-energiebesparing",
+        "datum": "2026-09-30"
+      }
+    },
+    {
+      "tekst": "CFO: testkosten per idee 'max. EUR 150-300' plus Pro-abonnement plus API max. EUR 50, allemaal 'onder de harde grens van EUR 200'.",
+      "probleem": "Dit is intern tegenstrijdig. EUR 250 advertenties + EUR 50 API + het Pro-abonnement is meer dan EUR 200 per maand, tenzij de test over meerdere maanden wordt verdeeld. Dat staat er niet. De CFO labelt het zelf als AANNAME, maar de getallen in de scenario's gaan uit van de volle EUR 250.",
+      "gecontroleerd": {
+        "tekst": "Rekensom op basis van de vergadercontext: alleen EUR 50 API + EUR 250 advertenties is al EUR 300 en dus meer dan EUR 200, of het ligt eroverheen zodra het over minder dan 2 maanden wordt besteed. Het testbudget moet per maand worden gespecificeerd.",
+        "label": "SCHATTING",
+        "bron": "docs/verslagen/proefvergadering-1/0-vraag.md",
+        "datum": "2026-10-30"
+      }
+    },
+    {
+      "tekst": "Oprichter (VSME-test): 'Na goedkeuring eigenaar 30 handmatig gekozen B2B-bedrijven benaderen (geen consumenten-mail)'.",
+      "probleem": "Suggereert dat ongevraagde zakelijke e-mail wel mag. In Nederland geldt de opt-in van art. 11.7 Telecommunicatiewet naar mijn kennis ook voor e-mail aan rechtspersonen. Dit is niet in deze ronde gecontroleerd; de Jurist moet het toetsen voordat iemand wordt benaderd.",
+      "gecontroleerd": {
+        "tekst": "Niet gecontroleerd via een bron. Volgens mijn kennis valt ongevraagde commerciële e-mail aan bedrijven in Nederland ook onder de opt-in. Bellen of persoonlijk LinkedIn-contact valt onder andere regels.",
+        "label": "AANNAME",
+        "bron": null,
+        "datum": null
+      }
+    },
+    {
+      "tekst": "Klantstem: 'Niet-beursgenoteerde mkb-bedrijven hoeven de CSRD niet toe te passen ... CSRD-scope is mogelijk veranderd door Omnibus, niet geverifieerd' (gelabeld FEIT).",
+      "probleem": "Een FEIT-label op een bewering die zelf zegt 'niet geverifieerd', zonder datum. Het verkeerde label versluiert dat de scope sterk is ingeperkt.",
+      "gecontroleerd": {
+        "tekst": "Zie de eerste betwiste bewering: de scope is na Omnibus I ingeperkt tot ondernemingen met meer dan 1.000 werknemers en meer dan EUR 450 mln omzet.",
+        "label": "FEIT",
+        "bron": "https://www.williamfry.com/wp-content/uploads/2026/03/Omnibus-1-Directive-comes-into-force-in-March-2026-key-amendments-to-CSRD-and-CS3D.pdf",
+        "datum": "2026-03-18"
+      }
+    },
+    {
+      "tekst": "Oprichter: batterijpaspoort start '18 februari 2027 ... een bron noemt uitstel naar 18 augustus 2027'.",
+      "probleem": "Correct als AANNAME gelabeld, maar het voorstel hangt ervan af.",
+      "gecontroleerd": {
+        "tekst": "Ik vond geen bevestigd uitstel van 18 februari 2027 voor het paspoort zelf. Eén secundaire bron noemt een onbeslist Raadsvoorstel om alleen de verwijderbaarheidseisen voor nieuw toegevoegde categorieën naar 18 augustus 2028 te verschuiven. Controleer dit op EUR-Lex.",
+        "label": "AANNAME",
+        "bron": "https://projetcelsius.com/en/faq/dpp-espr-affichage-env/l-echeance-du-18-fevrier-2027-peut-elle-etre-reportee/",
+        "datum": "2026-10-30"
+      }
+    },
+    {
+      "tekst": "Diverse FEIT-beweringen (Oprichter, CFO) met als 'datum' 2026-10-30, en Klantstem-FEITEN (80.000 bedrijven, handhaving label C) zonder datum.",
+      "probleem": "De ophaaldatum wordt gebruikt als brondatum, of een datum ontbreekt helemaal. Een bericht uit 2023 wordt zo gepresenteerd als actueel feit, wat in strijd is met de bewijsplicht (bron plus datum).",
+      "gecontroleerd": {
+        "tekst": "Niet per bewering gecontroleerd. Mijn eis aan de orchestrator: noteer de publicatiedatum en de ophaaldatum apart.",
+        "label": "AANNAME",
+        "bron": null,
+        "datum": null
+      }
+    },
+    {
+      "tekst": "Ongelabelde beweringen van de Oprichter: 'berekening is deterministisch', 'bijna nul handwerk', 'eigenaar kan de inhoud snel beoordelen en is hier oneerlijk voordeel'.",
+      "probleem": "Geen label. Ze botsen met de eis van de Jurist (menselijke controle) en met de context (eigenaar heeft weinig tijd). Het zijn AANNAMES.",
+      "gecontroleerd": {
+        "tekst": "Niet te controleren zonder prototype en tijdmeting.",
+        "label": "AANNAME",
+        "bron": null,
+        "datum": null
+      }
+    }
+  ],
+  "grootste_zorg": "Mijn grootste zorg blijft: de directie kiest richtingen op basis van regelgeving die afzwakt (VSME na Omnibus I) of pas eind 2027 weer knelt (informatieplicht). Daarbovenop kan geen enkele voorverkooptest betaling ophalen zonder KvK en betaalaccount, binnen een budget dat de CFO-scenario's al overschrijden. Eerst 10 echte klantgesprekken, dan pas een landingspagina.",
+  "spreekzin": "Regels zwakken af of komen pas in 2027; eerst klanten spreken."
+}

@@ -1,0 +1,82 @@
+{
+  "agent": "Klantstem",
+  "stap": "blinde analyse",
+  "samenvatting": "Mkb-ondernemers en VvE-besturen voelen de verduurzamingsdruk het meest (energiebesparingsplicht, ketenvragen, label C), maar vooral als uitzoek- en papierwerk waar begeleiding ontbreekt. Betalen doen ze alleen voor een concreet, goedkoop antwoord op 'wat moet ik, wat kost het, wat levert het op'; woningeigenaren betalen weinig voor subsidie-hulp.",
+  "pijnpunten": [
+    {
+      "doelgroep": "Mkb-ondernemers (kantoor, winkel, kleine productie) onder de energiebesparingsplicht/informatieplicht",
+      "pijn": "Weten niet welke maatregelen van de erkende maatregelenlijst voor hen gelden, hoe ze rapporteren aan RVO en wat het kost. Tijd en technische kennis ontbreken.",
+      "wat_ze_nu_gebruiken_of_betalen": "Boekhouder of installateur om advies, gratis overheids- en brancheinfo (Ondernemersplein, 'check klik bespaar'), vaak niets doen. Betaling: AANNAME, enkele honderden euro per keer bij een adviseur.",
+      "zou_betalen_als": "Het binnen een uur een bedrijfsspecifieke maatregellijst met kosten en terugverdientijd plus een kant-en-klare RVO-rapportage geeft, tegen een vaste lage prijs, bijvoorbeeld onder 200 euro per jaar (AANNAME)."
+    },
+    {
+      "doelgroep": "Mkb-leveranciers van grotere bedrijven (keten)",
+      "pijn": "Opdrachtgevers vragen CO2- en duurzaamheidsdata (vragenlijsten, VSME) zonder uitleg. Mkb'ers ervaren gebrek aan begeleiding en lopen opdrachten mis.",
+      "wat_ze_nu_gebruiken_of_betalen": "Excel, eigen uitzoekwerk, accountant of milieuadviseur; per klantvragenlijst vaak onbetaald uren werk. Prijs: onbekend.",
+      "zou_betalen_als": "Een tool hun gegevens eenmalig verzamelt en voor elke klantvragenlijst antwoorden genereert, zodat ze een opdracht behouden. De betaling is dan gekoppeld aan omzet die ze anders verliezen."
+    },
+    {
+      "doelgroep": "Huiseigenaren die willen isoleren of een warmtepomp willen",
+      "pijn": "Subsidie (ISDE) is pas achteraf aan te vragen, vraagt foto's en bewijs, en blijkt vaak lager dan verwacht. Voorwaarden wijzigen regelmatig. Het is onduidelijk wat zich terugverdient.",
+      "wat_ze_nu_gebruiken_of_betalen": "Gratis: RVO, ANWB, Vereniging Eigen Huis, installateur die de aanvraag meeneemt, gemeentelijk Energieloket. Betaalbereidheid voor losse hulp is laag.",
+      "zou_betalen_als": "De hulp gratis of heel goedkoop voelt en bewijsbaar subsidie oplevert die ik anders mis (betalen uit het succes). Als losse dienst waarschijnlijk niet (AANNAME)."
+    },
+    {
+      "doelgroep": "VvE-besturen en kantooreigenaren (energielabel C, collectieve verduurzaming)",
+      "pijn": "Label C-verplichting voor kantoren wordt door gemeenten stilaan gehandhaafd. VvE's moeten eigenaren overtuigen en financiering en subsidie uitzoeken, vaak als vrijwilliger zonder expertise.",
+      "wat_ze_nu_gebruiken_of_betalen": "Duurzaam-adviesbureaus, energielabel-adviseurs en VvE-beheerders; meerjarenonderhoudsplan (MJOP). Prijzen: onbekend, AANNAME enkele honderden tot enkele duizenden euro per traject.",
+      "zou_betalen_als": "Een heldere, onafhankelijke stappenplan-uitkomst die zij kunnen voorleggen aan de ledenvergadering, met subsidiecheck, en een boete of waardedaling voorkomt."
+    }
+  ],
+  "beweringen": [
+    {
+      "tekst": "Volgens MKB Servicedesk moesten ongeveer 80.000 mkb-bedrijven vóór 1 december 2023 rapporteren aan RVO; tekort aan technisch personeel en verkeerd begrip van de informatieplicht speelden mee, en de Erkende maatregelenlijst kwam laat beschikbaar.",
+      "label": "FEIT",
+      "bron": "https://www.mkbservicedesk.nl/nieuws/ondernemersnieuws/ondernemers-worstelen-met-energiebesparingsplicht",
+      "datum": null
+    },
+    {
+      "tekst": "Vakcentrum wijst in een consultatiereactie (2026) op liquiditeit van het mkb als hoofdbeperking en op netcongestie die maatregelen soms onuitvoerbaar maakt.",
+      "label": "FEIT",
+      "bron": "https://www.vakcentrum.nl/media/4cape0it/energiebesparingsplicht-consultatie-2026-def.pdf",
+      "datum": null
+    },
+    {
+      "tekst": "Niet-beursgenoteerde mkb-bedrijven hoeven de CSRD niet toe te passen, maar grote opdrachtgevers kunnen duurzaamheidsdata vragen; een enquête onder 431 mkb'ers laat gebrek aan begeleiding zien. CSRD-scope is mogelijk veranderd door Omnibus, niet geverifieerd.",
+      "label": "FEIT",
+      "bron": "https://ondernemersplein.overheid.nl/duurzaam-ondernemen/duurzame-bedrijfsvoering/csrd-voor-mkb-bedrijven-dit-moet-u-weten/",
+      "datum": null
+    },
+    {
+      "tekst": "Vereniging Eigen Huis opende een meldpunt omdat veel huiseigenaren er niet uitkwamen met de ISDE-aanvraag; wie het afrondde kreeg soms minder subsidie dan verwacht. Subsidie wordt pas na uitvoering en betaling aangevraagd.",
+      "label": "FEIT",
+      "bron": "https://www.hypotheker.nl/actueel/nieuwsberichten/2023/verduurzamen-subsidieaanvraag-blijkt-nog-niet-zo-makkelijk-te-zijn/",
+      "datum": "2023-01-01"
+    },
+    {
+      "tekst": "Gemeenten zijn bevoegd gezag voor de label C-verplichting kantoren en beginnen eigenaren van onvoldoende verduurzaamde panden aan te schrijven.",
+      "label": "FEIT",
+      "bron": "https://www.binnenlandsbestuur.nl/ruimte-en-milieu/handhaving-label-c-krijgt-langzaam-vorm",
+      "datum": null
+    },
+    {
+      "tekst": "Mkb'ers betalen zelden voor losse uitleg over regelgeving en kiezen gratis overheids- of brancheinfo tenzij een boete of verloren opdracht dreigt.",
+      "label": "AANNAME",
+      "bron": null,
+      "datum": null
+    },
+    {
+      "tekst": "Een mkb-leverancier betaalt waarschijnlijk 100 tot 300 euro per jaar voor een tool die ketenvragenlijsten en RVO-rapportage afhandelt.",
+      "label": "SCHATTING",
+      "bron": null,
+      "datum": null
+    }
+  ],
+  "bezwaren_als_klant": [
+    "Dit staat gratis bij RVO, Ondernemersplein en mijn brancheorganisatie; waarom zou ik betalen voor een herverpakking?",
+    "Ik vertrouw geen AI-tool met mijn energiegegevens en bedrijfsdata, zeker niet als de uitkomst juridisch of financieel gevolgen heeft; wie is aansprakelijk bij een fout?",
+    "De regels veranderen steeds (Omnibus, subsidievoorwaarden 2027); mijn betaling is vandaag weg als het morgen anders is.",
+    "Ik heb geen tijd om gegevens in te voeren; als het meer dan een kwartier kost, haak ik af."
+  ],
+  "spreekzin": "Laat zien dat het mij tijd of een boete bespaart, dan betaal ik."
+}

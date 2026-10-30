@@ -1,0 +1,108 @@
+{
+  "agent": "Jurist",
+  "stap": "blinde analyse",
+  "samenvatting": "Informatieve, niet-gecertificeerde diensten (CO2-rapportage, subsidiescan, vergelijkingsplatform) kunnen als ORANJE starten; energielabels als eigen product en eigen groene claims zijn ROOD of strikt voorwaardelijk. Zonder KvK en met sterke automatisering zijn oprichting, AVG, AI-transparantie en aansprakelijkheid de gemeenschappelijke voorwaarden.",
+  "beoordelingen": [
+    {
+      "type_bedrijf": "Energielabels (woning/utiliteit) opstellen en afgeven",
+      "oordeel": "ROOD",
+      "reden": "Label opstellen is voorbehouden aan gecertificeerde EP-adviseurs (BRL 9500, geattesteerde software, aansluiting bij een Certificerende Instelling) en registratie in EP-Online. Een starter zonder certificaat en zonder KvK kan dit niet rechtmatig leveren; een AI-'label' zonder registratie is rechtsgeldig waardeloos en misleidend.",
+      "voorwaarden": "Alleen als doorverwijzer/leadgenerator naar erkende adviseurs (zie marktplaats) en zonder zelf een 'label' of 'officieel advies' te beloven.",
+      "wetsgebied": "Wet- en regelgeving energieprestatie gebouwen (RVO/EP-Online), certificering, misleidende handelspraktijken"
+    },
+    {
+      "type_bedrijf": "CO2-/duurzaamheidsrapportage (voetafdruk, ESG-lite) voor mkb",
+      "oordeel": "ORANJE",
+      "reden": "Niet wettelijk beschermd en goed te automatiseren, maar foutieve berekeningen of een onterechte 'CO2-neutraal'-uitkomst geven aansprakelijkheids- en misleidingsrisico, zeker als klanten het publiek of richting banken/aanbesteders gebruiken.",
+      "voorwaarden": "Methode en emissiefactoren transparant en bronvermeld (bijv. GHG Protocol); duidelijke disclaimer dat het een indicatie is, geen assurance of CSRD-verklaring; menselijke steekproefcontrole; geen claims als 'klimaatneutraal'; algemene voorwaarden met aansprakelijkheidsbeperking (laten toetsen); AI-gebruik openbaar maken.",
+      "wetsgebied": "Aansprakelijkheid/consumenten- en ondernemersrecht, misleidende handelspraktijken, AVG (bedrijfsgegevens met persoonsgegevens)"
+    },
+    {
+      "type_bedrijf": "Subsidie- en regelingenscan met automatische aanvraagvoorbereiding (ISDE, SEEH e.d.)",
+      "oordeel": "ORANJE",
+      "reden": "Informeren en aanvraagdossiers voorbereiden mag, maar fouten kunnen subsidie kosten (aansprakelijkheid). Namens de klant indienen vereist machtiging en verwerkt persoonsgegevens (BSN/IBAN/adres), en eHerkenning/DigiD is niet te delegeren aan een AI zonder zorg.",
+      "voorwaarden": "Start als scan en checklist, niet als indienen namens klant; geen 'no cure no pay'-claims zonder onderbouwing; AVG-verwerking (grondslag, privacyverklaring, verwerkersovereenkomsten met AI-leverancier); regelingsvoorwaarden live controleren bij officiële bron; menselijk eindcontrole.",
+      "wetsgebied": "AVG, aansprakelijkheid, consumentenrecht (herroeping, prijsvermelding), AI-transparantie"
+    },
+    {
+      "type_bedrijf": "Marktplaats/leadplatform die consumenten en installateurs koppelt (zonnepanelen, warmtepomp, isolatie)",
+      "oordeel": "ORANJE",
+      "reden": "Platformmodel is toegestaan, maar levert consumentenrecht- en reclamerisico's: transparantie over rangschikking en betaalde plaatsing, geen nep-reviews, verwerking van consumentengegevens en doorgifte aan derden, en ongevraagde commerciële berichten zijn niet toegestaan. Installateurs kunnen zelf certificeringseisen hebben (bijv. voor subsidie).",
+      "voorwaarden": "Alleen opt-in consumenten (geen koude e-mail); alleen verifieerbare reviews; vermelden hoe resultaten worden gerangschikt en of er commissie wordt betaald; installateurs controleren op relevante erkenning; AVG-grondslag en toestemming voor doorgifte van leads; heldere rol (bemiddelaar, geen contractpartij) in voorwaarden.",
+      "wetsgebied": "Consumentenrecht (Omnibus/platformtransparantie), Telecommunicatiewet, AVG, reclamerecht"
+    },
+    {
+      "type_bedrijf": "Groene-claimcheck/-tekstservice voor bedrijven (toetsing marketing aan ACM-leidraad)",
+      "oordeel": "ORANJE",
+      "reden": "Vraag is aannemelijk en de ACM-leidraad is publiek, maar een automatische 'goedkeuring' van claims wekt schijnzekerheid: een AI-oordeel beschermt de klant niet tegen een ACM-boete. Absolute termen als 'duurzaam' of 'klimaatneutraal' hebben een hoge bewijslast.",
+      "voorwaarden": "Positioneren als signalering/checklist, niet als juridische toets of 'goedgekeurd'; menselijke jurist voor eindoordeel; geen eigen claims van de studio zonder bewijs; versiebeheer van de leidraad.",
+      "wetsgebied": "Misleidende handelspraktijken (ACM-leidraad duurzaamheidsclaims), aansprakelijkheid, AI-transparantie"
+    },
+    {
+      "type_bedrijf": "Volledig geautomatiseerd 'verduurzamingsadvies' aan consumenten (woningplan met rendementsbeloftes en besparingscijfers)",
+      "oordeel": "ROOD",
+      "reden": "Zonder KvK, zonder verzekering en zonder menselijke controle is aansprakelijkheid voor foutief advies (besparing, terugverdientijd, bouwkundige geschiktheid) en misleidende rendementsclaims niet te dragen; consumenten hebben extra bescherming. Niveau C-handelingen (juridische verplichtingen, persoonsgegevens) zijn nog niet geregeld.",
+      "voorwaarden": "Pas heroverwegen na KvK-inschrijving, beroepsaansprakelijkheidsverzekering, gecertificeerde menselijke adviseur in de keten en afgebakend, onderbouwd en als 'indicatie' gelabeld advies.",
+      "wetsgebied": "Aansprakelijkheid, consumentenrecht, misleidende handelspraktijken, AI-transparantie"
+    }
+  ],
+  "beweringen": [
+    {
+      "tekst": "ACM Leidraad Duurzaamheidsclaims (versie 2, 2023): claims moeten juist, duidelijk, specifiek en volledig zijn, onderbouwd met actuele feiten, eerlijk vergelijkend en concreet bij toekomstambities.",
+      "label": "FEIT",
+      "bron": "https://www.acm.nl/system/files/documents/acm-leidraad-duurzaamheidsclaims-versie-2.pdf",
+      "datum": "2023-06-01"
+    },
+    {
+      "tekst": "Absolute termen als 'duurzaam', 'klimaatneutraal' of 'milieuvriendelijk' zijn in de leidraad alleen in zeer uitzonderlijke gevallen te onderbouwen; een wettelijke eis mag niet als duurzaamheidsvoordeel worden gepresenteerd.",
+      "label": "FEIT",
+      "bron": "https://www.acm.nl/en/publications/guidelines-regarding-sustainability-claims",
+      "datum": "2023-06-01"
+    },
+    {
+      "tekst": "Voor utiliteitsgebouwen moet de EP-adviseur aangesloten zijn bij een Certificerende Instelling en werken voor een organisatie met een BRL 9500-U-certificaat; labels worden bepaald met geattesteerde software (BRL 9501).",
+      "label": "FEIT",
+      "bron": "https://www.rvo.nl/onderwerpen/wetten-en-regels-gebouwen/energielabel-utiliteitsgebouwen",
+      "datum": null
+    },
+    {
+      "tekst": "Alleen in EP-Online geregistreerde energielabels zijn rechtsgeldig; EP-Online wordt beheerd door RVO.",
+      "label": "FEIT",
+      "bron": "https://www.rvo.nl/sites/default/files/2025-02/handleiding-ep-online-opvragen-van-bestanden.pdf",
+      "datum": "2025-02-01"
+    },
+    {
+      "tekst": "De uitgebreide labelverplichting voor woningen gaat volgens RVO per 29 mei 2026 in; de details heb ik niet gecontroleerd.",
+      "label": "AANNAME",
+      "bron": "https://www.rvo.nl/onderwerpen/wetten-en-regels-gebouwen/energielabel-woningen",
+      "datum": null
+    },
+    {
+      "tekst": "Een automatisch gegenereerd rapport of advies zonder menselijke controle brengt een hoger aansprakelijkheidsrisico mee dan een geverifieerd advies; zonder verzekering is dat risico voor een starter bijna niet af te dekken.",
+      "label": "AANNAME",
+      "bron": null,
+      "datum": null
+    },
+    {
+      "tekst": "AI-transparantieplichten (EU AI Act) en AVG-eisen voor chatbots en verwerking van consumentengegevens zijn van toepassing; exacte artikelen en ingangsdata zijn in deze ronde niet opgezocht en moeten door een jurist worden gecontroleerd.",
+      "label": "AANNAME",
+      "bron": null,
+      "datum": null
+    },
+    {
+      "tekst": "Zonder KvK-inschrijving kan geen zakelijke rekening, betaalaccount of rechtsgeldig contract met aansprakelijkheidsbeperking worden opgezet; elke dienst moet dus pas na oprichting commercieel starten.",
+      "label": "AANNAME",
+      "bron": null,
+      "datum": null
+    }
+  ],
+  "echte_professional_nodig_bij": [
+    "Oprichting en rechtsvorm (KvK, eenmanszaak/BV) en beroepsaansprakelijkheidsverzekering",
+    "Algemene voorwaarden en aansprakelijkheidsbeperking voor adviesachtige diensten",
+    "Elke nieuwe verwerking van persoonsgegevens (AVG: grondslag, verwerkersovereenkomsten, DPIA indien nodig)",
+    "Samenwerking met erkende EP-adviseurs of installateurs (certificeringseisen, doorverwijsvergoedingen)",
+    "Belastingen/btw op commissies en platformomzet (accountant of belastingadviseur)",
+    "Juridische toetsing van AI-transparantieplichten en groene-claimcontent voor publicatie"
+  ],
+  "spreekzin": "Informeren mag; gecertificeerde labels en beloofd advies zonder mens en KvK niet."
+}

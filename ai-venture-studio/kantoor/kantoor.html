@@ -1,0 +1,303 @@
+<title>Venture Studio Kantoor</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: pixelkantoor bovenaan als podium, daaronder het "notulenblok" met de echte tekst en de bediening. */
+:root {
+  --bg: #e6eee4; --panel: #f7faf5; --ink: #1e2b22; --muted: #5b6b5f; --line: #c5d3c4;
+  --accent: #2f7d4f; --accent-ink: #ffffff;
+  --feit: #2f6fae; --aanname: #a8741a; --schatting: #7a4fa3;
+  --display: "Pixelify Sans", "Courier New", monospace;
+  --body: "Atkinson Hyperlegible", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #161c24; --panel: #1f2731; --ink: #e8edf2; --muted: #9aa7b4; --line: #344150;
+  --accent: #e0a64a; --accent-ink: #1b1408; --feit: #7fb3e6; --aanname: #e5b45c; --schatting: #c29be6; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #161c24; --panel: #1f2731; --ink: #e8edf2; --muted: #9aa7b4; --line: #344150;
+  --accent: #e0a64a; --accent-ink: #1b1408; --feit: #7fb3e6; --aanname: #e5b45c; --schatting: #c29be6; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.5; }
+.wrap { max-width: 1040px; margin: 0 auto; padding-block: 20px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 16px; }
+header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px; }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(1.6rem, 4vw, 2.3rem); margin: 0; letter-spacing: .02em; text-wrap: balance; }
+.sub { color: var(--muted); margin: 2px 0 0; font-size: .95rem; }
+.badge-demo { font-family: var(--display); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase;
+  border: 2px solid var(--accent); color: var(--accent); padding: 2px 8px; }
+.stage { position: relative; border: 3px solid var(--ink); background: #000; line-height: 0; }
+canvas { width: 100%; height: auto; image-rendering: pixelated; display: block; }
+.bubble { position: absolute; transform: translate(-50%, -100%); max-width: min(46%, 300px); line-height: 1.3;
+  background: #fffef6; color: #1b1b1b; border: 2px solid #1b1b1b; padding: 6px 9px; font-family: var(--body); font-size: clamp(.72rem, 1.6vw, .9rem);
+  box-shadow: 3px 3px 0 #1b1b1b; pointer-events: none; transition: left .15s linear, top .15s linear; }
+.bubble::after { content: ""; position: absolute; left: 50%; bottom: -9px; margin-left: -6px; border: 6px solid transparent; border-top-color: #1b1b1b; border-bottom: 0; }
+.bubble b { font-family: var(--display); font-weight: 500; display: block; font-size: .8em; letter-spacing: .04em; color: #555; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+button, select { font-family: var(--display); font-size: 1rem; background: var(--panel); color: var(--ink); border: 2px solid var(--ink);
+  padding: 6px 12px; cursor: pointer; box-shadow: 2px 2px 0 var(--ink); }
+button:active { transform: translate(2px, 2px); box-shadow: none; }
+button.primary { background: var(--accent); color: var(--accent-ink); }
+button:focus-visible, select:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.spacer { flex: 1; }
+label.small { font-size: .85rem; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+.timeline { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-family: var(--display); font-size: .8rem; border: 2px solid var(--line); padding: 2px 8px; color: var(--muted); background: transparent; box-shadow: none; }
+.chip[aria-current="step"] { border-color: var(--accent); color: var(--ink); background: var(--panel); }
+.chip.done { color: var(--ink); }
+.notes { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 16px; }
+@media (max-width: 760px) { .notes { grid-template-columns: minmax(0, 1fr); } }
+.card { background: var(--panel); border: 2px solid var(--line); padding: 16px; min-width: 0; }
+.card h2 { font-family: var(--display); font-weight: 700; font-size: 1.25rem; margin: 0 0 4px; }
+.meta { color: var(--muted); font-size: .9rem; margin: 0 0 10px; }
+.detail { display: grid; gap: 8px; }
+.detail p { margin: 0; max-width: 68ch; }
+.detail ul { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
+.lbl { font-family: var(--display); font-size: .72rem; letter-spacing: .06em; padding: 0 5px; border: 1.5px solid currentColor; margin-right: 4px; white-space: nowrap; }
+.lbl.FEIT { color: var(--feit); } .lbl.AANNAME { color: var(--aanname); } .lbl.SCHATTING { color: var(--schatting); }
+.detail a { color: var(--feit); word-break: break-all; }
+.who { display: grid; gap: 6px; }
+.who div { display: flex; gap: 8px; align-items: center; font-size: .92rem; }
+.dot { width: 12px; height: 12px; border: 2px solid var(--ink); flex: none; }
+.foot { color: var(--muted); font-size: .85rem; max-width: 75ch; }
+@media (prefers-reduced-motion: reduce) { .bubble { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Venture Studio Kantoor</h1>
+      <p class="sub" id="vraag"></p>
+    </div>
+    <span class="badge-demo">Proefvergadering 1</span>
+  </header>
+
+  <div class="stage" id="stage">
+    <canvas id="c" width="640" height="360" aria-label="Pixelkantoor waarin de AI-collega's de vergadering naspelen"></canvas>
+    <div class="bubble" id="bubble" hidden></div>
+  </div>
+
+  <div class="controls">
+    <button id="prev" type="button">◀ Vorige</button>
+    <button id="play" type="button" class="primary">▶ Afspelen</button>
+    <button id="next" type="button">Volgende ▶</button>
+    <span class="spacer"></span>
+    <label class="small" for="speed">Tempo
+      <select id="speed"><option value="1.6">rustig</option><option value="1" selected>normaal</option><option value="0.55">snel</option></select></label>
+    <label class="small" for="thema">Thema
+      <select id="thema"><option value="groen">Groen kantoor</option><option value="avond">Avondkantoor</option><option value="ruimte">Ruimtestation</option></select></label>
+  </div>
+
+  <nav class="timeline" id="timeline" aria-label="Stappen van de vergadering"></nav>
+
+  <section class="notes">
+    <article class="card" aria-live="polite">
+      <h2 id="stapTitel"></h2>
+      <p class="meta" id="stapMeta"></p>
+      <div class="detail" id="stapDetail"></div>
+    </article>
+    <aside class="card">
+      <h2>Aan tafel</h2>
+      <div class="who" id="who"></div>
+      <p class="meta" style="margin-top:12px">Klik op een poppetje in het kantoor om naar diens laatste bijdrage te springen.</p>
+    </aside>
+  </section>
+
+  <p class="foot" id="foot"></p>
+</div>
+
+<script>
+const DATA = /*DATA_START*/{"vraag":"","voet":"","stappen":[]}/*DATA_END*/;
+
+// ---------- Kantoorindeling (logische pixels 320x180) ----------
+const W = 320, H = 180, S = 2;
+const AGENTS = {
+  Voorzitter: { shirt: "#3b4a6b", hair: "#2a1d14", skin: "#e8b98f", home: "glas", desk: [236, 26] },
+  Oprichter:  { shirt: "#d0582c", hair: "#c9a23a", skin: "#f0c8a0", home: "bureau", desk: [30, 46] },
+  Criticus:   { shirt: "#8e2b35", hair: "#151515", skin: "#c98f68", home: "bureau", desk: [80, 46] },
+  CFO:        { shirt: "#2c6e8e", hair: "#6b6b6b", skin: "#f2cfaa", home: "bureau", desk: [130, 46] },
+  Jurist:     { shirt: "#4a4a4a", hair: "#4a2e1d", skin: "#a8724e", home: "bureau", desk: [30, 116] },
+  Klantstem:  { shirt: "#5b8f3a", hair: "#b0542a", skin: "#f3d0b0", home: "bureau", desk: [80, 116] },
+  Groei:      { shirt: "#c48a1d", hair: "#3a2a1a", skin: "#d9a57c", home: "bureau", desk: [130, 116], absent: true },
+  Auditor:    { shirt: "#5e4a85", hair: "#d9d9d9", skin: "#e9c19b", home: "auditor", desk: [282, 154] },
+};
+const SEATS = { Voorzitter: [204, 99], Oprichter: [224, 80], Criticus: [246, 80], CFO: [268, 80], Jurist: [224, 120], Klantstem: [246, 120], Groei: [268, 120] };
+const BIEB = [206, 158];
+const THEMES = {
+  groen:  { page: "light", floor: "#d8c9a6", floor2: "#cfbf99", wall: "#3d5a45", room: "#c4d8c4", glass: "#a9d1d8", desk: "#8b5a2b", deskTop: "#a8703a", screen: "#1d3b2a", plant: "#3f8a4a", rug: "#b9cfa8", lamp: "#ffe9a8" },
+  avond:  { page: "dark",  floor: "#3a3148", floor2: "#342b41", wall: "#1b1726", room: "#2f3a4f", glass: "#4b6a80", desk: "#5a3d2a", deskTop: "#6e4c34", screen: "#0d1a14", plant: "#2f6b3b", rug: "#45395c", lamp: "#ffd27a" },
+  ruimte: { page: "dark",  floor: "#2a3340", floor2: "#25303b", wall: "#0b1018", room: "#1e2a38", glass: "#2c5a7a", desk: "#7a8796", deskTop: "#9aa6b4", screen: "#0a2a3a", plant: "#3fae8a", rug: "#203448", lamp: "#7fe0ff" },
+};
+let theme = THEMES.groen;
+
+const cvs = document.getElementById("c"), ctx = cvs.getContext("2d");
+ctx.imageSmoothingEnabled = false;
+const R = (x, y, w, h, c) => { ctx.fillStyle = c; ctx.fillRect(x * S, y * S, w * S, h * S); };
+
+function drawOffice(t) {
+  R(0, 0, W, H, theme.wall);
+  // open kantoor
+  for (let y = 6; y < 174; y += 8) for (let x = 6; x < 170; x += 8) R(x, y, 8, 8, ((x + y) / 8) % 2 ? theme.floor : theme.floor2);
+  // rechterkamers
+  R(176, 6, 138, 52, theme.glass); R(178, 8, 134, 48, theme.room);          // glazen kamer voorzitter
+  R(176, 64, 138, 70, theme.room);                                           // vergaderzaal
+  R(196, 74, 98, 54, theme.rug);
+  R(176, 140, 66, 34, theme.room);                                           // bibliotheek
+  R(246, 140, 68, 34, theme.room);                                           // auditorkamer
+  // gang
+  R(170, 6, 6, 168, theme.floor2);
+  // deuren
+  R(176, 24, 2, 12, theme.floor2); R(176, 92, 2, 14, theme.floor2); R(176, 150, 2, 12, theme.floor2); R(246, 150, 2, 12, theme.room);
+  R(242, 140, 4, 34, theme.wall);
+  // vergadertafel
+  R(212, 88, 66, 22, theme.desk); R(213, 89, 64, 20, theme.deskTop);
+  // boekenkasten
+  for (let i = 0; i < 3; i++) { R(182 + i * 18, 142, 14, 8, theme.desk); R(183 + i * 18, 143, 3, 6, "#c0392b"); R(187 + i * 18, 143, 3, 6, "#2e86c1"); R(191 + i * 18, 143, 3, 6, "#d4ac0d"); }
+  // bureaus
+  for (const [name, a] of Object.entries(AGENTS)) {
+    const [x, y] = a.desk;
+    R(x - 12, y - 8, 24, 10, theme.desk); R(x - 11, y - 7, 22, 8, theme.deskTop);
+    R(x - 5, y - 14, 10, 7, "#222"); R(x - 4, y - 13, 8, 5, a.absent ? "#333" : theme.screen);
+    if (!a.absent && (Math.floor(t / 300) + x) % 3 === 0) R(x - 3, y - 12, 4, 1, "#7fd18b");
+  }
+  // planten en lamp
+  [[10, 10], [160, 10], [10, 166], [300, 66]].forEach(([x, y]) => { R(x, y + 4, 6, 4, "#7a4a2a"); R(x - 1, y, 8, 5, theme.plant); });
+  R(300, 10, 6, 6, theme.lamp);
+  // budgetscherm aan de wand
+  const b = DATA.budget || { besteed: 0, limiet: 50 };
+  R(56, 2, 60, 10, "#111"); R(57, 3, 58, 8, theme.screen);
+  const frac = Math.min(1, b.besteed / b.limiet); R(59, 8, Math.max(1, Math.round(54 * frac)), 2, "#7fd18b");
+  // prikbord in vergaderzaal
+  R(286, 68, 24, 14, "#b08850"); R(288, 70, 6, 5, "#fff6a8"); R(296, 71, 6, 5, "#a8e6ff"); R(303, 70, 5, 5, "#ffb3c1");
+  // postvak eigenaar (licht op bij escalatie)
+  const lit = cur && DATA.stappen[cur]?.eigenaar;
+  R(160, 166, 8, 8, lit && Math.floor(t / 400) % 2 ? "#ffcf33" : "#777");
+}
+
+function drawPerson(name, p, t) {
+  const a = AGENTS[name];
+  const x = Math.round(p.x), y = Math.round(p.y);
+  const step = p.moving ? Math.floor(t / 140) % 2 : 0;
+  R(x - 3, y + 6, 7, 2, "rgba(0,0,0,0.25)");
+  R(x - 2, y + 2, 2, 4 - step, "#2b2b35"); R(x + 1, y + 2, 2, 3 + step, "#2b2b35");   // benen
+  R(x - 3, y - 4, 7, 7, a.shirt);                                                      // romp
+  R(x - 2, y - 9, 5, 5, a.skin);                                                       // hoofd
+  R(x - 2, y - 10, 5, 2, a.hair);
+  if (p.speaking && Math.floor(t / 250) % 2) R(x + 4, y - 9, 1, 1, "#fff");
+  if (p.highlight) { ctx.strokeStyle = "#ffd84a"; ctx.lineWidth = 2; ctx.strokeRect((x - 5) * S, (y - 12) * S, 11 * S, 21 * S); }
+}
+
+// ---------- Posities en routes ----------
+const pos = {};
+function spot(name, where) {
+  const a = AGENTS[name];
+  if (where === "zaal") return SEATS[name] || [244, 99];
+  if (where === "bieb") return BIEB;
+  if (where === "glas") return [236, 40];
+  if (where === "auditor") return [282, 162];
+  return [a.desk[0], a.desk[1] + 10];
+}
+const zoneOf = (x) => x < 172 ? "L" : "R";
+function route(from, to) {
+  if (zoneOf(from[0]) === zoneOf(to[0]) && Math.abs(from[1] - to[1]) < 30 && zoneOf(from[0]) === "L") return [to];
+  const pts = [];
+  pts.push([173, from[1]]); pts.push([173, to[1]]);
+  return pts.concat([to]);
+}
+for (const n of Object.keys(AGENTS)) { const [x, y] = spot(n, AGENTS[n].home); pos[n] = { x, y, path: [], moving: false }; }
+
+function applyStep(i) {
+  const st = DATA.stappen[i]; if (!st) return;
+  for (const n of Object.keys(AGENTS)) {
+    if (AGENTS[n].absent) continue;
+    const where = (st.locaties && st.locaties[n]) || AGENTS[n].home;
+    const target = spot(n, where), p = pos[n];
+    if (Math.hypot(p.x - target[0], p.y - target[1]) > 1) p.path = route([p.x, p.y], target);
+    p.speaking = st.spreker === n; p.highlight = false;
+  }
+}
+
+// ---------- Weergave notulen ----------
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+function renderDetail(st) {
+  const parts = [];
+  if (st.samenvatting) parts.push(`<p>${esc(st.samenvatting)}</p>`);
+  for (const blok of st.blokken || []) {
+    parts.push(`<p><strong>${esc(blok.kop)}</strong></p><ul>${blok.items.map((it) => {
+      if (typeof it === "string") return `<li>${esc(it)}</li>`;
+      const src = it.bron ? ` <a href="${esc(it.bron)}" target="_blank" rel="noopener">bron</a>` : "";
+      return `<li><span class="lbl ${esc(it.label)}">${esc(it.label)}</span>${esc(it.tekst)}${src}</li>`;
+    }).join("")}</ul>`);
+  }
+  return parts.join("");
+}
+let cur = 0, playing = false, timer = null;
+function show(i) {
+  cur = Math.max(0, Math.min(DATA.stappen.length - 1, i));
+  const st = DATA.stappen[cur];
+  applyStep(cur);
+  $("stapTitel").textContent = st.titel;
+  $("stapMeta").textContent = `Stap ${cur + 1} van ${DATA.stappen.length} · ${st.fase}` + (st.spreker ? ` · ${st.spreker}` : "");
+  $("stapDetail").innerHTML = renderDetail(st);
+  document.querySelectorAll(".chip").forEach((c, k) => { c.toggleAttribute("aria-current", k === cur); if (k === cur) c.setAttribute("aria-current", "step"); c.classList.toggle("done", k < cur); });
+}
+function buildTimeline() {
+  $("timeline").innerHTML = DATA.stappen.map((s, k) => `<button type="button" class="chip" data-k="${k}">${esc(s.kort || s.fase)}</button>`).join("");
+  $("timeline").addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (b) { stop(); show(+b.dataset.k); } });
+  $("who").innerHTML = Object.entries(AGENTS).map(([n, a]) => `<div><span class="dot" style="background:${a.shirt}"></span>${n}${a.absent ? " <span class='meta' style='margin:0'>(niet uitgenodigd)</span>" : ""}</div>`).join("");
+}
+function stop() { playing = false; clearTimeout(timer); $("play").textContent = "▶ Afspelen"; }
+function tick() {
+  if (!playing) return;
+  if (cur >= DATA.stappen.length - 1) { stop(); return; }
+  show(cur + 1);
+  const len = (DATA.stappen[cur].bubbel || "").length;
+  timer = setTimeout(tick, (3200 + len * 45) * +$("speed").value);
+}
+$("play").onclick = () => { if (playing) return stop(); playing = true; $("play").textContent = "❚❚ Pauze"; if (cur >= DATA.stappen.length - 1) show(0); timer = setTimeout(tick, 2500 * +$("speed").value); };
+$("next").onclick = () => { stop(); show(cur + 1); };
+$("prev").onclick = () => { stop(); show(cur - 1); };
+cvs.addEventListener("click", (e) => {
+  const r = cvs.getBoundingClientRect(), x = (e.clientX - r.left) / r.width * W, y = (e.clientY - r.top) / r.height * H;
+  for (const [n, p] of Object.entries(pos)) if (Math.abs(p.x - x) < 7 && Math.abs(p.y - y) < 11) {
+    for (let k = cur; k >= 0; k--) if (DATA.stappen[k].spreker === n) { stop(); show(k); return; }
+    for (let k = cur; k < DATA.stappen.length; k++) if (DATA.stappen[k].spreker === n) { stop(); show(k); return; }
+  }
+});
+function setTheme(name) {
+  theme = THEMES[name]; document.documentElement.setAttribute("data-theme", theme.page);
+  try { localStorage.setItem("kantoorThema", name); } catch (e) {}
+}
+$("thema").onchange = (e) => setTheme(e.target.value);
+let saved = null; try { saved = localStorage.getItem("kantoorThema"); } catch (e) {}
+const startTheme = saved && THEMES[saved] ? saved : (matchMedia("(prefers-color-scheme: dark)").matches ? "avond" : "groen");
+$("thema").value = startTheme; setTheme(startTheme);
+
+// ---------- Animatielus ----------
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+let last = performance.now();
+function frame(t) {
+  const dt = Math.min(50, t - last); last = t;
+  for (const p of Object.values(pos)) {
+    if (p.path && p.path.length) {
+      const [tx, ty] = p.path[0], dx = tx - p.x, dy = ty - p.y, d = Math.hypot(dx, dy), v = reduce ? 999 : 0.05 * dt;
+      if (d <= v) { p.x = tx; p.y = ty; p.path.shift(); } else { p.x += dx / d * v; p.y += dy / d * v; }
+      p.moving = p.path.length > 0;
+    } else p.moving = false;
+  }
+  drawOffice(t);
+  const order = Object.keys(pos).filter((n) => !AGENTS[n].absent).sort((a, b) => pos[a].y - pos[b].y);
+  order.forEach((n) => drawPerson(n, pos[n], t));
+  const st = DATA.stappen[cur], bub = $("bubble");
+  if (st && st.spreker && st.bubbel && pos[st.spreker]) {
+    const p = pos[st.spreker];
+    bub.hidden = false; bub.innerHTML = `<b>${esc(st.spreker)}</b>${esc(st.bubbel)}`;
+    bub.style.left = Math.min(82, Math.max(18, p.x / W * 100)) + "%"; bub.style.top = ((p.y - 13) / H * 100) + "%";
+  } else bub.hidden = true;
+  requestAnimationFrame(frame);
+}
+$("vraag").textContent = DATA.vraag;
+$("foot").textContent = DATA.voet;
+buildTimeline(); show(0); requestAnimationFrame(frame);
+</script>

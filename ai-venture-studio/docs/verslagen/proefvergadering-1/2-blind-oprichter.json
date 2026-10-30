@@ -1,0 +1,127 @@
+{
+  "agent": "Oprichter",
+  "stap": "blinde analyse",
+  "samenvatting": "Kies richtingen waar regelgeving of klantverplichting al betaling afdwingt en waar een AI-agent het rapport of dossier zelf maakt: VSME-rapportage voor MKB-leveranciers, energiebesparing-informatieplicht voor bedrijfslocaties en een subsidiemonitor. Onconventioneel: batterijpaspoort-dossiers voor importeurs, mits de ingangsdatum standhoudt.",
+  "voorstellen": [
+    {
+      "richting": "VSME-duurzaamheidsrapport als dienst voor MKB-toeleveranciers van grote bedrijven",
+      "doelgroep": "Nederlandse en Belgische MKB-bedrijven (10-250 medewerkers) die van grote klanten of banken een duurzaamheidsvragenlijst krijgen",
+      "probleem": "Grote klanten vragen steeds vaker ESG-data uit; het MKB weet niet wat ze moeten aanleveren en betaalt nu een adviseur of doet het niet. De VSME-standaard begrenst wat klanten mogen vragen, dus er is één duidelijk format.",
+      "aanbod_en_prijs": "Gestructureerde intake (vragenlijst + upload van facturen/energiegegevens), AI maakt een VSME-basisrapport en beantwoordt klantvragenlijsten. SCHATTING: EUR 490 eenmalig per jaarrapport, EUR 29 per maand voor jaarlijkse updates en nieuwe klantvragenlijsten.",
+      "waarom_automatiseerbaar": "Vaste standaard met vaste velden; invullen, berekenen (CO2 uit kWh/m3/km) en opmaken kan een agent. Menselijke review alleen op afwijkingen. Terugkerende jaarcyclus.",
+      "eerste_test_binnen_60_dagen": "Eén landingspagina met voorbeeldrapport en betaalde pre-order (EUR 490, terugbetaalbaar). Na goedkeuring eigenaar 30 handmatig gekozen B2B-bedrijven benaderen (geen consumenten-mail). Succes: 3 betaalde pre-orders of 10 gesprekken met 3 ondertekende intenties."
+    },
+    {
+      "richting": "Informatieplicht energiebesparing: rapport en erkende-maatregelenlijst voor bedrijfslocaties",
+      "doelgroep": "MKB-bedrijven, kantoren en horeca/retail met locaties boven 50.000 kWh of 25.000 m3 gas per jaar, plus hun installateurs en adviseurs",
+      "probleem": "Bedrijven moeten maatregelen met terugverdientijd van 5 jaar of korter uitvoeren en elke vier jaar rapporteren. Veel bedrijven weten niet of ze eronder vallen of doen het niet; adviseurs besteden daar uren aan.",
+      "aanbod_en_prijs": "Checker + automatisch rapport: upload energierekening, krijgt plichtcheck, lijst van toepasselijke erkende maatregelen met terugverdientijd en een ingevulde rapportage. SCHATTING: EUR 149 per locatie eenmalig; EUR 19 per maand voor monitoring en herinnering.",
+      "waarom_automatiseerbaar": "Regels en maatregelenlijst zijn publiek en gestructureerd; berekening is deterministisch. AI leest facturen en schrijft het rapport. Eigenaar kan de inhoud (verduurzaming) snel beoordelen en is hier 'oneerlijk voordeel'.",
+      "eerste_test_binnen_60_dagen": "Gratis plichtcheck (zonder persoonsgegevens) als lead-magneet; betaalde pre-order van het rapport. Succes: 5 betaalde rapporten of 2 installateurs die per rapport willen betalen."
+    },
+    {
+      "richting": "Regelingen- en subsidiemonitor voor verduurzaming bij MKB en installateurs",
+      "doelgroep": "Installateurs, verduurzamingsadviseurs en MKB-eigenaren van bedrijfspanden in Nederland en Vlaanderen",
+      "probleem": "Regelingen (SDE++, ISDE, fiscale regelingen, regionale subsidies) wijzigen vaak en openstellingen schuiven op; wie ze mist, verliest geld of klanten. Nu betalen ze adviseurs of zoeken handmatig.",
+      "aanbod_en_prijs": "Wekelijkse e-mailmonitor met per profiel de relevante regelingen, deadlines en een vooringevulde checklist. SCHATTING: EUR 29 per maand voor MKB, EUR 79 per maand voor installateurs/adviseurs (inclusief klantklare samenvattingen).",
+      "waarom_automatiseerbaar": "Bronnen zijn publiek (RVO, Kamerbrieven); agent monitort, vat samen en stuurt. Bijna nul handwerk. Wel risico: inhoudelijke fouten, dus bron en datum bij elke regel.",
+      "eerste_test_binnen_60_dagen": "Een gratis proefeditie plaatsen op een eigen pagina (na akkoord eigenaar) en een betaald abonnement testen bij 10 installateurs die de eigenaar kent of via LinkedIn handmatig benadert. Succes: 3 betalende abonnees."
+    },
+    {
+      "richting": "ONCONVENTIONEEL: batterijpaspoort-dossier als dienst voor importeurs van e-bikes, e-scooters en industriele accu's",
+      "doelgroep": "Kleine EU-importeurs en merkhouders van e-bikes, lichte elektrische voertuigen en industriele batterijen boven 2 kWh die als eerste op de EU-markt brengen",
+      "probleem": "Zij moeten een QR-code en gestructureerd digitaal dossier met tientallen datapunten aanleveren; de leveranciersdata zijn rommelig en de startdatum nadert (begin 2027, mogelijk later).",
+      "aanbod_en_prijs": "Intake-agent die leveranciersdocumenten leest, de datapunten structureert en een dossier plus QR-pagina oplevert. SCHATTING: EUR 1.500 eenmalig per productfamilie plus EUR 99 per maand onderhoud.",
+      "waarom_automatiseerbaar": "Dataveldenlijst is vast (71 datapunten volgens Commissiegids); documentextractie en validatie zijn agent-werk. Maar technisch zwaarder en aansprakelijkheid hoger dan voorstellen 1 tot 3.",
+      "eerste_test_binnen_60_dagen": "Eerst de startdatum verifieren op EUR-Lex. Dan 15 importeurs interviewen en een betaalde intake (EUR 250, verrekenbaar) aanbieden. Succes: 2 betaalde intakes."
+    }
+  ],
+  "beweringen": [
+    {
+      "tekst": "Omnibus-richtlijn 2026/470 is in maart 2026 gepubliceerd; rapportageplicht voor andere grote ondernemingen schuift van boekjaar 2025 naar 2027, beursgenoteerd mkb naar 2028.",
+      "label": "FEIT",
+      "bron": "https://www.accountancyvanmorgen.nl/2026/03/03/omnibus-richtlijn-met-soepeler-csrd-gepubliceerd/",
+      "datum": "2026-03-03"
+    },
+    {
+      "tekst": "CSRD-plichtige bedrijven mogen van leveranciers alleen informatie uit de VSME-standaard opvragen; voor MKB buiten de CSRD is VSME vrijwillig en wordt herzien door de Europese Commissie. Dit komt uit samenvattingen van zoekresultaten, de primaire tekst heb ik niet gelezen.",
+      "label": "FEIT",
+      "bron": "https://www.rvo.nl/onderwerpen/csrd",
+      "datum": "2026-10-30"
+    },
+    {
+      "tekst": "De Nederlandse implementatiewet voor de CSRD loopt vertraging op en de definitieve Nederlandse keuze (lidstaatoptie vrijstelling boekjaren 2025 en 2026) was in de gevonden bronnen nog niet vastgesteld.",
+      "label": "FEIT",
+      "bron": "https://www.rvo.nl/onderwerpen/csrd",
+      "datum": "2026-10-30"
+    },
+    {
+      "tekst": "Door het uitstel kan de vraag naar VSME-rapporten bij MKB kleiner of later zijn dan gedacht; klanten vragen mogelijk toch data uit vanwege banken en aanbestedingen.",
+      "label": "AANNAME",
+      "bron": null,
+      "datum": null
+    },
+    {
+      "tekst": "De energiebesparingsplicht geldt voor bedrijfslocaties met meer dan 50.000 kWh elektriciteit of 25.000 m3 gas per jaar; rapportage elke vier jaar; erkende maatregelen met terugverdientijd van 5 jaar of korter.",
+      "label": "FEIT",
+      "bron": "https://www.rvo.nl/onderwerpen/energiebesparingsplicht",
+      "datum": "2026-09-04"
+    },
+    {
+      "tekst": "Het is onduidelijk of in 2026 een nieuwe rapportagecyclus loopt; de laatste in de bronnen genoemde deadline was 1 december 2023. Dit moet geverifieerd worden voordat voorstel 2 doorgaat.",
+      "label": "AANNAME",
+      "bron": "https://www.rvo.nl/onderwerpen/wetten-regels/activiteitenbesluit",
+      "datum": "2026-10-30"
+    },
+    {
+      "tekst": "SDE++ 2026 opent later dan gepland, rond eind oktober tot eind november 2026, in fasen met plafonds van EUR 75, 150 en 225 per ton CO2.",
+      "label": "FEIT",
+      "bron": "https://www.pnoinnovation.com/nl/subsidies/sde/",
+      "datum": "2026-10-30"
+    },
+    {
+      "tekst": "De SDE++ ronde 2025 kreeg ongeveer EUR 22 miljard aan aanvragen tegen EUR 8 miljard budget; wijst op sterke vraag naar regelingen en hoge concurrentie.",
+      "label": "FEIT",
+      "bron": "https://berthub.eu/tkconv/getraw/2025D51691",
+      "datum": "2026-10-30"
+    },
+    {
+      "tekst": "Batterijpaspoort start volgens meerdere bronnen 18 februari 2027 voor EV-, LMT- en industriele batterijen boven 2 kWh; een bron noemt uitstel naar 18 augustus 2027; niet geverifieerd met primaire bron (EUR-Lex).",
+      "label": "AANNAME",
+      "bron": "https://codibly.com/blog/articles/eu-battery-regulation-passport-bess-operators",
+      "datum": "2026-10-30"
+    },
+    {
+      "tekst": "De Commissiegids voor het batterijpaspoort bevat 71 datapunten, waarvan tien niet verplicht zijn vanaf februari 2027 (volgens secundaire bronnen).",
+      "label": "FEIT",
+      "bron": "https://battery-tech.net/battery-markets-news/european-commission-issues-digital-batteries-passport-guide/",
+      "datum": "2026-10-30"
+    },
+    {
+      "tekst": "Prijzen (EUR 29 tot 1.500) zijn mijn schatting op basis van wat adviseurs vragen voor vergelijkbaar werk; er is geen marktonderzoek gedaan.",
+      "label": "SCHATTING",
+      "bron": null,
+      "datum": null
+    },
+    {
+      "tekst": "MKB-bedrijven betalen nu al voor energie-, ESG- en subsidieadvies bij adviesbureaus; omvang en prijsniveau niet onderzocht.",
+      "label": "AANNAME",
+      "bron": null,
+      "datum": null
+    },
+    {
+      "tekst": "Drie van vier voorstellen kunnen met gratis tooling en een pre-order-test binnen het testbudget; precieze testkosten zijn nog niet begroot.",
+      "label": "SCHATTING",
+      "bron": null,
+      "datum": null
+    }
+  ],
+  "eigen_zwakke_punten": [
+    "Mijn prijzen en betalingsbereidheid zijn aannames; geen enkele klant of koper is gesproken of gemeten.",
+    "Regelgeving is in beweging (CSRD-uitstel, onduidelijke energiebesparingscyclus, batterijpaspoort-datum); de vraag kan later of kleiner komen.",
+    "Alle voorstellen vragen contact met bedrijven en verwerken bedrijfsdata (energiefacturen). De eigenaar moet dat goedkeuren, heeft nog geen KvK, geen betaalaccount en weinig tijd.",
+    "Inhoudelijke fouten in rapporten of subsidieadvies kunnen aansprakelijkheid geven; menselijke review en disclaimers zijn nodig.",
+    "Concurrentie van bestaande ESG-software en adviesbureaus is niet onderzocht; mijn zoekopdrachten gaven vooral secundaire bronnen."
+  ],
+  "spreekzin": "Verkoop MKB-bedrijven het rapport dat ze wettelijk of van klanten toch moeten leveren."
+}

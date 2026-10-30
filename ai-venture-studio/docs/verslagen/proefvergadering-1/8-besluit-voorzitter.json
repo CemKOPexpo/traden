@@ -1,0 +1,96 @@
+{
+ "agent": "Voorzitter",
+ "stap": "besluit",
+ "samenvatting": "Proefbesluit: fase 2 onderzoekt in deze volgorde (1) het VSME-/klantvragenlijst-rapport voor mkb-toeleveranciers, (2) het partnerkanaal via accountants en adviseurs en (3) de energieplicht-check voor achterblijvers, deze laatste alleen als goedkoop bureauonderzoek. Subsidiemonitor, batterijpaspoort, B2C-subsidiecheck en het VvE-stappenplan vallen af. Er komt eerst een gespreksronde zonder advertenties en zonder koude e-mail, met harde stopdrempels.",
+ "spreekzin": "Eerst echte klanten spreken; VSME en partners samen, energieplicht op papier.",
+ "blokken": [
+  {
+   "kop": "Feitencheck",
+   "items": [
+    {
+     "tekst": "Ongevraagde commerciële e-mail valt in Nederland onder de opt-in van art. 11.7 lid 1 Telecommunicatiewet. Sinds de wetswijziging van 2008/2009 (Stb. 2008, 525) geldt die ook voor rechtspersonen. Koude e-mail aan bedrijven is dus niet vrij toegestaan, en de Criticus had gelijk. Opgezocht op 2026-10-30.",
+     "label": "FEIT",
+     "bron": "https://zoek.officielebekendmakingen.nl/stb-2008-525.pdf"
+    },
+    {
+     "tekst": "Lid 3 kent een voorwaardelijke uitzondering voor zakelijke adressen, maar een algemeen info@-adres is geen toestemming. De precieze reikwijdte heb ik niet in de primaire wettekst gelezen. De Jurist toetst dit vóór elk contact, en tot dan geldt: geen koude e-mail.",
+     "label": "AANNAME",
+     "bron": "https://overloop.com/nl/blog/koude-acquisitie-wetgeving"
+    },
+    {
+     "tekst": "Omnibus I (Richtlijn (EU) 2026/470) is op 18 maart 2026 in werking getreden. De CSRD geldt alleen nog voor ondernemingen met meer dan 1.000 werknemers én meer dan EUR 450 mln omzet. Leveranciers met hooguit 1.000 werknemers mogen informatie buiten de VSME-standaard weigeren. Dit bevestigt de betwiste bewering van de Criticus (secundaire bronnen: advocatenkantoren, opgezocht op 2026-10-30).",
+     "label": "FEIT",
+     "bron": "https://www.stibbe.com/nl/publications-and-insights/omnibus-i-duidelijkheid-over-de-toekomst-van-de-csrd-en-csddd"
+    },
+    {
+     "tekst": "Het weigerrecht geldt alleen voor verzoeken voor duurzaamheidsrapportage. Vragen van banken en aanbesteders vallen erbuiten, en of de uitzondering voor 'in de sector gebruikelijke informatie' in de definitieve tekst staat, is niet bevestigd. Of er nog vraag naar VSME is, moet dus uit gesprekken blijken, niet uit de wet.",
+     "label": "AANNAME",
+     "bron": "https://www.williamfry.com/wp-content/uploads/2026/03/Omnibus-1-Directive-comes-into-force-in-March-2026-key-amendments-to-CSRD-and-CS3D.pdf"
+    },
+    {
+     "tekst": "De webinhoud is als data behandeld. Ik kwam geen instructies tegen. Eén zoeksamenvatting bevatte een onjuiste uitspraak over de drempel van vóór Omnibus, en die heb ik genegeerd.",
+     "label": "FEIT",
+     "bron": null
+    }
+   ]
+  },
+  {
+   "kop": "Besluit",
+   "items": [
+    "1. VSME-/klantvragenlijst-rapport voor mkb-toeleveranciers (10-250 medewerkers, NL en Vlaanderen). We positioneren het als 'vragenlijst van klant, bank of aanbesteder invullen', niet als wettelijke plicht. In de gesprekken testen we twee prijspunten: EUR 149 en EUR 249.",
+    "2. Partnerkanaal: accountants en milieuadviseurs leveren het AI-rapport onder eigen naam (inkoop EUR 79-99 per rapport). Deze gespreksronde draait gelijktijdig met richting 1 en gebruikt hetzelfde voorbeeldrapport.",
+    "3. Energieplicht-check voor achterblijvers uit 2023 (locaties boven 50.000 kWh of 25.000 m3 gas). In fase 2 alleen bureauonderzoek en hooguit 5 gesprekken, zonder bouwen. Zonder bewijs van acute druk parkeren we deze richting tot voorjaar 2027.",
+    "Valt af: regelingen- en subsidiemonitor (al bediend door gratis nieuwsbrieven, ingetrokken), batterijpaspoort (blokkade gevolgd, kan later terugkomen), B2C-subsidiecheck voor woningeigenaren (blokkade gevolgd) en VvE-/label C-stappenplan (geen aanbod, en de besluitvorming duurt langer dan 60 dagen)."
+   ]
+  },
+  {
+   "kop": "Waarom",
+   "items": [
+    "Eerst dit: we hebben nog geen enkel contact met een echte klant en geen meetbare vraag (FEIT, uit alle analyses). Fase 2 moet dat eerst oplossen, en daarom is de eerste stap gesprekken in plaats van een betaalde landingspagina.",
+    "Criterium 'dichter bij omzet tegen aanvaardbaar risico': richting 1 heeft de hoogste prijs per verkoop en een directe koper. Richting 2 pakt de twee grootste koopbezwaren aan, namelijk 'onbekende partij zonder KvK' (Klantstem) en aansprakelijkheid (Jurist, Criticus). Beide gebruiken dezelfde intake en hetzelfde voorbeeldrapport, wat de kosten deelt (CFO).",
+    "VSME staat vóór het partnerkanaal omdat het partnerkanaal geen eigen vraag heeft. Het is een verkoopweg voor product 1 of 3. Zonder bewezen eindvraag verkoopt ook een accountant niets (AANNAME).",
+    "Energieplicht staat op 3 omdat de volgende RVO-deadline 1 december 2027 is (FEIT, Criticus, rvo.nl). De CFO verwacht daardoor binnen 60 dagen geen omzet (SCHATTING). Bureauonderzoek kost bijna niets en houdt de optie open.",
+    "Het bewijs is te dun voor een grote stap (A1-regel). Het besluit beperkt zich daarom tot goedkoop onderzoek van ca. EUR 30-150 over 60 dagen (SCHATTING, CFO), ruim binnen de grens van EUR 200 per maand."
+   ]
+  },
+  {
+   "kop": "Reactie op blokkades Criticus",
+   "items": [
+    "Blokkade B2C-subsidiecheck: gevolgd. Het verliesmodel van de CFO, het ROOD-profiel bij de Jurist en de lage betaalbereidheid volgens de Klantstem zijn niet weerlegd, en er is geen kanaal met een CAC onder EUR 10. Heropenen kan alleen onder de voorwaarde die de Criticus zelf noemt: een juridisch getoetste, puur informerende variant met een kanaal zonder betaalde acquisitie.",
+    "Blokkade batterijpaspoort: gevolgd. Het past niet bij de eigenaar (weinig tijd, geen technische kennis), de aansprakelijkheid is hoog en de verkoopcyclus past niet in 60 dagen. De Oprichter heeft het idee ingetrokken. Heropenen kan alleen als de ingangsdatum op EUR-Lex vaststaat en een compliance-partner meedoet.",
+    "Bezwaar 'VSME-vraag is weggevallen door Omnibus I' (geen blokkade): de feitencheck bevestigt dat de CSRD-scope is ingeperkt. Banken en aanbesteders vallen echter buiten het weigerrecht. Ik neem daarom de toets van de Criticus over als stopdrempel: kregen minder dan 3 van de 10 een vragenlijst, dan stoppen we met richting 1.",
+    "Bezwaar 'zonder KvK geen betaling': geaccepteerd. In fase 2 is getekende intentie of een proefrapport voor een echte klant het bewijs, geen omzet. KvK en een betaalaccount volgen pas na de eerste getekende intentie en met goedkeuring van de eigenaar. De 60-dagenklok van het eerste doel loopt pas vanaf de start van de marktest.",
+    "Bezwaar 'koude e-mail': geaccepteerd en door de feitencheck bevestigd. We benaderen mensen alleen via het netwerk van de eigenaar, persoonlijk LinkedIn-contact of bellen, en pas na toetsing door de Jurist."
+   ]
+  },
+  {
+   "kop": "Minderheidsstandpunt (niet overgenomen)",
+   "items": [
+    "CFO (gesteund door de grootste zorg van de Criticus): zet het partnerkanaal op 1, omdat het de laagste testkosten heeft, de aansprakelijkheid deels bij de partner legt, herhaalvolume per partner mogelijk maakt en minder leunt op afzwakkende VSME-regelgeving.",
+    "Niet overgenomen, omdat een partner alleen inkoopt als er eindvraag is. Die vraag toetsen we met richting 1. Beide gespreksrondes lopen tegelijk, dus de volgorde bepaalt vooral welke drempel beslist, niet welke als eerste start. Blijkt het partnerkanaal sterker (2 getekende partnerintenties terwijl richting 1 de drempel mist), dan wisselen 1 en 2 automatisch van plaats."
+   ]
+  },
+  {
+   "kop": "Opdracht fase 2 met klaar-criteria",
+   "items": [
+    "Looptijd max. 6 weken. Budget max. EUR 100 buiten API en abonnement, API max. EUR 20 per maand per idee en EUR 0 voor advertenties. Waarschuwing bij 80%, stop bij 100%.",
+    "A. Voorbereiding (agents, zonder klantcontact): één voorbeeldrapport (VSME-basis plus ingevulde klantvragenlijst) op basis van een fictief bedrijf, duidelijk als voorbeeld gelabeld. Daarnaast een gespreksleidraad en een concurrentieoverzicht (VLAIO-tool, VSME Ready, Regreener en accountantsdiensten) met prijzen, bronnen en brondata. Klaar als de Jurist het voorbeeldrapport en de disclaimer heeft getoetst en het overzicht minstens 5 aanbieders bevat.",
+    "B. Juridische toets door de Jurist vóór elk contact: de benaderingsroute (art. 11.7 Tw), een white-label/partnerconstructie en een minimale privacytekst voor de gesprekken. Klaar als er een schriftelijk ja/nee per route ligt.",
+    "C. Richting 1: 10 gesprekken met mkb-toeleveranciers via de toegestane route. Klaar als alle 10 gevoerd en vastgelegd zijn. Doorgaan bij minstens 6 van 10 met een vragenlijst in de afgelopen 12 maanden, minstens 3 die EUR 149 of meer redelijk vinden en minstens 2 getekende intenties. Stoppen bij minder dan 3 van 10 met een vragenlijst.",
+    "D. Richting 2: 8 gesprekken met kleine accountants of adviseurs. Klaar als alle 8 gevoerd zijn. Doorgaan bij minstens 2 getekende intenties of proefrapporten voor een echte klant, en minstens 1 partner die zonder aandringen een prijs noemt.",
+    "E. Richting 3, alleen bureauwerk plus hooguit 5 gesprekken: aantal achterblijvers uit 2023, signalen van handhaving door omgevingsdiensten en zoekvolume. Klaar als er een cijfer met bron ligt. Doorgaan alleen bij minstens 3 van 5 achterblijvers die betaling bevestigen, anders parkeren tot voorjaar 2027.",
+    "Elke bewering in het eindverslag heeft een label, en bij FEIT staan publicatiedatum en ophaaldatum apart (eis van de Criticus). Het eindproduct is een vergaderstuk voor de keuze van één richting voor de marktest."
+   ]
+  },
+  {
+   "kop": "Voor de eigenaar (niveau C)",
+   "items": [
+    "Behandel dit als proefbesluit uit een demonstratievergadering. U heeft het laatste woord, en niets wordt uitgevoerd zonder uw akkoord.",
+    "Akkoord op het testbudget: max. EUR 100 buiten API en abonnement, API max. EUR 20 per maand per idee, geen advertenties. Elke uitgave (domein, KvK, betaalaccount) blijft vooraf ter goedkeuring.",
+    "Akkoord op klantcontact: mogen we bedrijven uit uw netwerk benaderen via persoonlijk LinkedIn-contact of telefoon, na toetsing door de Jurist? Kunt u ca. 10 mkb-toeleveranciers en 8 accountants of adviseurs aanwijzen?",
+    "Uw tijd: de gesprekken kosten ca. 10-15 uur (SCHATTING, CFO), en dat botst met 'weinig tijd'. Kiest u: zelf voeren, een deel schrappen, of een ander gezicht zoeken (bijvoorbeeld een bevriende accountant)?",
+    "Vooraankondiging: bij de eerste getekende intentie moet u beslissen over KvK-inschrijving, een betaalaccount en een boekhouder of belastingadviseur (kosten en juridische gevolgen)."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,407 @@
+{
+ "agent": "CFO",
+ "stap": "toetsen",
+ "samenvatting": "K5 is het snelst en goedkoopst te testen maar heeft de laagste marge in omzet per klant en weinig terugkerende omzet. K1 en K2 combineren redelijke marge met terugkeer; K6 heeft de hoogste marge maar de onzekerste vraag. Alle cijfers zijn SCHATTINGEN, geen gerealiseerde cijfers.",
+ "spreekzin": "K5 test het snelst, K1 combineert het best; K6 is een gok.",
+ "per_kandidaat": [
+  {
+   "id": "K1",
+   "naam": "Verduurzamingsloket (offerte-check + subsidie)",
+   "scores": {
+    "betalingsbereidheid": {
+     "score": 6,
+     "onderbouwing": "Consumenten betalen €15-29 bij een grote aankoop (€5.000+) voor zekerheid; plausibel maar onbewezen (AANNAME).",
+     "betrouwbaarheid": "middel"
+    },
+    "snelheid_kosten_test": {
+     "score": 7,
+     "onderbouwing": "Offerte-check met 1 gemeente is binnen een week live; testkosten ~€0-50. SEO zelf is traag, dus start met betaalde piek.",
+     "betrouwbaarheid": "middel"
+    },
+    "brutomarge": {
+     "score": 8,
+     "onderbouwing": "Variabel ~€0,40-0,80 per check (betaalkosten + API); marge 90%+ op netto prijs.",
+     "betrouwbaarheid": "middel"
+    },
+    "acquisitie_bereikbaarheid": {
+     "score": 6,
+     "onderbouwing": "SEO per gemeente is gratis maar levert pas na maanden verkeer (AANNAME); geen koude acquisitie nodig.",
+     "betrouwbaarheid": "laag"
+    },
+    "terugkerende_omzet": {
+     "score": 5,
+     "onderbouwing": "Alert €3-5/mnd en tweede offerte; maar de meeste kopers hebben 1 offerte per paar jaar, dus laag aantal terugkeerders.",
+     "betrouwbaarheid": "laag"
+    },
+    "automatiseerbaarheid": {
+     "score": 7,
+     "onderbouwing": "Bronnen, pagina's, uitlezen en PDF zijn automatiseerbaar; prijsrichtlijnen en disclaimer vragen eenmalig mensenwerk.",
+     "betrouwbaarheid": "middel"
+    },
+    "concurrentievoordeel": {
+     "score": 7,
+     "onderbouwing": "Eigenaar heeft verduurzamingsexpertise: geloofwaardigheid en lagere CAC. Concurrenten bestaan (subsidiewijzers) maar zonder offerte-check.",
+     "betrouwbaarheid": "middel"
+    },
+    "juridisch_risico_omgekeerd": {
+     "score": 5,
+     "onderbouwing": "ORANJE verwacht: informatie versus advies afbakenen, groene claims en subsidiecorrectheid, AVG op offertes.",
+     "betrouwbaarheid": "middel"
+    },
+    "schaalbaarheid": {
+     "score": 7,
+     "onderbouwing": "Per land een datalaag; motor gelijk. Subsidiedata hergebruikt in K6.",
+     "betrouwbaarheid": "middel"
+    }
+   },
+   "unit_economics": {
+    "prijs": "€15-29 per offerte-check eenmalig (incl. btw, consument; netto €12,40-23,97); alert €3-5/mnd (SCHATTING)",
+    "variabele_kosten": "€0,40-0,80 per check: betaalkosten €0,35-0,50 + API €0,05-0,30 (SCHATTING)",
+    "cac": "€0-10 per betalende klant (organisch via SEO; evt. ~€50 totale testadvertenties); tijd eigenaar niet meegeteld (SCHATTING)",
+    "klanten_voor_1000_winst_pm": "43-87 checks per maand: optimistisch 1000/(23,97-0,40)=43; pessimistisch 1000/(12,40-0,80)=87 (eenmalige verkopen, geen abonnees). Vóór vaste studiokosten (max ~€72/mnd: abonnement ~€22 + API tot €50)."
+   }
+  },
+  {
+   "id": "K2",
+   "naam": "Webshop-Plichtenpakket (Shopify/Woo-app)",
+   "scores": {
+    "betalingsbereidheid": {
+     "score": 6,
+     "onderbouwing": "Kleine webshops betalen €9-19/mnd voor compliance-gemak; plausibel, maar gratis alternatieven bestaan (AANNAME).",
+     "betrouwbaarheid": "laag"
+    },
+    "snelheid_kosten_test": {
+     "score": 4,
+     "onderbouwing": "App bouwen, developer-account en app-review kosten weken; 60 dagen is krap.",
+     "betrouwbaarheid": "middel"
+    },
+    "brutomarge": {
+     "score": 8,
+     "onderbouwing": "Variabel €0,10-2,20 per klant per maand; platformcommissie 0-20% onzeker (AANNAME).",
+     "betrouwbaarheid": "middel"
+    },
+    "acquisitie_bereikbaarheid": {
+     "score": 6,
+     "onderbouwing": "App-store is koopklaar verkeer, maar een nieuwe listing zonder reviews rankt laag.",
+     "betrouwbaarheid": "laag"
+    },
+    "terugkerende_omzet": {
+     "score": 8,
+     "onderbouwing": "Maandabonnement; wetswijzigingen geven reden om te blijven.",
+     "betrouwbaarheid": "middel"
+    },
+    "automatiseerbaarheid": {
+     "score": 7,
+     "onderbouwing": "Teksten, support en documentatie automatisch; review-wachttijd en juridische controle zijn mensenwerk.",
+     "betrouwbaarheid": "middel"
+    },
+    "concurrentievoordeel": {
+     "score": 4,
+     "onderbouwing": "Veel bestaande generators (privacy/voorwaarden-tools); geen specifiek voordeel van de eigenaar.",
+     "betrouwbaarheid": "middel"
+    },
+    "juridisch_risico_omgekeerd": {
+     "score": 4,
+     "onderbouwing": "Juridische sjabloonteksten verkopen met aansprakelijkheid bij fouten; ORANJE, Jurist moet teksten keuren.",
+     "betrouwbaarheid": "middel"
+    },
+    "schaalbaarheid": {
+     "score": 7,
+     "onderbouwing": "EU-wetgeving geldt breed; app-stores wereldwijd.",
+     "betrouwbaarheid": "middel"
+    }
+   },
+   "unit_economics": {
+    "prijs": "€9-19 per maand per winkel (SCHATTING; btw buiten beschouwing, afhandeling via app-store)",
+    "variabele_kosten": "€0,10-2,20 per klant per maand: API/support €0,10-0,40 + platformcommissie €0-1,80 (0-20% van €9) (SCHATTING)",
+    "cac": "€0-15 per betalende klant (app-store organisch; gratis basislaag levert veel niet-betalers) (SCHATTING)",
+    "klanten_voor_1000_winst_pm": "53-148 actieve abonnees: optimistisch 1000/(19-0,10)=53; pessimistisch 1000/(9-2,20)=148. Vóór vaste studiokosten (max ~€72/mnd: abonnement ~€22 + API tot €50)."
+   }
+  },
+  {
+   "id": "K3",
+   "naam": "Webwinkel-mailassistent",
+   "scores": {
+    "betalingsbereidheid": {
+     "score": 7,
+     "onderbouwing": "Hoogste prijs per klant (€29-59/mnd) en tastbare tijdswinst; vraag naar AI-klantenservice is groot (AANNAME).",
+     "betrouwbaarheid": "middel"
+    },
+    "snelheid_kosten_test": {
+     "score": 4,
+     "onderbouwing": "Koppelingen met meerdere platformen en app-review vragen bouwtijd; proefperiode vertraagt eerste betaling.",
+     "betrouwbaarheid": "middel"
+    },
+    "brutomarge": {
+     "score": 5,
+     "onderbouwing": "API-kosten schalen mee: €0,40-17 per winkel/mnd naar volume, plus commissie 0-20%; marge €6-59 per klant.",
+     "betrouwbaarheid": "middel"
+    },
+    "acquisitie_bereikbaarheid": {
+     "score": 5,
+     "onderbouwing": "App-stores en zoekverkeer; veel concurrentie in dezelfde zoektermen, nieuw merk zonder reviews.",
+     "betrouwbaarheid": "laag"
+    },
+    "terugkerende_omzet": {
+     "score": 9,
+     "onderbouwing": "Maandabonnement met zichtbaar besparingsdashboard.",
+     "betrouwbaarheid": "middel"
+    },
+    "automatiseerbaarheid": {
+     "score": 7,
+     "onderbouwing": "Mail, orderstatus en concepten automatisch; winkelier keurt goed, koppelingen eenmalig door eigenaar.",
+     "betrouwbaarheid": "middel"
+    },
+    "concurrentievoordeel": {
+     "score": 3,
+     "onderbouwing": "Gorgias, Shopify Inbox en vele AI-helpdesktools bestaan; geen specifiek voordeel.",
+     "betrouwbaarheid": "middel"
+    },
+    "juridisch_risico_omgekeerd": {
+     "score": 6,
+     "onderbouwing": "Verwerken van klantmails: AVG (verwerkersovereenkomst) en AI-transparantie; beheersbaar maar werk.",
+     "betrouwbaarheid": "middel"
+    },
+    "schaalbaarheid": {
+     "score": 7,
+     "onderbouwing": "Taalonafhankelijk en wereldwijde platformen; API-kosten beperken marge bij groei.",
+     "betrouwbaarheid": "middel"
+    }
+   },
+   "unit_economics": {
+    "prijs": "€29-59 per maand per winkel (SCHATTING)",
+    "variabele_kosten": "€0,4-23 per winkel per maand: API €0,005-0,02 per concept x 87-870 mails/mnd = €0,44-17,40; commissie €0-5,80 (0-20% van €29) (SCHATTING)",
+    "cac": "€5-40 per betalende klant (proefperiode-API €1-3 bij ~25% conversie plus eventuele advertenties) (SCHATTING)",
+    "klanten_voor_1000_winst_pm": "18-173 abonnees: optimistisch 1000/(59-0,44)=18; pessimistisch 1000/(29-17,40-5,80=5,80)=173. Sterk afhankelijk van mailvolume. Vóór vaste studiokosten (max ~€72/mnd: abonnement ~€22 + API tot €50)."
+   }
+  },
+  {
+   "id": "K4",
+   "naam": "Zzp-Papierwerkpakket",
+   "scores": {
+    "betalingsbereidheid": {
+     "score": 6,
+     "onderbouwing": "Zzp'ers betalen voor administratieontlasting, maar boekhoudpakketten zijn goedkoop en bekend (AANNAME).",
+     "betrouwbaarheid": "laag"
+    },
+    "snelheid_kosten_test": {
+     "score": 3,
+     "onderbouwing": "Gratis tools plus OCR-product bouwen kost weken; SEO-trechter converteert pas na maanden.",
+     "betrouwbaarheid": "middel"
+    },
+    "brutomarge": {
+     "score": 7,
+     "onderbouwing": "Variabel €0,55-2,40/mnd (OCR/API plus betaalkosten); marge 80-95% van €15-25.",
+     "betrouwbaarheid": "middel"
+    },
+    "acquisitie_bereikbaarheid": {
+     "score": 5,
+     "onderbouwing": "SEO per beroep is bereikbaar maar traag; conversie gratis naar betaald laag (2-5%, AANNAME).",
+     "betrouwbaarheid": "laag"
+    },
+    "terugkerende_omzet": {
+     "score": 8,
+     "onderbouwing": "Maandabonnement met kwartaalritme (btw).",
+     "betrouwbaarheid": "middel"
+    },
+    "automatiseerbaarheid": {
+     "score": 6,
+     "onderbouwing": "OCR en overzicht automatisch; fiscale afbakening en AVG op financiële data vragen mensenwerk.",
+     "betrouwbaarheid": "middel"
+    },
+    "concurrentievoordeel": {
+     "score": 3,
+     "onderbouwing": "Moneybird, Jortt, Informer en Snelstart zijn gevestigd en vertrouwd.",
+     "betrouwbaarheid": "middel"
+    },
+    "juridisch_risico_omgekeerd": {
+     "score": 3,
+     "onderbouwing": "Fiscaal-nabij en financiële persoonsgegevens: ORANJE tot ROOD-risico; accountant/jurist nodig.",
+     "betrouwbaarheid": "middel"
+    },
+    "schaalbaarheid": {
+     "score": 5,
+     "onderbouwing": "Btw-regels per land; start NL, uitbreiding vraagt lokale logica.",
+     "betrouwbaarheid": "middel"
+    }
+   },
+   "unit_economics": {
+    "prijs": "Tools gratis; export €5-9/mnd; bonnetjes-btw €15-25/mnd, excl. btw (SCHATTING)",
+    "variabele_kosten": "€0,55-2,40 per klant per maand: OCR/API €0,20-1,80 (20-60 bonnetjes x €0,01-0,03) + betaalkosten €0,35-0,60 (SCHATTING)",
+    "cac": "€10-60 per betalende klant (lage conversie gratis naar betaald; SEO en tijd) (SCHATTING)",
+    "klanten_voor_1000_winst_pm": "41-80 abonnees op bonnetjes-tier: optimistisch 1000/(25-0,55)=41; pessimistisch 1000/(15-2,40)=80. Alleen export-tier: 116-228 (1000/(9-0,35)=116; 1000/(5-0,60)=228). Vóór vaste studiokosten (max ~€72/mnd: abonnement ~€22 + API tot €50)."
+   }
+  },
+  {
+   "id": "K5",
+   "naam": "NL-Sjablonenwinkel met jaarbundel",
+   "scores": {
+    "betalingsbereidheid": {
+     "score": 5,
+     "onderbouwing": "Marktplaatskopers betalen al voor sjablonen, maar prijzen zijn laag en gratis alternatieven talrijk.",
+     "betrouwbaarheid": "middel"
+    },
+    "snelheid_kosten_test": {
+     "score": 9,
+     "onderbouwing": "Listings in dagen live; eerste verkoop binnen 60 dagen realistisch (AANNAME); testkosten ~€20 listing-fees.",
+     "betrouwbaarheid": "middel"
+    },
+    "brutomarge": {
+     "score": 7,
+     "onderbouwing": "Etsy-kosten ~€1,0-3,1 per verkoop (listing €0,20 + 6,5% + betaling ~4% + €0,30); netto marge 75-88%, maar lage absolute marge per stuk.",
+     "betrouwbaarheid": "middel"
+    },
+    "acquisitie_bereikbaarheid": {
+     "score": 7,
+     "onderbouwing": "Etsy-zoekfunctie levert bestaande koopintentie; nieuwe shop heeft koude start, dus organisch traag.",
+     "betrouwbaarheid": "middel"
+    },
+    "terugkerende_omzet": {
+     "score": 3,
+     "onderbouwing": "Vooral eenmalige verkopen; jaarbundel €29 geeft beperkte herhaling.",
+     "betrouwbaarheid": "middel"
+    },
+    "automatiseerbaarheid": {
+     "score": 8,
+     "onderbouwing": "Sjablonen, mockups, listings en levering grotendeels automatisch; eigenaar maakt account en keurt listings.",
+     "betrouwbaarheid": "middel"
+    },
+    "concurrentievoordeel": {
+     "score": 2,
+     "onderbouwing": "Lage drempel, veel concurrentie en geen verdediging; ook als testmotor.",
+     "betrouwbaarheid": "hoog"
+    },
+    "juridisch_risico_omgekeerd": {
+     "score": 7,
+     "onderbouwing": "Meestal GROEN; juridische sjablonen (opzegbrief) vragen disclaimer; Etsy-beleid voor AI-content controleren.",
+     "betrouwbaarheid": "middel"
+    },
+    "schaalbaarheid": {
+     "score": 5,
+     "onderbouwing": "Wereldwijd platform en vertaling mogelijk, maar plafond door lage prijzen en platformafhankelijkheid.",
+     "betrouwbaarheid": "middel"
+    }
+   },
+   "unit_economics": {
+    "prijs": "€5-25 per sjabloon; jaarbundel €29 (SCHATTING)",
+    "variabele_kosten": "€1,15-3,15 per verkoop: Etsy-fees €1,03-3,13 + API/support €0,02-0,10; bundel ~€3,6 (SCHATTING)",
+    "cac": "€0-4 per verkoop (organisch of Etsy-ads); plus eenmalig €0,20 per listing (SCHATTING)",
+    "klanten_voor_1000_winst_pm": "46-260 verkopen per maand: optimistisch 1000/(25-3,13-0,02)=46; pessimistisch 1000/(5-1,03-0,10)=260 (eenmalig; bij alleen bundel €29 ~40). Vóór vaste studiokosten (max ~€72/mnd: abonnement ~€22 + API tot €50)."
+   }
+  },
+  {
+   "id": "K6",
+   "naam": "Gedurfd: Benelux-regeldata voor AI-agents (MCP/API)",
+   "scores": {
+    "betalingsbereidheid": {
+     "score": 3,
+     "onderbouwing": "Markt voor betaalde regeldata door agents onbewezen (AANNAME); ontwikkelaars verwachten gratis of open data.",
+     "betrouwbaarheid": "laag"
+    },
+    "snelheid_kosten_test": {
+     "score": 3,
+     "onderbouwing": "Bouwen gaat snel, maar betalingsbereidheid binnen 60 dagen is onzeker; verkeer via registers komt traag.",
+     "betrouwbaarheid": "laag"
+    },
+    "brutomarge": {
+     "score": 9,
+     "onderbouwing": "Marginale kosten nihil: €0,10-1,60 per klant; hosting €5-20 vast (SCHATTING).",
+     "betrouwbaarheid": "middel"
+    },
+    "acquisitie_bereikbaarheid": {
+     "score": 4,
+     "onderbouwing": "Developer-registers en GitHub zijn bereikbaar, maar zonder koude acquisitie en met onbewezen merk laag volume.",
+     "betrouwbaarheid": "laag"
+    },
+    "terugkerende_omzet": {
+     "score": 7,
+     "onderbouwing": "Gebruik groeit met agents, per maand of per aanroep; hangt af van adoptie.",
+     "betrouwbaarheid": "laag"
+    },
+    "automatiseerbaarheid": {
+     "score": 8,
+     "onderbouwing": "Verzamelen, API, documentatie en facturatie automatisch; bronlicenties controleren.",
+     "betrouwbaarheid": "middel"
+    },
+    "concurrentievoordeel": {
+     "score": 4,
+     "onderbouwing": "Nieuwe niche, maar overheid biedt open data gratis; voordeel alleen in kwaliteit en versheid.",
+     "betrouwbaarheid": "laag"
+    },
+    "juridisch_risico_omgekeerd": {
+     "score": 6,
+     "onderbouwing": "Open-data licenties en aansprakelijkheid voor onjuiste data; GROEN-ORANJE, Jurist toetst.",
+     "betrouwbaarheid": "middel"
+    },
+    "schaalbaarheid": {
+     "score": 8,
+     "onderbouwing": "Taalloos format en per-land pijplijn; hoge marge bij adoptie.",
+     "betrouwbaarheid": "laag"
+    }
+   },
+   "unit_economics": {
+    "prijs": "€19-99 per maand of €0,01-0,05 per aanroep (SCHATTING, onbewezen)",
+    "variabele_kosten": "€0,10-1,60 per klant per maand: betaalkosten €0,55-1,50 + compute €0,0001-0,001 per aanroep; hosting €5-20 vast (SCHATTING)",
+    "cac": "€0-60 per betalende klant, zeer onzeker; kan oplopen als er geen vraag is (SCHATTING)",
+    "klanten_voor_1000_winst_pm": "11-55 abonnees: optimistisch 1000/(99-1,50-0,10)=11; pessimistisch 1000/(19-0,55)=55. Per aanroep: 20.200-105.300 aanroepen/mnd (1000/0,0495; 1000/0,0095). Vóór vaste studiokosten (max ~€72/mnd: abonnement ~€22 + API tot €50)."
+   }
+  },
+  {
+   "id": "K7",
+   "naam": "Opzeg- en Klachtbrieven-loket",
+   "scores": {
+    "betalingsbereidheid": {
+     "score": 4,
+     "onderbouwing": "Lage prijs en gratis voorbeeldbrieven online; consumenten betalen niet snel voor een brief.",
+     "betrouwbaarheid": "middel"
+    },
+    "snelheid_kosten_test": {
+     "score": 6,
+     "onderbouwing": "Formulier en PDF zijn snel gebouwd; SEO levert pas na enkele maanden verkeer.",
+     "betrouwbaarheid": "middel"
+    },
+    "brutomarge": {
+     "score": 8,
+     "onderbouwing": "Variabel €0,37-0,60 per brief; marge 85-95% maar absoluut €3,5-7 per brief.",
+     "betrouwbaarheid": "middel"
+    },
+    "acquisitie_bereikbaarheid": {
+     "score": 6,
+     "onderbouwing": "Long-tail SEO bereikt consumenten zonder koude acquisitie; traag en per pagina laag volume.",
+     "betrouwbaarheid": "laag"
+    },
+    "terugkerende_omzet": {
+     "score": 4,
+     "onderbouwing": "Termijnbewaking €3/mnd; terugkeer onregelmatig.",
+     "betrouwbaarheid": "laag"
+    },
+    "automatiseerbaarheid": {
+     "score": 8,
+     "onderbouwing": "Formulier, sjabloon, PDF en herinnering volledig automatiseerbaar.",
+     "betrouwbaarheid": "middel"
+    },
+    "concurrentievoordeel": {
+     "score": 3,
+     "onderbouwing": "Gratis voorbeeldbrieven, consumentenorganisaties en Juridisch Loket; geen voordeel.",
+     "betrouwbaarheid": "middel"
+    },
+    "juridisch_risico_omgekeerd": {
+     "score": 4,
+     "onderbouwing": "Afbakening juridisch advies versus brief: ORANJE; onjuiste brief kan schade geven.",
+     "betrouwbaarheid": "middel"
+    },
+    "schaalbaarheid": {
+     "score": 5,
+     "onderbouwing": "Eigen sjablonen per land nodig; laag prijsplafond.",
+     "betrouwbaarheid": "middel"
+    }
+   },
+   "unit_economics": {
+    "prijs": "€5-9 per brief (incl. btw, consument; netto €4,13-7,44); termijnbewaking €3/mnd (SCHATTING)",
+    "variabele_kosten": "€0,37-0,60 per brief: betaalkosten €0,35-0,50 + API €0,02-0,10 (SCHATTING)",
+    "cac": "€0-6 per betalende klant (organisch; bij brief van €3,5-7 marge snel te hoog bij advertenties) (SCHATTING)",
+    "klanten_voor_1000_winst_pm": "142-284 brieven per maand: optimistisch 1000/(7,44-0,37)=142; pessimistisch 1000/(4,13-0,60)=284 (eenmalig). Vóór vaste studiokosten (max ~€72/mnd: abonnement ~€22 + API tot €50)."
+   }
+  }
+ ]
+}

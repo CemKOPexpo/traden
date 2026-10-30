@@ -1,0 +1,70 @@
+{
+ "gewichten": {
+  "betalingsbereidheid": 20,
+  "snelheid_kosten_test": 15,
+  "brutomarge": 10,
+  "acquisitie_bereikbaarheid": 15,
+  "terugkerende_omzet": 10,
+  "automatiseerbaarheid": 10,
+  "concurrentievoordeel": 10,
+  "juridisch_risico_omgekeerd": 5,
+  "schaalbaarheid": 5
+ },
+ "ranglijst": [
+  {
+   "id": "K1",
+   "naam": "Verduurzamingsloket (offerte-check + subsidie)",
+   "score": 64.5,
+   "jurist": "ORANJE",
+   "afgevallen": false
+  },
+  {
+   "id": "K5",
+   "naam": "NL-Sjablonenwinkel met jaarbundel",
+   "score": 60.0,
+   "jurist": "GROEN",
+   "afgevallen": false
+  },
+  {
+   "id": "K2",
+   "naam": "Webshop-Plichtenpakket (Shopify/Woo-app)",
+   "score": 59.5,
+   "jurist": "ORANJE",
+   "afgevallen": false
+  },
+  {
+   "id": "K3",
+   "naam": "Webwinkel-mailassistent",
+   "score": 58.0,
+   "jurist": "ORANJE",
+   "afgevallen": false
+  },
+  {
+   "id": "K7",
+   "naam": "Opzeg- en Klachtbrieven-loket",
+   "score": 53.5,
+   "jurist": "ORANJE",
+   "afgevallen": false
+  },
+  {
+   "id": "K4",
+   "naam": "Zzp-Papierwerkpakket",
+   "score": 52.0,
+   "jurist": "ORANJE",
+   "afgevallen": false
+  },
+  {
+   "id": "K6",
+   "naam": "Gedurfd: Benelux-regeldata voor AI-agents (MCP/API)",
+   "score": 51.5,
+   "jurist": "ORANJE",
+   "afgevallen": false
+  }
+ ],
+ "top3": [
+  "K1",
+  "K5",
+  "K2"
+ ],
+ "top3_stabiel_bij_5pp_verschuiving": false
+}

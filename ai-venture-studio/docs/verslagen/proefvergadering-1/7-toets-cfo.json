@@ -1,0 +1,47 @@
+{
+ "agent": "CFO",
+ "stap": "financiële toets",
+ "samenvatting": "Zonder advertenties kosten alle drie de richtingen samen ca. EUR 30-150 over 60 dagen, ruim binnen de grens van EUR 200/mnd; mijn eerdere EUR 250 advertentiebudget paste niet. Financieel is het partnerkanaal (richting 3) het veiligst, VSME (1) heeft het hoogste bedrag per verkoop maar meer bewijslast, en de energieplicht (2) levert binnen 60 dagen vrijwel zeker geen omzet. Alle cijfers zijn SCHATTING; gerealiseerd is nu EUR 0 omzet en EUR 0 uitgegeven.",
+ "spreekzin": "Ruim binnen budget zonder advertenties; het partnerkanaal is financieel het veiligst.",
+ "blokken": [
+  {
+   "kop": "Budgetruimte per maand",
+   "items": [
+    "Harde grens EUR 200/mnd, inclusief Claude-abonnement (ca. EUR 22/mnd, AANNAME: werkelijk bedrag controleren) en API (max. EUR 50/mnd): wat overblijft voor testkosten buiten de API is ca. EUR 128/mnd (200 - 22 - 50), of ca. EUR 256 over 60 dagen als elke maand volledig wordt benut. Dat is een plafond, geen doel.",
+    "Raming testkosten voor alle drie de richtingen samen over 60 dagen (SCHATTING): domein EUR 10-15; API voor voorbeeldrapporten en gespreksvoorbereiding EUR 20-60 totaal (ruim onder EUR 20/mnd per idee); hosting gratis tot EUR 10; KvK-inschrijving ca. EUR 50-100 eenmalig (niet geverifieerd) pas nodig bij de eerste echte betaling. Totaal ca. EUR 30-150, dus ca. EUR 15-75 per maand buiten het abonnement.",
+    "Duurste denkbare maand: EUR 22 abonnement + EUR 50 API + EUR 15 domein + EUR 100 KvK = ca. EUR 187; blijft onder EUR 200 maar zonder ruimte voor advertenties in dezelfde maand.",
+    "Advertenties: EUR 0 in de gespreksfase (volgt Oprichter). Pas na goedkeuring en na een positieve drempel uit de gesprekken: max. EUR 50 per maand en EUR 100 totaal.",
+    "Elke uitgave (domein, KvK, advertenties, betaalaccount) vereist vooraf goedkeuring van de eigenaar. Waarschuwing bij 80% van het goedgekeurde testbudget, stop bij 100%.",
+    "Niet in de euro's meegeteld: eigenaarstijd (weinig beschikbaar; 10 gesprekken kosten bij benadering 10-15 uur, SCHATTING) en BTW. Boekhouder of belastingadviseur nodig zodra KvK en eerste omzet er zijn (BTW, KOR, inkomstenbelasting)."
+   ]
+  },
+  {
+   "kop": "Scenario's per richting",
+   "items": [
+    "1. VSME-/klantvragenlijst-rapport (EUR 149-249): pessimistisch 0 vragenlijst-ja's en 0 betalingen, kosten EUR 30-60, resultaat -EUR 30 tot -60, stop na 3 van 10 / verwacht 1 betaling of getekende intentie, omzet EUR 0-249, kosten EUR 50-130 (incl. KvK bij betaling), resultaat ca. -EUR 130 tot +EUR 200, middelpunt rond break-even / optimistisch 2 betalingen plus 3 intenties, omzet EUR 300-500, kosten EUR 100-130, resultaat ca. +EUR 170 tot +400 (SCHATTING). Gratis alternatieven (VLAIO-tool, VSME Ready EUR 199-375/jaar) drukken prijs en conversie.",
+    "2. Energieplicht-check achterblijvers (betaling na resultaat, EUR 99-199 per locatie): pessimistisch 0 omzet, kosten EUR 20-50, resultaat -EUR 20 tot -50 / verwacht 0 omzet in 60 dagen (betaling pas na resultaat, deadline pas 1 december 2027), kosten EUR 30-70, resultaat -EUR 30 tot -70 / optimistisch 1-2 betaalde rapporten, omzet EUR 99-400, kosten EUR 50-100, resultaat ca. +EUR 0 tot +300 (SCHATTING). Indienen via eHerkenning blijft bij de klant; dat beperkt wat verkocht kan worden.",
+    "3. Partnerkanaal accountants/adviseurs (inkoop EUR 79-99 per rapport): pessimistisch 0 partners, kosten EUR 20-45, resultaat -EUR 20 tot -45 / verwacht 1 proefrapport, omzet EUR 0-99, kosten EUR 30-70, resultaat ca. -EUR 70 tot +70 / optimistisch 2 partners met 3-5 rapporten, omzet EUR 240-500, kosten EUR 50-100, resultaat ca. +EUR 140 tot +400 (SCHATTING). Lagere prijs per rapport, maar geen advertentiekosten, geen KvK-wantrouwen en terugkerende volumes per partner mogelijk.",
+    "Alle scenario's zijn voorspeld (SCHATTING, geen bron voor conversie of prijs); verwacht is nog niet gemeten; gerealiseerd (betaalprovider, administratie) is op dit moment EUR 0 omzet en EUR 0 kosten. Omzet geldt pas als echt betaald na KvK en betaalaccount, een intentie is geen omzet. Rapportreview door een mens (Jurist) is niet in euro's meegenomen en kan de brutomarge van 80% onder druk zetten."
+   ]
+  },
+  {
+   "kop": "Correcties op eerdere analyse",
+   "items": [
+    "De Criticus had gelijk: mijn testbudget van EUR 250 advertenties plus API (EUR 50) en het abonnement (ca. EUR 22) is ca. EUR 322 en komt boven de grens van EUR 200/mnd. Ik schreef ten onrechte dat dit paste. Ook gespreid over twee maanden (EUR 125/mnd advertenties) kom ik op ca. EUR 197/mnd, zonder marge voor domein, KvK of BTW: nog steeds te krap.",
+    "Mijn scenario's met koude advertentieklikken (CPC EUR 2-5, conversie 0,5-4%) vervallen: de eerste stap is nu gesprekken zonder advertentiekosten. Die conversiecijfers waren SCHATTING zonder meting en gelden pas als een advertentietest later wordt goedgekeurd.",
+    "Mijn voorverkoop 'zonder KvK' was te optimistisch: zonder KvK en betaalaccount is geen betaling te innen (Criticus, Klantstem). KvK en betaalaccount zijn daarom een kostenpost en een voorwaarde voor omzet.",
+    "Mijn eerdere voorkeur voor de subsidiecheck voor woningeigenaren trek ik in: eigen cijfers laten verlies zien en prijs EUR 29-49 verdient advertentiekosten niet terug.",
+    "Mijn FEIT-labels (CPC searchlab, energielabelprijs, Capterra) zijn secundaire bronnen met als datum de ophaaldatum; lees ze als SCHATTING tot de brondatum is vastgesteld."
+   ]
+  },
+  {
+   "kop": "Advies",
+   "items": [
+    "Financieel beste richting: 3 (partnerkanaal), omdat de testkosten het laagst zijn, de aansprakelijkheid deels bij de partner ligt en herhaalverkoop per partner mogelijk is; nadeel is de lagere prijs en dat de vraag nog niet is aangetoond. Tweede: 1 (VSME), hoogste prijs per verkoop. Derde: 2 (energieplicht), vrijwel zeker geen omzet binnen 60 dagen; parkeren tot voorjaar 2027 is financieel verstandig.",
+    "Voorstel: voer de gespreksronde voor 1 en 3 samen uit met één voorbeeldrapport (gedeelde kosten); totaal testbudget voor eigenaar ter goedkeuring: max. EUR 100 buiten API en abonnement, API max. EUR 20/mnd per idee.",
+    "Beslismomenten: geen KvK-uitgave voor de eerste echte betaling of getekende intentie; geen advertenties tot minstens 6 van 10 een vragenlijst kregen; stoppen bij 100% van het goedgekeurde bedrag.",
+    "Aandachtspunt: een accountant of belastingadviseur inschakelen bij KvK-inschrijving en eerste omzet; dit is een nieuwe uitgave die de eigenaar moet goedkeuren."
+   ]
+  }
+ ]
+}

@@ -39,3 +39,10 @@
 - **Werkt / werkt niet:** n.v.t. Niet geverifieerd: de LangGraph- en GitHub Actions-documentatie, omdat die domeinen geblokkeerd zijn door het netwerkbeleid van de sessie.
 - **Kosten:** €0 aan API. Alleen gebruik van het Claude-abonnement voor het bouwen.
 - **Volgende stap:** beoordeling door de eigenaar.
+
+### 2026-10-30 — Proefvergadering 1 (op verzoek van de eigenaar, gratis via Pro)
+- **Gedaan:** volledige proefvergadering over verduurzaming met 6 agents plus de Auditor (Claude Code-helpers), en een visueel kantoor (`kantoor/kantoor.html`, gepubliceerd als privé-artifact).
+- **Uitkomst:** proefbesluit VSME-rapport > partnerkanaal accountants > energieplicht-check; zie `docs/verslagen/proefvergadering-1/verslag.md`. De Auditor vond 3 middelzware fouten.
+- **Lessen voor fase 1:** berekeningen in code, aparte publicatie- en ophaaldatum, vaste nummering van opties, schattingen hertoetsen als de scope verandert.
+- **Kosten:** €0 API; gebruik van het Pro-abonnement.
+- **Status:** fase 0 wacht nog steeds op goedkeuring. Het proefbesluit wordt niet uitgevoerd.

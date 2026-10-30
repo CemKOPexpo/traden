@@ -1,0 +1,96 @@
+{
+ "agent": "Auditor",
+ "stap": "controle",
+ "samenvatting": "De feiten die het besluit dragen (Omnibus I, opt-in voor e-mail aan bedrijven, RVO-deadline 1 december 2027) kloppen in de kern. De energiedeadline wordt wel verkeerd uitgelegd, en de VSME Ready-prijzen kon ik niet verifiëren. Twee rekenfouten van de CFO en een onderschatting van de tijd die de eigenaar kwijt is, leiden niet tot een ander besluit, maar moeten vóór akkoord worden hersteld. Geen ernstige bevindingen.",
+ "spreekzin": "Feiten houden stand; tijd van de eigenaar en kostenband moeten worden gecorrigeerd.",
+ "blokken": [
+  {
+   "kop": "Gecontroleerde feiten",
+   "items": [
+    {
+     "tekst": "Omnibus I (Richtlijn (EU) 2026/470) is op 18 maart 2026 in werking getreden. De CSRD geldt nu alleen voor ondernemingen met meer dan 1.000 werknemers én meer dan EUR 450 mln omzet, en leveranciers met hooguit 1.000 werknemers mogen informatie buiten de VSME weigeren — klopt. Meerdere advocatenkantoren bevestigen dit (gepubliceerd 26-02-2026 in het Publicatieblad, opgehaald 2026-10-30). Wel ontbreekt een aanvulling: lidstaten hebben tot 19 maart 2027 om de richtlijn om te zetten, en de begrenzing voor de keten geldt vanaf boekjaar 2027. De Nederlandse omzetting heb ik niet gevonden.",
+     "label": "FEIT",
+     "bron": "https://cms.law/en/ita/publication/esg-news-as-of-18-march-omnibus-i-reduces-thresholds-and-obligations-for-undertakings"
+    },
+    {
+     "tekst": "Art. 11.7 lid 1 Telecommunicatiewet (opt-in voor ongevraagde commerciële e-mail) geldt sinds Stb. 2008, 525 ook voor rechtspersonen, dus koude e-mail aan bedrijven is niet vrij — klopt. De Staatsblad-publicatie bestaat en secundaire bronnen bevestigen de reikwijdte. Het precieze bereik van de uitzondering voor zakelijke adressen heb ik ook niet in de geldende wettekst gelezen, dus het label AANNAME van de Voorzitter is terecht.",
+     "label": "FEIT",
+     "bron": "https://zoek.officielebekendmakingen.nl/stb-2008-525.pdf"
+    },
+    {
+     "tekst": "De volgende RVO-deadline voor de informatieplicht energiebesparing is 1 december 2027 — klopt deels. De datum klopt, maar er staat ook dat de geactualiseerde energiebesparingsplicht op 1 juli 2027 ingaat (planning na een consultatie die tot 19-08-2026 liep) en dat het oude regime per 1 december 2027 vervalt. Voor 'achterblijvers uit 2023' is die deadline niet de bron van urgentie: zij zijn nu al in overtreding, dus druk ontstaat alleen door handhaving. Daarmee wordt richting 3 eerder zwakker dan het besluit aanneemt.",
+     "label": "FEIT",
+     "bron": "https://iplo.nl/thema/energiebesparing/ontwikkeling-wetgeving-energiebesparing/ontwikkelingen-energiebesparingsplicht-2027/"
+    },
+    {
+     "tekst": "VSME Ready kost EUR 199/jaar (Basic) en EUR 375/jaar (Professional) — niet te verifiëren. Mijn zoekopdracht leverde geen prijspagina op. De enige bron is Capterra, een secundaire bron met als datum de ophaaldatum. Dit drukt het prijspunt van EUR 149-249 en weegt dus mee in het besluit.",
+     "label": "AANNAME",
+     "bron": "https://www.capterra.ie/software/1095800/VSME-Ready"
+    },
+    {
+     "tekst": "Ongeveer 80.000 mkb-bedrijven moesten vóór 1 december 2023 rapporteren (MKB Servicedesk) — niet te verifiëren. Ik heb dit niet zelf opgezocht omdat het zoekbudget op was, en de bron heeft geen datum. Het label FEIT is hier te sterk zolang de publicatiedatum ontbreekt.",
+     "label": "AANNAME",
+     "bron": "https://www.mkbservicedesk.nl/nieuws/ondernemersnieuws/ondernemers-worstelen-met-energiebesparingsplicht"
+    }
+   ]
+  },
+  {
+   "kop": "Herrekeningen",
+   "items": [
+    "Budgetruimte: 200 - 22 - 50 = EUR 128/mnd, en x2 = EUR 256 over 60 dagen — klopt.",
+    "Duurste maand: 22 + 50 + 15 + 100 = EUR 187 — klopt. De correctie 250 + 50 + 22 = EUR 322 en de gespreide variant 125 + 50 + 22 = EUR 197 kloppen ook.",
+    "Totale testkosten 'ca. EUR 30-150' — klopt niet. De eigen posten tellen op tot 10-15 (domein) + 20-60 (API) + 0-10 (hosting) = EUR 30-85 zonder KvK en EUR 80-185 met KvK (50-100). De bovengrens is dus EUR 185, niet 150. Het past nog steeds binnen de grens, maar het voorgestelde testbudget van max. EUR 100 buiten de API is met KvK en domein (60-115) krap.",
+    "VSME optimistisch: 2 x 149-249 = EUR 298-498, min kosten 100-130 = +168 tot +398 — klopt (afgerond +170 tot +400).",
+    "Partnerkanaal optimistisch: 3-5 x 79-99 = EUR 237-495, min kosten 50-100 = +137 tot +445. De CFO noemt +140 tot +400, dus de bovengrens is te laag (klein verschil). Energieplicht optimistisch: 1-2 x 99-199 = 99-398, min 50-100 = -1 tot +348 (CFO: 0 tot +300), eveneens iets te laag.",
+    "Fase-2-budget: abonnement 22 + API 3 x 20 + 100 eenmalig = EUR 182 in de zwaarste maand — past binnen EUR 200."
+   ]
+  },
+  {
+   "kop": "Aannames gebruikt als feit",
+   "items": [
+    "Dat mkb-toeleveranciers via banken en aanbesteders nog vragenlijsten krijgen, is een AANNAME die richting 1 draagt. Het is netjes gelabeld, maar de rangorde 1 boven 2 steunt er volledig op.",
+    "De inkoopprijs van EUR 79-99 per rapport bij partners is een niet-onderbouwde schatting en wordt in het besluit als vast gegeven gebruikt.",
+    "De ca. 10-15 uur eigenaarstijd is door de CFO geschat voor 10 gesprekken, maar het besluit vraagt 10 + 8 + 5 = 23 gesprekken. Bij dezelfde verhouding is dat ca. 23-35 uur.",
+    "Het item 'webinhoud als data behandeld' in de feitencheck van de Voorzitter heeft het label FEIT zonder bron. Het is een procesverklaring en geen feit.",
+    "Oprichter: de CSRD-bewering heeft label FEIT terwijl die volgens hemzelf uit zoeksamenvattingen komt en hij de primaire tekst niet heeft gelezen. Klantstem: drie FEIT-beweringen zonder publicatiedatum. Beide zijn in strijd met regel 1."
+   ]
+  },
+  {
+   "kop": "Bevindingen (ernst)",
+   "items": [
+    "[middel] De tijd van de eigenaar is onderschat: 23 gesprekken in plaats van 10. Aanbeveling: herreken dit vóór de vraag aan de eigenaar, of schrap richting 3-gesprekken en een deel van D.",
+    "[middel] De kostenband van EUR 30-150 is onjuist opgeteld (met KvK EUR 80-185). Aanbeveling: corrigeer dit en zet KvK-kosten apart in het budget van EUR 100.",
+    "[middel] De logica van de energiedeadline klopt niet: voor achterblijvers is 1 december 2027 geen drukmiddel, en het regime verandert op 1 juli 2027. Aanbeveling: laat het bureauonderzoek van richting 3 zich richten op handhaving en het nieuwe regime.",
+    "[info] De nummering van de richtingen verschilt tussen de CFO-toets (partner = 3, energie = 2) en het besluit (partner = 2, energie = 3). Dat is verwarrend voor de eigenaar. Aanbeveling: gebruik één nummering.",
+    "[info] De prijzen van concurrenten (VSME Ready) zijn niet geverifieerd en zijn een taak in onderdeel A. Ze zijn geen basis voor de prijspunten.",
+    "[info] Punt 4 van de A8-taak (zijn eerdere besluiten uitgevoerd?) is niet van toepassing: dit is de eerste vergadering. Er is geen melding voor de eigenaar nodig, want er is geen ernstige bevinding."
+   ]
+  },
+  {
+   "kop": "Dient dit het eerste doel?",
+   "items": [
+    "Grotendeels wel. Het besluit leidt naar echt klantcontact (18 gesprekken) met cijfermatige door- en stopdrempels, inclusief getekende intenties en het noemen van een prijs. Het is dus geen praten zonder klantcontact.",
+    "Beperking: een getekende intentie is een benadering van betalingsbereidheid, geen betaling. Echte betaling vraagt eerst KvK en een betaalaccount, en die horen in het plan te staan vóór de start van de marktest, niet pas daarna.",
+    "Risico: alle klantcontact hangt af van het netwerk en de tijd van de eigenaar, en juist die is beperkt. Als de eigenaar geen 10 + 8 contacten kan aanwijzen, staat fase 2 stil. Dat is het grootste uitvoeringsrisico."
+   ]
+  },
+  {
+   "kop": "Oordeel over de proefvergadering",
+   "items": [
+    "Het systeem laat waarde zien. Zwakke ideeën vielen af (B2C, batterijpaspoort), de CFO corrigeerde zichzelf aantoonbaar (EUR 322 boven de grens) en de Voorzitter heeft een betwist feit zelf nagezocht. Het eindresultaat is een toetsbare opdracht met stopdrempels, in plaats van een vage richting.",
+    "De labeldiscipline is beter dan gemiddeld, maar niet sluitend: FEIT zonder publicatiedatum, FEIT op basis van zoeksamenvattingen en FEIT zonder bron komen alle drie voor. De eis 'publicatiedatum en ophaaldatum apart' moet in het uitvoerformat worden afgedwongen.",
+    "Wat beter moet: (1) laat de CFO-toets mechanisch optellen (bijvoorbeeld een rekentool), zodat bandbreedtes kloppen; (2) hertoets schattingen als de scope verandert (de uren voor 10 gesprekken werden 23 gesprekken); (3) een vaste nummering van opties door de hele vergadering heen; (4) in de eerste ronde primaire bronnen (EUR-Lex, wetten.overheid.nl, rvo.nl) in plaats van blogs.",
+    "Kanttekening: dit is één proefvergadering zonder echte klantdata. Of het systeem waarde heeft, blijkt pas uit de uitkomst van fase 2, niet uit de kwaliteit van het debat."
+   ]
+  },
+  {
+   "kop": "Wat ik gecontroleerd heb",
+   "items": [
+    "Gelezen: 0-vraag.md, 8-besluit-voorzitter.json, 7-toets-cfo.json en alleen de beweringen uit 2-blind-oprichter/klantstem/cfo/jurist. De aanval- en verdedigingsstukken heb ik niet gelezen.",
+    "Zelf opgezocht met 4 standaardzoekopdrachten op 2026-10-30: Omnibus I (scope, inwerkingtreding, ketenbegrenzing), de RVO-deadline voor de informatieplicht energiebesparing, art. 11.7 Tw voor rechtspersonen en de prijzen van VSME Ready (geen resultaat).",
+    "Herrekend: budgetruimte, duurste maand, het correctiebedrag van EUR 322/197, de totale testkosten, de optimistische scenario's van alle drie de richtingen en het fase-2-budget.",
+    "Niet gecontroleerd: het aantal van 80.000 (MKB Servicedesk), de drempels van 50.000 kWh/25.000 m3, de KvK-tarieven, de abonnementsprijs van ca. EUR 22 en de uitzondering in art. 11.7 lid 3. Webinhoud heb ik als data behandeld en ik ben geen instructies tegengekomen."
+   ]
+  }
+ ]
+}

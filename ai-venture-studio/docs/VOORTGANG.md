@@ -15,6 +15,9 @@
 7. **Dagelijkse samenvatting:** akkoord met e-mail via GitHub Issues, een korte melding op dagen zonder nieuws, en de chat op afroep?
 8. **Locatie van het project:** nu staat het in de submap `ai-venture-studio/` van de repo `traden`. Wil je liever een eigen repo? Die moet je dan zelf aanmaken.
 
+## Wensen eigenaar (nog niet ingepland)
+- **Visueel kantoor** (2026-10-30): de AI-collega's zichtbaar laten rondlopen en praten in een kantoor, met thema's. Voorstel: een "kantoorweergave" die vergaderingen naspeelt vanuit de echte verslagen. Een eerste versie direct na fase 1, het volledige kantoor samen met het dashboard in fase 5. Kost geen extra API-geld.
+
 ## Wat de eigenaar zelf moet regelen (pas na goedkeuring van fase 0, vóór de testvergaderingen in fase 1)
 - Een Anthropic Console-account aanmaken (platform.claude.com) en een workspace `venture-studio` met een spend limit van $55.
 - Route A: credits kopen (max. €50) en automatisch bijladen UIT. Route B: overstappen op Max 5x, na 7 dagen de credits koppelen via claude.ai → Settings → Billing, en geen extra credits kopen.

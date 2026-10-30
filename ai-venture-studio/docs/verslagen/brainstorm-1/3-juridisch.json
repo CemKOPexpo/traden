@@ -1,0 +1,116 @@
+{
+ "agent": "Jurist",
+ "stap": "toetsen",
+ "samenvatting": "K5 en K6 zijn GROEN/ORANJE-licht (K5 GROEN met voorwaarden, K6 ORANJE op bronlicenties); K1, K2, K3, K4 en K7 kunnen alleen als informatie met AVG-, aansprakelijkheids- en AI-labelvoorwaarden. Geen ROOD, maar K4 (bonnetjes met persoonsgegevens) en K7 (brieven met persoonsgegevens, risico op juridisch advies) zijn het gevoeligst. Dit is geen bindend juridisch advies.",
+ "spreekzin": "Geen rood; wel overal afbakening als informatie, AVG-hygiëne en een zichtbaar AI-label.",
+ "per_kandidaat": [
+  {
+   "id": "K1",
+   "naam": "Verduurzamingsloket (offerte-check + subsidie)",
+   "oordeel": "ORANJE",
+   "reden": "Offerte uitlezen levert persoonsgegevens op (naam, adres, vaak woninggegevens) en een oordeel over een installateur kan als advies of als nadelige uitlating worden gezien. Subsidiedata is overheidsinformatie en meestal herbruikbaar, maar bronvoorwaarden verschillen. Onjuiste subsidie-informatie geeft aansprakelijkheidsrisico. Digitale dienst met directe levering: herroepingsrecht vervalt alleen met uitdrukkelijke toestemming en bevestiging.",
+   "voorwaarden": "Positioneer als informatie en vergelijking met prijsrichtlijnen, niet als advies of garantie; disclaimer plus bronvermelding en datum per gemeente. Privacyverklaring, verwerkersovereenkomsten (AI-leverancier, hosting), minimale bewaartermijn voor offertes en verwijdering op verzoek; geen offertes gebruiken om te trainen. Uitleg dat de uitkomst AI-gegenereerd is. Bij verkoop van digitaal rapport: checkbox voor afstand van herroeping na start levering plus bevestiging. Neutrale, onderbouwde oordelen over installateurs (geen onbewezen beschuldigingen). Bij alerts: aparte opt-in, afmelden in elke mail. Groene claims alleen met bron. Licentie per subsidiebron controleren.",
+   "wetsgebied": "AVG; consumentenrecht (herroeping digitale inhoud); aansprakelijkheid; overheidsinformatie (Woo/Wet hergebruik); AI Act art. 50; Telecommunicatiewet art. 11.7; reclamerecht"
+  },
+  {
+   "id": "K2",
+   "naam": "Webshop-Plichtenpakket (Shopify/Woo-app)",
+   "oordeel": "ORANJE",
+   "reden": "Gegenereerde juridische teksten (herroeping, privacy, GPSR) kunnen onjuist zijn; de klant leunt erop, dus aansprakelijkheid en schijn van juridisch advies. De studio zou verwerker/ontvanger van shopgegevens kunnen worden. Platformvoorwaarden van Shopify/WordPress en app-review bepalen of de app mag en hoe betaling loopt. B2B-abonnement: herroeping minder relevant, maar kleine ondernemers kunnen consumentenbescherming claimen niet; wel duidelijke voorwaarden.",
+   "voorwaarden": "Sjabloonteksten door een echte jurist laten nalezen voordat ze live gaan; expliciet 'sjabloon, geen juridisch advies, controleer zelf'. Aansprakelijkheid in voorwaarden beperken (hou rekening met dwingend recht). Beperk dataverwerking: geen klantgegevens van winkels opslaan, of verwerkersovereenkomst plus privacyverklaring. App-store-richtlijnen en betaalregels lezen voor indiening. Wetswijzigingen aantoonbaar volgen (bron + datum), geen 'altijd up-to-date'-garantie. Eerlijke marketing: geen 'conform de wet gegarandeerd'.",
+   "wetsgebied": "Aansprakelijkheid/juridisch advies; AVG (verwerker); platformvoorwaarden (Shopify, WordPress); consumentenrecht (eigen herroepingsteksten); AI Act art. 50; reclamerecht"
+  },
+  {
+   "id": "K3",
+   "naam": "Webwinkel-mailassistent",
+   "oordeel": "ORANJE",
+   "reden": "Verwerking van klantmails en orders van de winkel is verwerking van persoonsgegevens van derden: de studio wordt verwerker met verwerkersovereenkomst en AI-subverwerker, mogelijk met doorgifte buiten de EU. AI-transparantie: klantcommunicatie met AI-hulp; bij mens-in-de-lus is een label niet altijd verplicht, maar chatbot- of volautomatische uitingen wel. Foutieve toezeggingen (retour, garantie) kunnen de winkelier binden.",
+   "voorwaarden": "Verwerkersovereenkomst en subverwerkerslijst; EU-hosting of passende doorgiftemechanisme; geen training op klantdata; bewaartermijnen. Winkelier keurt elk concept goed (geen auto-verzending); label bij volautomatische antwoorden dat AI wordt gebruikt. Geen marketingmails via de tool zonder opt-in. Platformvoorwaarden voor API-toegang (Shopify, Lightspeed) naleven. Voorwaarden over aansprakelijkheid en misbruik.",
+   "wetsgebied": "AVG (verwerker, doorgifte); AI Act art. 50; platformvoorwaarden; aansprakelijkheid; Telecommunicatiewet art. 11.7"
+  },
+  {
+   "id": "K4",
+   "naam": "Zzp-Papierwerkpakket",
+   "oordeel": "ORANJE",
+   "reden": "Bonnetjes en facturen bevatten persoonsgegevens (klanten, namen, adressen, soms IBAN) en financiële gegevens; verwerking is grootschalig en doorlopend, dus hoogste AVG-gevoeligheid van de set. Btw-hulp raakt fiscaal advies; fouten kunnen boetes voor de gebruiker opleveren. Bewaarplichten (fiscaal) en beveiligingseisen. Gratis tools met sjablonen (offerte, factuur) kunnen juridisch/fiscaal verplichte vermeldingen missen.",
+   "voorwaarden": "Eerst alleen de gratis tools plus export (zonder persoonsgegevensverwerking); bonnetjes-OCR pas na DPIA-toets, verwerkersovereenkomsten, EU-opslag, versleuteling, korte bewaartermijn en duidelijke privacyverklaring. Uitsluitend administratieve sortering, uitdrukkelijk 'geen belastingadvies, controleer met je boekhouder'. Factuursjablonen laten controleren op wettelijke verplichte vermeldingen. Herinneringen alleen met opt-in. AI-gebruik vermelden. Belastingen en bewaarplicht door accountant/belastingadviseur laten bevestigen.",
+   "wetsgebied": "AVG (financiële data, DPIA, beveiliging); fiscaal advies/aansprakelijkheid; consumentenrecht/ondernemersvoorwaarden; AI Act art. 50; Telecommunicatiewet art. 11.7"
+  },
+  {
+   "id": "K5",
+   "naam": "NL-Sjablonenwinkel met jaarbundel",
+   "oordeel": "GROEN",
+   "reden": "Weinig persoonsgegevens, directe verkoop van eigen digitale producten. Risico's zijn beheersbaar: eigen werk voor IP, herroeping bij digitale levering, platformregels en juridisch getinte sjablonen (opzegbrief, verenigingsstatuten).",
+   "voorwaarden": "Alle sjablonen volledig zelf (of AI-)gemaakt en geen overgenomen teksten, lettertypen, beelden of merken; licentievoorwaarden duidelijk (persoonlijk of zakelijk gebruik). Etsy-regels voor digitale producten en AI-gebruik naleven (Etsy vraagt openheid over AI-gegenereerd materiaal, controleer actuele beleid); bij Etsy-verkoop btw/OSS door het platform of zelf regelen. Herroeping digitale inhoud: uitdrukkelijke toestemming plus bevestiging, of vermelden dat er geen herroeping is na start download. Sjablonen met juridische inhoud: 'voorbeeld, geen advies' en laten nalezen. Geen nep-reviews. Updatebundel: duidelijke prijs en wat 'updates' omvat.",
+   "wetsgebied": "Intellectueel eigendom; consumentenrecht (digitale inhoud, prijsvermelding); platformvoorwaarden (Etsy); reclamerecht; aansprakelijkheid (juridische sjablonen)"
+  },
+  {
+   "id": "K6",
+   "naam": "Gedurfd: Benelux-regeldata voor AI-agents (MCP/API)",
+   "oordeel": "ORANJE",
+   "reden": "Juridisch lager risico qua persoonsgegevens (geen), maar de kern is herbruik van externe data: overheidsinformatie is vaak herbruikbaar (Wet hergebruik / open-databeleid), maar licentie en bronvermelding verschillen per bron; databank- en auteursrecht van derden (prijsindexen, commerciële bronnen) kan commerciële doorverkoop verbieden. Fouten in 'machineleesbare regels' die agents automatisch gebruiken vergroten aansprakelijkheid. B2B-voorwaarden nodig. Scrapen: voorwaarden van bronwebsites en robots.txt.",
+   "voorwaarden": "Alleen bronnen met aantoonbaar open licentie (bijvoorbeeld CC0/CC-BY of vergelijkbaar) opnemen en per bron licentie, bronvermelding en datum bijhouden; geen scrapen van commerciële of beschermde databanken zonder licentie. Voorwaarden: data 'zoals is', geen garantie, geen advies, beperking van aansprakelijkheid. Geen persoonsgegevens in de feed. Bij betaalde API: gebruiksvoorwaarden, privacyverklaring voor API-keys en facturatiedata. Klein testen.",
+   "wetsgebied": "Overheidsinformatie/hergebruik; intellectueel eigendom (auteursrecht, databankenrecht); aansprakelijkheid; algemene voorwaarden B2B; AVG (alleen voor accountgegevens)"
+  },
+  {
+   "id": "K7",
+   "naam": "Opzeg- en Klachtbrieven-loket",
+   "oordeel": "ORANJE",
+   "reden": "Brieven bevatten persoonsgegevens (naam, adres, klantnummer, soms boete- of gezondheidsinfo) en 'de juiste brief voor jouw situatie' benadert juridisch advies; foutieve opzegtermijn kan de klant geld kosten. Geen advocaat of erkend adviseur; geen rechtsbijstand. Digitale dienst: herroeping. Termijnbewaking vraagt herinneringsmails.",
+   "voorwaarden": "Uitsluitend standaardbrieven op basis van duidelijke input van de klant, expliciet 'geen juridisch advies' en geen individuele beoordeling van kansen. Termijnen en wettelijke grondslagen (bijvoorbeeld opzeggen via de opzegknop) met bron per brief controleren en door een jurist laten nalezen voor lancering. Minimale gegevens, kortst mogelijke bewaartermijn, privacyverklaring en verwerkersovereenkomsten; geen gevoelige gegevens (boetes, gezondheid) in vrije tekst bewaren. Herroepingsafstand bij directe levering. Termijnbewaking alleen met opt-in. AI-gebruik vermelden.",
+   "wetsgebied": "Juridisch advies/aansprakelijkheid; AVG; consumentenrecht (herroeping digitale inhoud); AI Act art. 50; Telecommunicatiewet art. 11.7"
+  }
+ ],
+ "beweringen": [
+  {
+   "tekst": "AI Act art. 50 (transparantieverplichtingen) geldt sinds 2 augustus 2026 en is niet uitgesteld door de Digital Omnibus; het uitstel betreft vooral high-risk. Voor machineleesbare markering (art. 50(2)) geldt een overgangstermijn tot 2 december 2026 voor systemen die vóór 2 augustus 2026 op de markt waren. Bronnen zijn adviesblogs en verwarring over data bestaat; controleer de tekst in het Publicatieblad.",
+   "label": "FEIT",
+   "bron": "https://www.aiactblog.nl/nl/posts/artikel-50-transparantie-deadline-2-augustus-2026",
+   "datum": "2026-10-30"
+  },
+  {
+   "tekst": "Bij digitale inhoud zonder drager vervalt het herroepingsrecht alleen als de consument uitdrukkelijk toestemt met directe levering en bevestigt dat hij daardoor zijn herroepingsrecht verliest; anders blijft een herroepingstermijn van 14 dagen gelden.",
+   "label": "AANNAME",
+   "bron": null,
+   "datum": null
+  },
+  {
+   "tekst": "Overheidsinformatie is in Nederland in beginsel herbruikbaar, maar licentie, bronvermelding en uitzonderingen (bijvoorbeeld derden-rechten, databankenrecht) verschillen per bron en moeten per bron worden gecontroleerd.",
+   "label": "AANNAME",
+   "bron": null,
+   "datum": null
+  },
+  {
+   "tekst": "Platformvoorwaarden van Shopify en Etsy (AI-gebruik, digitale producten, app-review) zijn niet gecontroleerd en kunnen wijzigen.",
+   "label": "AANNAME",
+   "bron": null,
+   "datum": null
+  },
+  {
+   "tekst": "Telecommunicatiewet art. 11.7: alleen opt-in voor commerciële e-mail; dit is in de randvoorwaarden van de vraag vastgelegd en hier niet opnieuw gecontroleerd. Alerts en herinneringen vragen aparte opt-in.",
+   "label": "AANNAME",
+   "bron": null,
+   "datum": null
+  },
+  {
+   "tekst": "Verwerking van bonnetjes, offertes en brieven door AI is een nieuwe verwerking van persoonsgegevens en vergt grondslag, privacyverklaring, verwerkersovereenkomsten en mogelijk een DPIA.",
+   "label": "AANNAME",
+   "bron": null,
+   "datum": null
+  },
+  {
+   "tekst": "Dit is geen bindend juridisch advies; één WebSearch is gebruikt, overige punten zijn niet extern gecontroleerd.",
+   "label": "FEIT",
+   "bron": null,
+   "datum": "2026-10-30"
+  }
+ ],
+ "echte_professional_nodig_bij": [
+  "Oprichting (KvK, rechtsvorm) en algemene voorwaarden/privacyverklaring: jurist",
+  "Juridische sjablonen en standaardbrieven (K2, K5, K7): nalezen door jurist voor lancering",
+  "Verwerkersovereenkomsten, DPIA en doorgifte buiten de EU (K1, K3, K4, K7): privacyjurist/FG",
+  "Btw, boekhouding en fiscale afbakening (K4, Etsy-btw/OSS): accountant of belastingadviseur",
+  "Licenties van databronnen voor commerciële doorverkoop (K6): jurist IE",
+  "Aansprakelijkheidsbeperking en verzekering (beroepsaansprakelijkheid) vóór betaalde adviesachtige producten"
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "agent": "Oprichter + Groei",
+ "stap": "sparren",
+ "samenvatting": "Twintig ideeën zijn samengevoegd tot zeven kandidaten rond twee clusters: verduurzaming/regelgeving met SEO of app-store als kanaal, en snelle sjabloon- of toolverkoop. K6 (data voor AI-agents) is de gedurfde kandidaat en hergebruikt de data van K1 en K2. Ideeën met SEO-resultaat na 60 dagen, B2B-verkoop of fysiek werk zijn afgevallen.",
+ "spreekzin": "Zeven kandidaten: één gedeelde regeldata-motor, drie kanalen, één gedurfde gok.",
+ "kandidaten": [
+  {
+   "id": "K1",
+   "naam": "Verduurzamingsloket (offerte-check + subsidie)",
+   "in_een_zin": "Consument checkt zijn installateursofferte en ziet per gemeente welke subsidie geldt; alert-abonnement houdt het actueel.",
+   "herkomst": "Oprichter: Offerte-Check + SubsidieRadar Gemeente; Groei: Branche-tools pSEO (rekentool als lokmiddel); CFO: Regelcheck-abonnement (maandelijkse bijwerking).",
+   "klant": "Huiseigenaren in Benelux met offerte of plan voor warmtepomp, zonnepanelen, isolatie.",
+   "aanbod_en_prijs": "Gratis subsidie-rekentool; offerte-check €15-29 eenmalig; subsidie-alert €3-5/maand (SCHATTING)",
+   "kanaal": "Programmatische SEO per gemeente x maatregel ('subsidie warmtepomp [gemeente]'), deelbare uitslag, AI-antwoordmachines; geen koude acquisitie.",
+   "automatisering": "Bronnen volgen, pagina's genereren, offerte uitlezen en toetsen, PDF-rapport, betaling, chatsupport.",
+   "mens_nodig": "Eenmalig prijsrichtlijnen en disclaimer vaststellen; eigenaar keurt tekst en betaalaccount goed; Jurist afbakening (informatie, geen advies).",
+   "terugkerend": "Alert-abonnement en tweede offerte; subsidie-wijzigingen geven vaste aanleiding tot terugkeer.",
+   "internationaal": "Per land een datalaag (BE-regio's, DE later); de motor is gelijk, alleen bronnen en taal wisselen.",
+   "ja_en_verbetering": "Offerte-check is de betaalde piek (snel geld, 1 uur-test met 1 gemeente), SEO-pagina's de gratis trechter; subsidiedata is gedeeld met K6."
+  },
+  {
+   "id": "K2",
+   "naam": "Webshop-Plichtenpakket (Shopify/Woo-app)",
+   "in_een_zin": "App die verplichte webshoppagina's (herroeping, privacy, GPSR, AI-label) genereert en bij wetswijzigingen bijwerkt.",
+   "herkomst": "Groei: Compliance-app webshops (kanaal: app-store); CFO: Regelcheck-abonnement (verdienmodel); Oprichter: MKB-Plichtenwijzer (wijzigingsalerts).",
+   "klant": "Kleine NL/BE-webshopeigenaren zonder jurist.",
+   "aanbod_en_prijs": "Gratis basis; €9-19/maand via app-store-betaling; wetswijziging-alert in abonnement (SCHATTING)",
+   "kanaal": "Shopify App Store en WordPress-plugindirectory-zoekopdrachten, SEO-pagina's per wetswijziging; koopklaar verkeer.",
+   "automatisering": "App-bouw, teksten per wetswijziging, supportchat, documentatie, store-listing.",
+   "mens_nodig": "Eigenaar levert developer-account en keurt app-indiening; Jurist keurt sjabloonteksten; app-review wachttijd.",
+   "terugkerend": "Maandabonnement, elke wetswijziging is reden om te blijven.",
+   "internationaal": "EU-wetgeving geldt breed; per land teksten toevoegen, app-store werkt wereldwijd.",
+   "ja_en_verbetering": "Combinatie van bestaand kanaal (app-store) met terugkerende wijzigingsservice; bundelt K3 als upsell in dezelfde app-store."
+  },
+  {
+   "id": "K3",
+   "naam": "Webwinkel-mailassistent",
+   "in_een_zin": "Conceptantwoorden op klantmails (retour, levertijd) die de winkelier met één klik goedkeurt.",
+   "herkomst": "Klantstem: Webwinkel-mailconcepten; Groei: app-store-kanaal (uit Compliance-app).",
+   "klant": "Kleine webwinkels met 20-200 mails per week en geen klantenservice.",
+   "aanbod_en_prijs": "€29-59/maand per winkel, gratis proefperiode (SCHATTING)",
+   "kanaal": "App-stores van Shopify/WooCommerce/Lightspeed, zoekverkeer 'klantenservice automatiseren webshop'.",
+   "automatisering": "Mail lezen, orderstatus ophalen, concept in eigen toon, FAQ bijhouden.",
+   "mens_nodig": "Winkelier keurt goed (mens-in-de-lus); eigenaar eenmalig koppelingen goedkeuren. API-kosten per winkel bewaken.",
+   "terugkerend": "Abonnement; besparing zichtbaar per maand (dashboard 'uren bespaard').",
+   "internationaal": "Taalonafhankelijk (NL/FR/DE/EN), platformen zijn wereldwijd.",
+   "ja_en_verbetering": "Maakt AI-gebruik zichtbaar in de mail; verkoopt via app-listing en als upsell op K2; hoge prijs per klant, maar API-kosten schalen mee."
+  },
+  {
+   "id": "K4",
+   "naam": "Zzp-Papierwerkpakket",
+   "in_een_zin": "Gratis branche-tools (offerte, factuur, urenstaat) leiden naar betaald bonnetjes-naar-btw-klaar abonnement.",
+   "herkomst": "Klantstem: Bonnetjes-naar-btw-klaar (pijn); Groei: Branche-tools pSEO (kanaal); Oprichter: MKB-Plichtenwijzer (deadlines).",
+   "klant": "Zzp'ers en micro-mkb in de Benelux die administratie haten.",
+   "aanbod_en_prijs": "Tools gratis; export zonder watermerk €5-9/maand; bonnetjes-btw €15-25/maand (SCHATTING)",
+   "kanaal": "Programmatische SEO per beroep ('offerte template schilder'), tools als etalage, opt-in herinnering voor btw-deadline.",
+   "automatisering": "Pagina- en toolgeneratie, OCR en categorisering, btw-overzicht, herinneringen, betaling.",
+   "mens_nodig": "Fiscale afbakening (alleen administratieve sortering, geen advies); eigenaar keurt voorwaarden; AVG-check op financiële data.",
+   "terugkerend": "Maandabonnement en kwartaalritme (btw-aangifte) geven natuurlijke terugkeer.",
+   "internationaal": "Btw-regels per land; tools en OCR taalonafhankelijk, start NL.",
+   "ja_en_verbetering": "Trechter (gratis tool) voor vertrouwen bij onbekend merk; verdienmodel op twee niveaus. Trager dan K5, juridisch gevoeliger (ORANJE verwacht)."
+  },
+  {
+   "id": "K5",
+   "naam": "NL-Sjablonenwinkel met jaarbundel",
+   "in_een_zin": "Nederlandstalige sjablonen (ZZP-administratie, planners, vereniging, opzegbrief) via marktplaatsen, met jaarlijkse updatebundel.",
+   "herkomst": "Groei: NL-templates Etsy; CFO: Sjabloon-winkel op marktplaats; Klantstem: Verenigingssecretariaat (sjablonen) + Opzeg- en klachtbrieven (brief als sjabloon).",
+   "klant": "ZZP'ers, verenigingsbesturen, studenten, gezinnen.",
+   "aanbod_en_prijs": "€5-25 per sjabloon; jaarbundel met updates €29 (SCHATTING)",
+   "kanaal": "Etsy/marktplaats-zoekfunctie en Pinterest; bestaande koopintentie, merkvertrouwen niet nodig.",
+   "automatisering": "Sjablonen, mockups, listings, tags, klantvragen, levering.",
+   "mens_nodig": "Eigenaar maakt Etsy-account en keurt listings; kleine commissie; Jurist keurt juridische sjablonen.",
+   "terugkerend": "Jaarbundel en seizoensupdates; terugkoop via bundel.",
+   "internationaal": "Etsy is wereldwijd; vertaling per taal in dagen.",
+   "ja_en_verbetering": "Snelste route naar eerste betaling (binnen 60 dagen realistisch, AANNAME); marktplaats geeft vertrouwen en dient als bewijs voor andere kandidaten; weinig verdediging, dus als testmotor."
+  },
+  {
+   "id": "K6",
+   "naam": "Gedurfd: Benelux-regeldata voor AI-agents (MCP/API)",
+   "in_een_zin": "Dagelijks ververste, machineleesbare Benelux-regels, subsidies en prijsindexen als API/MCP-server die agents per aanroep of maand betalen.",
+   "herkomst": "Oprichter: RegelFeed voor AI-agents; Groei: Data voor AI-agents (wild idee); CFO: Datarapport-reeks (rapporten als bijproduct).",
+   "klant": "Ontwikkelaars en bedrijven met AI-assistenten; op termijn de agents zelf.",
+   "aanbod_en_prijs": "Gratis laag; €19-99/maand of €0,01-0,05 per aanroep; markt onbewezen (SCHATTING)",
+   "kanaal": "MCP- en API-registers, GitHub, documentatie die antwoordmachines citeren; developer-zoekverkeer.",
+   "automatisering": "Verzamelen, valideren, API, documentatie, facturatie, support.",
+   "mens_nodig": "Eigenaar keurt voorwaarden en betaalaccount; bronlicenties (open data) controleren; ontwikkelaarscommunity zelf aanspreken niet nodig.",
+   "terugkerend": "Per maand of per aanroep; gebruik groeit met de agents van klanten.",
+   "internationaal": "Natuurlijk internationaal: dezelfde pijplijn per land, taalloos format.",
+   "ja_en_verbetering": "Data komt gratis mee uit K1 en K2, dus marginale kosten nihil; rapporten uit de data als bijproduct. Hoog risico op geen markt binnen 60 dagen, daarom gedurfd en bewust klein testen."
+  },
+  {
+   "id": "K7",
+   "naam": "Opzeg- en Klachtbrieven-loket",
+   "in_een_zin": "Consument vult formulier in en krijgt correcte opzeg- of klachtbrief plus termijnbewaking.",
+   "herkomst": "Klantstem: Opzeg- en klachtbrieven; Groei: pSEO-patroon per situatie; CFO: Sjabloon-winkel (lage prijs, hoge marge).",
+   "klant": "Consumenten met een gedoe-probleem (sportschool, webshop, boete).",
+   "aanbod_en_prijs": "€5-9 per brief; €3/maand termijnbewaking (SCHATTING)",
+   "kanaal": "Long-tail zoekverkeer ('brief opzeggen sportschool'), honderden situatiepagina's.",
+   "automatisering": "Formulier, brief uit sjabloon, PDF, herinnering, SEO-pagina's.",
+   "mens_nodig": "Jurist moet afbakenen (geen juridisch advies, geen rechtsbijstand); eigenaar keurt voorwaarden en betaalaccount.",
+   "terugkerend": "Termijnbewaking als abonnement; herhaalgebruik bij nieuw gedoe.",
+   "internationaal": "Consumentenrecht EU-breed gedeeltelijk gelijk; per land eigen sjablonen.",
+   "ja_en_verbetering": "Brief + herinnering (terugkerend) in plaats van eenmalig; lage prijs vraagt grote volumes, risico dat betalingsbereidheid laag blijft."
+  }
+ ],
+ "afgevallen": [
+  "Programmatische vergelijkingssites / Vergelijker met affiliate: SEO-opbrengst pas na 3-6 maanden, dus geen betalingsbereidheid binnen 60 dagen; onbetrouwbaar voor de hoofdtest.",
+  "Agent-als-licentie: vraagt B2B-verkoop aan softwareleveranciers zonder inbound en API-kosten schalen met gebruik, strijdig met tijd en budget.",
+  "Zolder-leeghaal-agent: fysieke overdracht en kopersafspraken vragen mensenwerk en zijn niet automatiseerbaar.",
+  "Wijk-Leadradar: doelgroep (installateurs) is zonder koude acquisitie slecht bereikbaar en AVG-risico op buurtdata.",
+  "Verenigingssecretariaat (als zelfstandig idee): opnames vragen AVG-gevoelige verwerking en lage prijs; alleen sjablonen opgegaan in K5.",
+  "Datarapport-reeks (als zelfstandig idee): eenmalige verkoop zonder terugkeer; alleen opgegaan als bijproduct in K6."
+ ],
+ "beweringen": [
+  {
+   "tekst": "Alle prijzen en volumes in de kandidaten komen uit de ideeën van ronde 1 en zijn niet nader getoetst.",
+   "label": "SCHATTING",
+   "bron": null,
+   "datum": null
+  },
+  {
+   "tekst": "Programmatische SEO en nieuwe app-listings leveren doorgaans pas na enkele maanden verkeer op, dus K1 en K4 moeten starten met een betaalde piek (offerte-check, export).",
+   "label": "AANNAME",
+   "bron": null,
+   "datum": null
+  },
+  {
+   "tekst": "Marktplaatsverkoop (K5) kan sneller dan SEO tot eerste betaling leiden.",
+   "label": "AANNAME",
+   "bron": null,
+   "datum": null
+  },
+  {
+   "tekst": "Er is een markt voor betaalde regeldata door AI-agents in de Benelux.",
+   "label": "AANNAME",
+   "bron": null,
+   "datum": null
+  },
+  {
+   "tekst": "K1, K2, K4 en K7 raken aan juridisch/fiscaal advies en vragen een afbakening als informatie; oordeel is aan de Jurist.",
+   "label": "AANNAME",
+   "bron": null,
+   "datum": null
+  },
+  {
+   "tekst": "Geen WebSearch gebruikt; er zijn geen externe feiten gecontroleerd.",
+   "label": "FEIT",
+   "bron": null,
+   "datum": "2026-10-30"
+  }
+ ]
+}
